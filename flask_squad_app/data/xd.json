@@ -1,0 +1,606 @@
+{
+    "version": "v1.0",
+    "data": [
+      {
+        "title": "Thông tư 01/2020/TT-BTP",
+        "paragraphs": [
+          {
+            "context": "Thông tư 01/2020/TT-BTP quy định chi tiết thi hành một số điều của Luật Hộ tịch, có hiệu lực từ ngày 01/07/2020. Thông tư này áp dụng cho cơ quan hộ tịch, tổ chức và cá nhân liên quan đến đăng ký hộ tịch tại Việt Nam.",
+            "qas": [
+              {
+                "id": "1",
+                "question": "Thông tư 01/2020/TT-BTP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/07/2020",
+                    "answer_start": 85
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "question": "Thông tư 01/2020/TT-BTP áp dụng cho những đối tượng nào?",
+                "answers": [
+                  {
+                    "text": "cơ quan hộ tịch, tổ chức và cá nhân liên quan đến đăng ký hộ tịch tại Việt Nam",
+                    "answer_start": 117
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 100/2019/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 100/2019/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt, có hiệu lực từ ngày 01/01/2020.",
+            "qas": [
+              {
+                "id": "3",
+                "question": "Nghị định 100/2019/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/01/2020",
+                    "answer_start": 112
+                  }
+                ]
+              },
+              {
+                "id": "4",
+                "question": "Nghị định 100/2019/NĐ-CP quy định xử phạt trong lĩnh vực nào?",
+                "answers": [
+                  {
+                    "text": "lĩnh vực giao thông đường bộ và đường sắt",
+                    "answer_start": 52
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Luật Bảo vệ môi trường 2020",
+        "paragraphs": [
+          {
+            "context": "Luật Bảo vệ môi trường 2020 được Quốc hội thông qua ngày 17/11/2020, có hiệu lực từ ngày 01/01/2022, nhằm bảo vệ và cải thiện chất lượng môi trường.",
+            "qas": [
+              {
+                "id": "5",
+                "question": "Luật Bảo vệ môi trường 2020 có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/01/2022",
+                    "answer_start": 85
+                  }
+                ]
+              },
+              {
+                "id": "6",
+                "question": "Mục tiêu chính của Luật Bảo vệ môi trường 2020 là gì?",
+                "answers": [
+                  {
+                    "text": "bảo vệ và cải thiện chất lượng môi trường",
+                    "answer_start": 105
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 123/2020/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 123/2020/NĐ-CP quy định về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử, có hiệu lực từ ngày 01/07/2022.",
+            "qas": [
+              {
+                "id": "7",
+                "question": "Nghị định 123/2020/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/07/2022",
+                    "answer_start": 101
+                  }
+                ]
+              },
+              {
+                "id": "8",
+                "question": "Nghị định 123/2020/NĐ-CP quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thông tư 09/2021/TT-BYT",
+        "paragraphs": [
+          {
+            "context": "Thông tư 09/2021/TT-BYT quy định về việc cấp chứng nhận tiêm chủng COVID-19, có hiệu lực từ ngày 01/06/2021.",
+            "qas": [
+              {
+                "id": "9",
+                "question": "Thông tư 09/2021/TT-BYT có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/06/2021",
+                    "answer_start": 85
+                  }
+                ]
+              },
+              {
+                "id": "10",
+                "question": "Thông tư 09/2021/TT-BYT quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "việc cấp chứng nhận tiêm chủng COVID-19",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 145/2020/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 145/2020/NĐ-CP hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động, có hiệu lực từ ngày 01/02/2021.",
+            "qas": [
+              {
+                "id": "11",
+                "question": "Nghị định 145/2020/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/02/2021",
+                    "answer_start": 109
+                  }
+                ]
+              },
+              {
+                "id": "12",
+                "question": "Nghị định 145/2020/NĐ-CP hướng dẫn thi hành về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "về điều kiện lao động và quan hệ lao động",
+                    "answer_start": 62
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Luật Doanh nghiệp 2020",
+        "paragraphs": [
+          {
+            "context": "Luật Doanh nghiệp 2020 được Quốc hội thông qua vào ngày 17/06/2020 và có hiệu lực từ ngày 01/01/2021. Luật này quy định về quyền và nghĩa vụ của các doanh nghiệp tại Việt Nam.",
+            "qas": [
+              {
+                "id": "13",
+                "question": "Luật Doanh nghiệp 2020 có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/01/2021",
+                    "answer_start": 97
+                  }
+                ]
+              },
+              {
+                "id": "14",
+                "question": "Luật Doanh nghiệp 2020 quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "quyền và nghĩa vụ của các doanh nghiệp tại Việt Nam",
+                    "answer_start": 115
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thông tư 02/2021/TT-BGDĐT",
+        "paragraphs": [
+          {
+            "context": "Thông tư 02/2021/TT-BGDĐT quy định về tiêu chuẩn đánh giá chất lượng giáo dục đối với cơ sở giáo dục phổ thông, có hiệu lực từ ngày 20/03/2021.",
+            "qas": [
+              {
+                "id": "15",
+                "question": "Thông tư 02/2021/TT-BGDĐT có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 20/03/2021",
+                    "answer_start": 118
+                  }
+                ]
+              },
+              {
+                "id": "16",
+                "question": "Thông tư 02/2021/TT-BGDĐT quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "tiêu chuẩn đánh giá chất lượng giáo dục đối với cơ sở giáo dục phổ thông",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 59/2020/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 59/2020/NĐ-CP quy định về quản lý và xử lý chất thải rắn sinh hoạt, có hiệu lực từ ngày 15/07/2020.",
+            "qas": [
+              {
+                "id": "17",
+                "question": "Nghị định 59/2020/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 15/07/2020",
+                    "answer_start": 91
+                  }
+                ]
+              },
+              {
+                "id": "18",
+                "question": "Nghị định 59/2020/NĐ-CP quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "quản lý và xử lý chất thải rắn sinh hoạt",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thông tư 10/2021/TT-BTNMT",
+        "paragraphs": [
+          {
+            "context": "Thông tư 10/2021/TT-BTNMT quy định kỹ thuật về quan trắc môi trường nước, không khí và đất, có hiệu lực từ ngày 01/05/2021.",
+            "qas": [
+              {
+                "id": "19",
+                "question": "Thông tư 10/2021/TT-BTNMT có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/05/2021",
+                    "answer_start": 104
+                  }
+                ]
+              },
+              {
+                "id": "20",
+                "question": "Thông tư 10/2021/TT-BTNMT quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "kỹ thuật về quan trắc môi trường nước, không khí và đất",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 31/2021/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 31/2021/NĐ-CP hướng dẫn thi hành một số điều của Luật Đầu tư, có hiệu lực từ ngày 26/03/2021. Nghị định này quy định chi tiết các điều kiện đầu tư và thủ tục đầu tư tại Việt Nam.",
+            "qas": [
+              {
+                "id": "21",
+                "question": "Nghị định 31/2021/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 26/03/2021",
+                    "answer_start": 91
+                  }
+                ]
+              },
+              {
+                "id": "22",
+                "question": "Nghị định 31/2021/NĐ-CP hướng dẫn thi hành Luật nào?",
+                "answers": [
+                  {
+                    "text": "Luật Đầu tư",
+                    "answer_start": 60
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thông tư 11/2021/TT-BTC",
+        "paragraphs": [
+          {
+            "context": "Thông tư 11/2021/TT-BTC quy định về quản lý và sử dụng vốn ODA và vốn vay ưu đãi của các nhà tài trợ nước ngoài, có hiệu lực từ ngày 01/07/2021.",
+            "qas": [
+              {
+                "id": "23",
+                "question": "Thông tư 11/2021/TT-BTC có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/07/2021",
+                    "answer_start": 113
+                  }
+                ]
+              },
+              {
+                "id": "24",
+                "question": "Thông tư 11/2021/TT-BTC quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "quản lý và sử dụng vốn ODA và vốn vay ưu đãi của các nhà tài trợ nước ngoài",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 82/2020/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 82/2020/NĐ-CP quy định về quản lý khu công nghiệp và khu kinh tế, có hiệu lực từ ngày 01/10/2020. Nghị định này hướng đến việc phát triển bền vững và bảo vệ môi trường trong các khu công nghiệp.",
+            "qas": [
+              {
+                "id": "25",
+                "question": "Nghị định 82/2020/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/10/2020",
+                    "answer_start": 95
+                  }
+                ]
+              },
+              {
+                "id": "26",
+                "question": "Nghị định 82/2020/NĐ-CP quy định về những khu vực nào?",
+                "answers": [
+                  {
+                    "text": "khu công nghiệp và khu kinh tế",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Luật Cư trú 2020",
+        "paragraphs": [
+          {
+            "context": "Luật Cư trú 2020 được Quốc hội thông qua ngày 13/11/2020, có hiệu lực từ ngày 01/07/2021. Luật này quy định về quyền và nghĩa vụ cư trú của công dân, cũng như các thủ tục liên quan đến đăng ký thường trú, tạm trú.",
+            "qas": [
+              {
+                "id": "27",
+                "question": "Luật Cư trú 2020 có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/07/2021",
+                    "answer_start": 84
+                  }
+                ]
+              },
+              {
+                "id": "28",
+                "question": "Luật Cư trú 2020 quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "quyền và nghĩa vụ cư trú của công dân, cũng như các thủ tục liên quan đến đăng ký thường trú, tạm trú",
+                    "answer_start": 103
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thông tư 12/2021/TT-BYT",
+        "paragraphs": [
+          {
+            "context": "Thông tư 12/2021/TT-BYT quy định về việc khám sức khỏe định kỳ và các tiêu chuẩn y tế đối với người lao động trong các ngành công nghiệp nặng, có hiệu lực từ ngày 01/10/2021.",
+            "qas": [
+              {
+                "id": "29",
+                "question": "Thông tư 12/2021/TT-BYT có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/10/2021",
+                    "answer_start": 137
+                  }
+                ]
+              },
+              {
+                "id": "30",
+                "question": "Thông tư 12/2021/TT-BYT quy định về việc gì?",
+                "answers": [
+                  {
+                    "text": "khám sức khỏe định kỳ và các tiêu chuẩn y tế đối với người lao động trong các ngành công nghiệp nặng",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Luật Phòng, chống tham nhũng 2018",
+        "paragraphs": [
+          {
+            "context": "Luật Phòng, chống tham nhũng 2018 được Quốc hội thông qua ngày 20/11/2018, có hiệu lực từ ngày 01/07/2019. Luật này quy định về các biện pháp phòng ngừa và xử lý hành vi tham nhũng trong các tổ chức nhà nước và tư nhân.",
+            "qas": [
+              {
+                "id": "31",
+                "question": "Luật Phòng, chống tham nhũng 2018 có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/07/2019",
+                    "answer_start": 93
+                  }
+                ]
+              },
+              {
+                "id": "32",
+                "question": "Luật Phòng, chống tham nhũng 2018 quy định về vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "các biện pháp phòng ngừa và xử lý hành vi tham nhũng trong các tổ chức nhà nước và tư nhân",
+                    "answer_start": 116
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 90/2020/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 90/2020/NĐ-CP quy định về việc xếp hạng và tính lương cho viên chức trong các cơ quan nhà nước, có hiệu lực từ ngày 20/11/2020.",
+            "qas": [
+              {
+                "id": "33",
+                "question": "Nghị định 90/2020/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 20/11/2020",
+                    "answer_start": 105
+                  }
+                ]
+              },
+              {
+                "id": "34",
+                "question": "Nghị định 90/2020/NĐ-CP quy định về việc gì?",
+                "answers": [
+                  {
+                    "text": "xếp hạng và tính lương cho viên chức trong các cơ quan nhà nước",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thông tư 08/2020/TT-BGDĐT",
+        "paragraphs": [
+          {
+            "context": "Thông tư 08/2020/TT-BGDĐT quy định về việc công nhận và xếp hạng trường phổ thông dân tộc nội trú, có hiệu lực từ ngày 01/09/2020.",
+            "qas": [
+              {
+                "id": "35",
+                "question": "Thông tư 08/2020/TT-BGDĐT có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/09/2020",
+                    "answer_start": 105
+                  }
+                ]
+              },
+              {
+                "id": "36",
+                "question": "Thông tư 08/2020/TT-BGDĐT quy định về việc gì?",
+                "answers": [
+                  {
+                    "text": "việc công nhận và xếp hạng trường phổ thông dân tộc nội trú",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nghị định 37/2021/NĐ-CP",
+        "paragraphs": [
+          {
+            "context": "Nghị định 37/2021/NĐ-CP quy định về trình tự, thủ tục đăng ký và cấp giấy phép cho các hoạt động xây dựng công trình, có hiệu lực từ ngày 15/05/2021.",
+            "qas": [
+              {
+                "id": "37",
+                "question": "Nghị định 37/2021/NĐ-CP có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 15/05/2021",
+                    "answer_start": 119
+                  }
+                ]
+              },
+              {
+                "id": "38",
+                "question": "Nghị định 37/2021/NĐ-CP quy định về việc gì?",
+                "answers": [
+                  {
+                    "text": "trình tự, thủ tục đăng ký và cấp giấy phép cho các hoạt động xây dựng công trình",
+                    "answer_start": 34
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Luật Giáo dục 2019",
+        "paragraphs": [
+          {
+            "context": "Luật Giáo dục 2019 được Quốc hội thông qua ngày 14/06/2019 và có hiệu lực từ ngày 01/07/2020. Luật này quy định về hệ thống giáo dục quốc dân, nội dung giáo dục và quyền, nghĩa vụ của học sinh, sinh viên và nhà giáo.",
+            "qas": [
+              {
+                "id": "39",
+                "question": "Luật Giáo dục 2019 có hiệu lực từ ngày nào?",
+                "answers": [
+                  {
+                    "text": "ngày 01/07/2020",
+                    "answer_start": 94
+                  }
+                ]
+              },
+              {
+                "id": "40",
+                "question": "Luật Giáo dục 2019 quy định về những vấn đề gì?",
+                "answers": [
+                  {
+                    "text": "hệ thống giáo dục quốc dân, nội dung giáo dục và quyền, nghĩa vụ của học sinh, sinh viên và nhà giáo",
+                    "answer_start": 109
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
