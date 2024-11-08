@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 import os
 from sklearn.model_selection import train_test_split
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, DataCollatorForSeq2Seq, Seq2SeqTrainer, TrainingArguments, Seq2SeqTrainingArguments, TrainerCallback
+from transformers import AutoTokenizer, AutoModelForQuestionAnswering, DataCollatorWithPadding, Trainer, TrainingArguments, TrainerCallback
 from datasets import Dataset
 import torch
 
-# Kiểm tra và in ra thiết bị (CPU hoặc GPU)
+# Kiểm tra thiết bị (CPU hoặc GPU)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
@@ -41,91 +41,76 @@ for file in answer_files:
         answer_data.append(f.read())
 print("Loaded answer data.")
 
-# Tạo dataframe để lưu trữ dữ liệu
+# Tạo dataframe
 df = pd.DataFrame({
     'context': context_data,
     'question': question_data,
     'answer': answer_data
-}) 
+})
 print("Data loaded into dataframe.")
 
-# Tải tokenizer và mô hình từ VietAI/vit5-large
-model_name = "VietAI/vit5-base"
+# Tải PhoBERT và tokenizer
+model_name = "vinai/phobert-base-v2"
 print(f"Loading model and tokenizer from: {model_name}")
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-model.to(device)  # Đưa mô hình lên thiết bị (GPU hoặc CPU)
+model = AutoModelForQuestionAnswering.from_pretrained(model_name)
+model.to(device)  # Đưa mô hình lên GPU hoặc CPU
 print("Model and tokenizer loaded.")
 
-# Tokenize dữ liệu
-def tokenize_text(context, question, answer, max_length=128):
-    # T5 sử dụng format 'question: ... context: ...' cho đầu vào
-    input_text = "question: " + question + " context: " + context
-    target_text = answer
-    return tokenizer(
-        input_text,
-        max_length=max_length,
-        padding='max_length',
-        truncation=True,
-        return_tensors='pt'
-    ), tokenizer(
-        target_text,
-        max_length=max_length,
-        padding='max_length',
-        truncation=True,
-        return_tensors='pt'
-    )
+# Hàm tự động tìm answer_start từ context
+def find_answer_start(context, answer):
+    # Tìm vị trí bắt đầu của câu trả lời trong context
+    start_idx = context.find(answer)
+    return start_idx if start_idx != -1 else None
 
-# Tokenize các dòng trong dataframe
-print("Tokenizing data...")
-df['input_ids'], df['labels'] = zip(*df.apply(lambda x: tokenize_text(x['context'], x['question'], x['answer']), axis=1))
-print("Data tokenized.")
+# Tokenize dữ liệu và tính toán answer_start
+def process_row(row):
+    answer_start = find_answer_start(row['context'], row['answer'])
+    if answer_start is not None:
+        inputs = tokenizer(
+            row['question'],
+            row['context'],
+            max_length=258,
+            padding='max_length',
+            truncation=True
+        )
+        return {
+            'input_ids': inputs['input_ids'],
+            'attention_mask': inputs['attention_mask'],
+            'start_positions': answer_start,
+            'end_positions': answer_start + len(row['answer'])
+        }
+    return None
 
-# Xử lý dữ liệu đầu vào cho mô hình
-def process_dataset(df):
-    input_ids = []
-    attention_mask = []
-    labels = []
-    
-    for idx, row in df.iterrows():
-        input_id = row['input_ids']['input_ids'].squeeze().tolist()
-        mask = row['input_ids']['attention_mask'].squeeze().tolist()
-        label = row['labels']['input_ids'].squeeze().tolist()
-        input_ids.append(input_id)
-        attention_mask.append(mask)
-        labels.append(label)
-        
-    return {
-        'input_ids': input_ids,
-        'attention_mask': attention_mask,
-        'labels': labels
-    }
+# Xử lý dữ liệu và loại bỏ các hàng không có câu trả lời trong context
+print("Processing data...")
+processed_data = [process_row(row) for _, row in df.iterrows()]
+processed_data = [d for d in processed_data if d is not None]
+print("Data processed.")
 
-# Tạo dataset từ dataframe
-print("Creating datasets for training and evaluation...")
-train_df, eval_df = train_test_split(df, test_size=0.2, random_state=42)
-
-train_dataset = Dataset.from_dict(process_dataset(train_df))
-eval_dataset = Dataset.from_dict(process_dataset(eval_df))
+# Tạo dataset từ dữ liệu đã xử lý
+train_df, eval_df = train_test_split(processed_data, test_size=0.2, random_state=42)
+train_dataset = Dataset.from_dict({k: [d[k] for d in train_df] for k in train_df[0]})
+eval_dataset = Dataset.from_dict({k: [d[k] for d in eval_df] for k in eval_df[0]})
 print("Datasets created.")
 
-data_collator = DataCollatorForSeq2Seq(tokenizer, model=model, return_tensors="pt")
+data_collator = DataCollatorWithPadding(tokenizer, padding=True)
 
-# Callback để in ra tiến trình sau mỗi bước
+# Callback để in tiến trình sau mỗi bước
 class ProgressCallback(TrainerCallback):
     def on_step_end(self, args, state, control, **kwargs):
         if state.global_step % 100 == 0:  # In sau mỗi 100 steps
             print(f"Step: {state.global_step}, Loss: {state.loss}, Epoch: {state.epoch}")
 
 # Thiết lập các thông số training
-training_args = Seq2SeqTrainingArguments(
-    output_dir="./vit5-abstractive-qa",
+training_args = TrainingArguments(
+    output_dir="./phobert-qa",
     overwrite_output_dir=True,
     num_train_epochs=30,
     learning_rate=5e-6,
     warmup_ratio=0.5,
     weight_decay=0.1,
-    per_device_train_batch_size=4,  # Giảm batch size
+    per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
     eval_strategy="epoch",
     save_steps=10_000,
@@ -137,15 +122,15 @@ training_args = Seq2SeqTrainingArguments(
 )
 print("Training arguments set.")
 
-# Khởi tạo Trainer cho T5 với callback để in tiến trình
+# Khởi tạo Trainer cho PhoBERT với callback
 print("Initializing Trainer...")
-trainer = Seq2SeqTrainer(
+trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=train_dataset,
     eval_dataset=eval_dataset,
     data_collator=data_collator,
-    callbacks=[ProgressCallback()]  # Thêm callback để in tiến trình
+    callbacks=[ProgressCallback()]
 )
 print("Trainer initialized.")
 
@@ -155,7 +140,7 @@ trainer.train()
 
 # Lưu mô hình đã fine-tuned
 print("Saving model and tokenizer...")
-trainer.save_model("./vit5-abstractive-qa")
-tokenizer.save_pretrained("./vit5-abstractive-qa")
+trainer.save_model("./phobert-qa")
+tokenizer.save_pretrained("./phobert-qa")
 
 print("Fine-tuning completed and model saved.")
