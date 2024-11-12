@@ -1,0 +1,4505 @@
+{
+  "version": "v1.0",
+  "data": [
+    {
+      "title": "Thông tư 01/2020/TT-BTP",
+      "paragraphs": [
+        {
+          "context": "Thông tư 01/2020/TT-BTP quy định chi tiết thi hành một số điều của Luật Hộ tịch, có hiệu lực từ ngày 01/07/2020. Thông tư này áp dụng cho cơ quan hộ tịch, tổ chức và cá nhân liên quan đến đăng ký hộ tịch tại Việt Nam.",
+          "qas": [
+            {
+              "id": "1",
+              "question": "Thông tư 01/2020/TT-BTP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2020",
+                  "answer_start": 96
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "question": "Thông tư 01/2020/TT-BTP áp dụng cho những đối tượng nào?",
+              "answers": [
+                {
+                  "text": "cơ quan hộ tịch, tổ chức và cá nhân liên quan đến đăng ký hộ tịch tại Việt Nam",
+                  "answer_start": 138
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 100/2019/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 100/2019/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt, có hiệu lực từ ngày 01/01/2020.",
+          "qas": [
+            {
+              "id": "3",
+              "question": "Nghị định 100/2019/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2020",
+                  "answer_start": 128
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "question": "Nghị định 100/2019/NĐ-CP quy định xử phạt trong lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "lĩnh vực giao thông đường bộ và đường sắt",
+                  "answer_start": 70
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luật Bảo vệ môi trường 2020",
+      "paragraphs": [
+        {
+          "context": "Luật Bảo vệ môi trường 2020 được Quốc hội thông qua ngày 17/11/2020, có hiệu lực từ ngày 01/01/2022, nhằm bảo vệ và cải thiện chất lượng môi trường.",
+          "qas": [
+            {
+              "id": "5",
+              "question": "Luật Bảo vệ môi trường 2020 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2022",
+                  "answer_start": 84
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "question": "Mục tiêu chính của Luật Bảo vệ môi trường 2020 là gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ và cải thiện chất lượng môi trường",
+                  "answer_start": 106
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 123/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 123/2020/NĐ-CP quy định về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử, có hiệu lực từ ngày 01/07/2022.",
+          "qas": [
+            {
+              "id": "7",
+              "question": "Nghị định 123/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2022",
+                  "answer_start": 99
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "question": "Nghị định 123/2020/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử",
+                  "answer_start": 34
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 09/2021/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 09/2021/TT-BYT quy định về việc cấp chứng nhận tiêm chủng COVID-19, có hiệu lực từ ngày 01/06/2021.",
+          "qas": [
+            {
+              "id": "9",
+              "question": "Thông tư 09/2021/TT-BYT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/06/2021",
+                  "answer_start": 92
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "question": "Thông tư 09/2021/TT-BYT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "việc cấp chứng nhận tiêm chủng COVID-19",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 145/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 145/2020/NĐ-CP hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động, có hiệu lực từ ngày 01/02/2021.",
+          "qas": [
+            {
+              "id": "11",
+              "question": "Nghị định 145/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/02/2021",
+                  "answer_start": 135
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "question": "Nghị định 145/2020/NĐ-CP hướng dẫn thi hành về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "về điều kiện lao động và quan hệ lao động",
+                  "answer_start": 77
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luật Doanh nghiệp 2020",
+      "paragraphs": [
+        {
+          "context": "Luật Doanh nghiệp 2020 được Quốc hội thông qua vào ngày 17/06/2020 và có hiệu lực từ ngày 01/01/2021. Luật này quy định về quyền và nghĩa vụ của các doanh nghiệp tại Việt Nam.",
+          "qas": [
+            {
+              "id": "13",
+              "question": "Luật Doanh nghiệp 2020 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2021",
+                  "answer_start": 85
+                }
+              ]
+            },
+            {
+              "id": "14",
+              "question": "Luật Doanh nghiệp 2020 quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quyền và nghĩa vụ của các doanh nghiệp tại Việt Nam",
+                  "answer_start": 123
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 02/2021/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 02/2021/TT-BGDĐT quy định về tiêu chuẩn đánh giá chất lượng giáo dục đối với cơ sở giáo dục phổ thông, có hiệu lực từ ngày 20/03/2021.",
+          "qas": [
+            {
+              "id": "15",
+              "question": "Thông tư 02/2021/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 20/03/2021",
+                  "answer_start": 127
+                }
+              ]
+            },
+            {
+              "id": "16",
+              "question": "Thông tư 02/2021/TT-BGDĐT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "tiêu chuẩn đánh giá chất lượng giáo dục đối với cơ sở giáo dục phổ thông",
+                  "answer_start": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 59/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 59/2020/NĐ-CP quy định về quản lý và xử lý chất thải rắn sinh hoạt, có hiệu lực từ ngày 15/07/2020.",
+          "qas": [
+            {
+              "id": "17",
+              "question": "Nghị định 59/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/07/2020",
+                  "answer_start": 93
+                }
+              ]
+            },
+            {
+              "id": "18",
+              "question": "Nghị định 59/2020/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý và xử lý chất thải rắn sinh hoạt",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 10/2021/TT-BTNMT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 10/2021/TT-BTNMT quy định kỹ thuật về quan trắc môi trường nước, không khí và đất, có hiệu lực từ ngày 01/05/2021.",
+          "qas": [
+            {
+              "id": "19",
+              "question": "Thông tư 10/2021/TT-BTNMT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/05/2021",
+                  "answer_start": 107
+                }
+              ]
+            },
+            {
+              "id": "20",
+              "question": "Thông tư 10/2021/TT-BTNMT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "kỹ thuật về quan trắc môi trường nước, không khí và đất",
+                  "answer_start": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 31/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 31/2021/NĐ-CP hướng dẫn thi hành một số điều của Luật Đầu tư, có hiệu lực từ ngày 26/03/2021. Nghị định này quy định chi tiết các điều kiện đầu tư và thủ tục đầu tư tại Việt Nam.",
+          "qas": [
+            {
+              "id": "21",
+              "question": "Nghị định 31/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 26/03/2021",
+                  "answer_start": 87
+                }
+              ]
+            },
+            {
+              "id": "22",
+              "question": "Nghị định 31/2021/NĐ-CP hướng dẫn thi hành Luật nào?",
+              "answers": [
+                {
+                  "text": "Luật Đầu tư",
+                  "answer_start": 59
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 11/2021/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 11/2021/TT-BTC quy định về quản lý và sử dụng vốn ODA và vốn vay ưu đãi của các nhà tài trợ nước ngoài, có hiệu lực từ ngày 01/07/2021.",
+          "qas": [
+            {
+              "id": "23",
+              "question": "Thông tư 11/2021/TT-BTC có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2021",
+                  "answer_start": 128
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "question": "Thông tư 11/2021/TT-BTC quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý và sử dụng vốn ODA và vốn vay ưu đãi của các nhà tài trợ nước ngoài",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 82/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 82/2020/NĐ-CP quy định về quản lý khu công nghiệp và khu kinh tế, có hiệu lực từ ngày 01/10/2020. Nghị định này hướng đến việc phát triển bền vững và bảo vệ môi trường trong các khu công nghiệp.",
+          "qas": [
+            {
+              "id": "25",
+              "question": "Nghị định 82/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/10/2020",
+                  "answer_start": 91
+                }
+              ]
+            },
+            {
+              "id": "26",
+              "question": "Nghị định 82/2020/NĐ-CP quy định về những khu vực nào?",
+              "answers": [
+                {
+                  "text": "khu công nghiệp và khu kinh tế",
+                  "answer_start": 44
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luật Cư trú 2020",
+      "paragraphs": [
+        {
+          "context": "Luật Cư trú 2020 được Quốc hội thông qua ngày 13/11/2020, có hiệu lực từ ngày 01/07/2021. Luật này quy định về quyền và nghĩa vụ cư trú của công dân, cũng như các thủ tục liên quan đến đăng ký thường trú, tạm trú.",
+          "qas": [
+            {
+              "id": "27",
+              "question": "Luật Cư trú 2020 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2021",
+                  "answer_start": 73
+                }
+              ]
+            },
+            {
+              "id": "28",
+              "question": "Luật Cư trú 2020 quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quyền và nghĩa vụ cư trú của công dân, cũng như các thủ tục liên quan đến đăng ký thường trú, tạm trú",
+                  "answer_start": 111
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 12/2021/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 12/2021/TT-BYT quy định về việc khám sức khỏe định kỳ và các tiêu chuẩn y tế đối với người lao động trong các ngành công nghiệp nặng, có hiệu lực từ ngày 01/10/2021.",
+          "qas": [
+            {
+              "id": "29",
+              "question": "Thông tư 12/2021/TT-BYT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/10/2021",
+                  "answer_start": 158
+                }
+              ]
+            },
+            {
+              "id": "30",
+              "question": "Thông tư 12/2021/TT-BYT quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "khám sức khỏe định kỳ và các tiêu chuẩn y tế đối với người lao động trong các ngành công nghiệp nặng",
+                  "answer_start": 41
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luật Phòng, chống tham nhũng 2018",
+      "paragraphs": [
+        {
+          "context": "Luật Phòng, chống tham nhũng 2018 được Quốc hội thông qua ngày 20/11/2018, có hiệu lực từ ngày 01/07/2019. Luật này quy định về các biện pháp phòng ngừa và xử lý hành vi tham nhũng trong các tổ chức nhà nước và tư nhân.",
+          "qas": [
+            {
+              "id": "31",
+              "question": "Luật Phòng, chống tham nhũng 2018 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2019",
+                  "answer_start": 90
+                }
+              ]
+            },
+            {
+              "id": "32",
+              "question": "Luật Phòng, chống tham nhũng 2018 quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "các biện pháp phòng ngừa và xử lý hành vi tham nhũng trong các tổ chức nhà nước và tư nhân",
+                  "answer_start": 128
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 90/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 90/2020/NĐ-CP quy định về việc xếp hạng và tính lương cho viên chức trong các cơ quan nhà nước, có hiệu lực từ ngày 20/11/2020.",
+          "qas": [
+            {
+              "id": "33",
+              "question": "Nghị định 90/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 20/11/2020",
+                  "answer_start": 121
+                }
+              ]
+            },
+            {
+              "id": "34",
+              "question": "Nghị định 90/2020/NĐ-CP quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "xếp hạng và tính lương cho viên chức trong các cơ quan nhà nước",
+                  "answer_start": 41
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 08/2020/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 08/2020/TT-BGDĐT quy định về việc công nhận và xếp hạng trường phổ thông dân tộc nội trú, có hiệu lực từ ngày 01/09/2020.",
+          "qas": [
+            {
+              "id": "35",
+              "question": "Thông tư 08/2020/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/09/2020",
+                  "answer_start": 114
+                }
+              ]
+            },
+            {
+              "id": "36",
+              "question": "Thông tư 08/2020/TT-BGDĐT quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "việc công nhận và xếp hạng trường phổ thông dân tộc nội trú",
+                  "answer_start": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 37/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 37/2021/NĐ-CP quy định về trình tự, thủ tục đăng ký và cấp giấy phép cho các hoạt động xây dựng công trình, có hiệu lực từ ngày 15/05/2021.",
+          "qas": [
+            {
+              "id": "37",
+              "question": "Nghị định 37/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/05/2021",
+                  "answer_start": 133
+                }
+              ]
+            },
+            {
+              "id": "38",
+              "question": "Nghị định 37/2021/NĐ-CP quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "trình tự, thủ tục đăng ký và cấp giấy phép cho các hoạt động xây dựng công trình",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luật Giáo dục 2019",
+      "paragraphs": [
+        {
+          "context": "Luật Giáo dục 2019 được Quốc hội thông qua ngày 14/06/2019 và có hiệu lực từ ngày 01/07/2020. Luật này quy định về hệ thống giáo dục quốc dân, nội dung giáo dục và quyền, nghĩa vụ của học sinh, sinh viên và nhà giáo.",
+          "qas": [
+            {
+              "id": "39",
+              "question": "Luật Giáo dục 2019 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2020",
+                  "answer_start": 77
+                }
+              ]
+            },
+            {
+              "id": "40",
+              "question": "Luật Giáo dục 2019 quy định về những vấn đề gì?",
+              "answers": [
+                {
+                  "text": "hệ thống giáo dục quốc dân, nội dung giáo dục và quyền, nghĩa vụ của học sinh, sinh viên và nhà giáo",
+                  "answer_start": 115
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 96/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 96/2020/NĐ-CP quy định chi tiết một số điều của Luật Cạnh tranh, có hiệu lực từ ngày 24/12/2020. Nghị định này bao gồm các quy định về kiểm soát hành vi hạn chế cạnh tranh và tập trung kinh tế.",
+          "qas": [
+            {
+              "id": "41",
+              "question": "Nghị định 96/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 24/12/2020",
+                  "answer_start": 90
+                }
+              ]
+            },
+            {
+              "id": "42",
+              "question": "Nghị định 96/2020/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "kiểm soát hành vi hạn chế cạnh tranh và tập trung kinh tế",
+                  "answer_start": 145
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 14/2021/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 14/2021/TT-BLĐTBXH hướng dẫn thực hiện các biện pháp an toàn lao động trong các doanh nghiệp xây dựng, có hiệu lực từ ngày 01/04/2021.",
+          "qas": [
+            {
+              "id": "43",
+              "question": "Thông tư 14/2021/TT-BLĐTBXH có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/04/2021",
+                  "answer_start": 127
+                }
+              ]
+            },
+            {
+              "id": "44",
+              "question": "Thông tư 14/2021/TT-BLĐTBXH hướng dẫn thực hiện vấn đề gì?",
+              "answers": [
+                {
+                  "text": "các biện pháp an toàn lao động trong các doanh nghiệp xây dựng",
+                  "answer_start": 48
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 78/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 78/2021/NĐ-CP quy định về việc đăng ký doanh nghiệp và các thủ tục liên quan, có hiệu lực từ ngày 01/07/2021. Nghị định này giúp đơn giản hóa quy trình đăng ký doanh nghiệp.",
+          "qas": [
+            {
+              "id": "45",
+              "question": "Nghị định 78/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2021",
+                  "answer_start": 103
+                }
+              ]
+            },
+            {
+              "id": "46",
+              "question": "Nghị định 78/2021/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "đăng ký doanh nghiệp và các thủ tục liên quan",
+                  "answer_start": 41
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 18/2021/TT-BTNMT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 18/2021/TT-BTNMT quy định về việc thu gom và xử lý chất thải rắn sinh hoạt tại các đô thị, có hiệu lực từ ngày 10/06/2021.",
+          "qas": [
+            {
+              "id": "47",
+              "question": "Thông tư 18/2021/TT-BTNMT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 10/06/2021",
+                  "answer_start": 115
+                }
+              ]
+            },
+            {
+              "id": "48",
+              "question": "Thông tư 18/2021/TT-BTNMT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "thu gom và xử lý chất thải rắn sinh hoạt tại các đô thị",
+                  "answer_start": 43
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luật An ninh mạng 2018",
+      "paragraphs": [
+        {
+          "context": "Luật An ninh mạng 2018 có hiệu lực từ ngày 01/01/2019, quy định về bảo vệ an ninh mạng quốc gia, quyền và trách nhiệm của các tổ chức và cá nhân trong việc sử dụng mạng internet.",
+          "qas": [
+            {
+              "id": "49",
+              "question": "Luật An ninh mạng 2018 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2019",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "50",
+              "question": "Luật An ninh mạng 2018 quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ an ninh mạng quốc gia, quyền và trách nhiệm của các tổ chức và cá nhân trong việc sử dụng mạng internet",
+                  "answer_start": 67
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 40/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 40/2021/NĐ-CP quy định chi tiết một số điều của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, có hiệu lực từ ngày 01/02/2021. Nghị định này hướng dẫn các quyền lợi và nghĩa vụ của người lao động khi làm việc tại nước ngoài.",
+          "qas": [
+            {
+              "id": "51",
+              "question": "Nghị định 40/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/02/2021",
+                  "answer_start": 142
+                }
+              ]
+            },
+            {
+              "id": "52",
+              "question": "Nghị định 40/2021/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "các quyền lợi và nghĩa vụ của người lao động khi làm việc tại nước ngoài",
+                  "answer_start": 183
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 09/2021/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 09/2021/TT-BYT quy định về việc quản lý và sử dụng trang thiết bị y tế tại các cơ sở khám chữa bệnh, có hiệu lực từ ngày 15/05/2021.",
+          "qas": [
+            {
+              "id": "53",
+              "question": "Thông tư 09/2021/TT-BYT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/05/2021",
+                  "answer_start": 125
+                }
+              ]
+            },
+            {
+              "id": "54",
+              "question": "Thông tư 09/2021/TT-BYT quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "quản lý và sử dụng trang thiết bị y tế tại các cơ sở khám chữa bệnh",
+                  "answer_start": 41
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 68/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 68/NQ-CP ban hành ngày 01/07/2021 quy định về một số chính sách hỗ trợ người lao động và người sử dụng lao động gặp khó khăn do đại dịch COVID-19. Nghị quyết này bao gồm các hỗ trợ tài chính, giảm thuế và bảo hiểm.",
+          "qas": [
+            {
+              "id": "55",
+              "question": "Nghị quyết 68/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2021",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "56",
+              "question": "Nghị quyết 68/NQ-CP hỗ trợ những đối tượng nào?",
+              "answers": [
+                {
+                  "text": "người lao động và người sử dụng lao động gặp khó khăn do đại dịch COVID-19",
+                  "answer_start": 82
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 17/2021/TT-BTNMT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 17/2021/TT-BTNMT quy định về quy trình kiểm soát ô nhiễm môi trường tại các khu công nghiệp và khu dân cư, có hiệu lực từ ngày 01/10/2021.",
+          "qas": [
+            {
+              "id": "57",
+              "question": "Thông tư 17/2021/TT-BTNMT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/10/2021",
+                  "answer_start": 131
+                }
+              ]
+            },
+            {
+              "id": "58",
+              "question": "Thông tư 17/2021/TT-BTNMT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quy trình kiểm soát ô nhiễm môi trường tại các khu công nghiệp và khu dân cư",
+                  "answer_start": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 59/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 59/2020/NĐ-CP quy định về việc đánh giá tác động môi trường trong các dự án đầu tư xây dựng, có hiệu lực từ ngày 01/07/2020. Nghị định này đặt ra các tiêu chuẩn và yêu cầu về bảo vệ môi trường.",
+          "qas": [
+            {
+              "id": "59",
+              "question": "Nghị định 59/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2020",
+                  "answer_start": 118
+                }
+              ]
+            },
+            {
+              "id": "60",
+              "question": "Nghị định 59/2020/NĐ-CP quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "đánh giá tác động môi trường trong các dự án đầu tư xây dựng",
+                  "answer_start": 41
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 24/2021/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 24/2021/TT-BTC hướng dẫn về việc quản lý thuế đối với các doanh nghiệp có hoạt động liên quan đến giao dịch điện tử, có hiệu lực từ ngày 01/08/2021.",
+          "qas": [
+            {
+              "id": "61",
+              "question": "Thông tư 24/2021/TT-BTC có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/08/2021",
+                  "answer_start": 141
+                }
+              ]
+            },
+            {
+              "id": "62",
+              "question": "Thông tư 24/2021/TT-BTC hướng dẫn về việc gì?",
+              "answers": [
+                {
+                  "text": "quản lý thuế đối với các doanh nghiệp có hoạt động liên quan đến giao dịch điện tử",
+                  "answer_start": 42
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luật Doanh nghiệp 2020",
+      "paragraphs": [
+        {
+          "context": "Luật Doanh nghiệp 2020 được Quốc hội thông qua vào ngày 17/06/2020 và có hiệu lực từ ngày 01/01/2021. Luật này quy định về quyền và nghĩa vụ của doanh nghiệp, thủ tục thành lập và giải thể doanh nghiệp.",
+          "qas": [
+            {
+              "id": "63",
+              "question": "Luật Doanh nghiệp 2020 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2021",
+                  "answer_start": 85
+                }
+              ]
+            },
+            {
+              "id": "64",
+              "question": "Luật Doanh nghiệp 2020 quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quyền và nghĩa vụ của doanh nghiệp, thủ tục thành lập và giải thể doanh nghiệp",
+                  "answer_start": 123
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 92/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 92/2021/NĐ-CP quy định về hỗ trợ giảm thuế thu nhập doanh nghiệp, thuế giá trị gia tăng và tiền thuê đất cho các doanh nghiệp bị ảnh hưởng bởi đại dịch COVID-19. Nghị định này có hiệu lực từ ngày 27/10/2021.",
+          "qas": [
+            {
+              "id": "65",
+              "question": "Nghị định 92/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 27/10/2021",
+                  "answer_start": 201
+                }
+              ]
+            },
+            {
+              "id": "66",
+              "question": "Nghị định 92/2021/NĐ-CP hỗ trợ các doanh nghiệp trong vấn đề gì?",
+              "answers": [
+                {
+                  "text": "giảm thuế thu nhập doanh nghiệp, thuế giá trị gia tăng và tiền thuê đất",
+                  "answer_start": 43
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 10/2021/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 10/2021/TT-BGDĐT quy định về tiêu chuẩn và quy trình đánh giá chất lượng giáo dục trong các trường trung học phổ thông, có hiệu lực từ ngày 05/05/2021.",
+          "qas": [
+            {
+              "id": "67",
+              "question": "Thông tư 10/2021/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 05/05/2021",
+                  "answer_start": 144
+                }
+              ]
+            },
+            {
+              "id": "68",
+              "question": "Thông tư 10/2021/TT-BGDĐT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "tiêu chuẩn và quy trình đánh giá chất lượng giáo dục trong các trường trung học phổ thông",
+                  "answer_start": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 116/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 116/NQ-CP ban hành ngày 24/09/2021 quy định về chính sách hỗ trợ bảo hiểm thất nghiệp cho người lao động bị ảnh hưởng bởi đại dịch COVID-19.",
+          "qas": [
+            {
+              "id": "69",
+              "question": "Nghị quyết 116/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 24/09/2021",
+                  "answer_start": 30
+                }
+              ]
+            },
+            {
+              "id": "70",
+              "question": "Nghị quyết 116/NQ-CP hỗ trợ người lao động trong vấn đề gì?",
+              "answers": [
+                {
+                  "text": "bảo hiểm thất nghiệp cho người lao động bị ảnh hưởng bởi đại dịch COVID-19",
+                  "answer_start": 76
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 45/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 45/2021/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, có hiệu lực từ ngày 01/07/2021. Nghị định này bao gồm các mức phạt đối với các hành vi gây ô nhiễm môi trường và vi phạm quy định về quản lý rác thải.",
+          "qas": [
+            {
+              "id": "71",
+              "question": "Nghị định 45/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2021",
+                  "answer_start": 112
+                }
+              ]
+            },
+            {
+              "id": "72",
+              "question": "Nghị định 45/2021/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 22/2021/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 22/2021/TT-BLĐTBXH hướng dẫn thực hiện các biện pháp bảo vệ sức khỏe và an toàn lao động cho người lao động trong môi trường làm việc có nguy cơ cao. Thông tư này có hiệu lực từ ngày 01/09/2021.",
+          "qas": [
+            {
+              "id": "73",
+              "question": "Thông tư 22/2021/TT-BLĐTBXH có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/09/2021",
+                  "answer_start": 187
+                }
+              ]
+            },
+            {
+              "id": "74",
+              "question": "Thông tư 22/2021/TT-BLĐTBXH hướng dẫn về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ sức khỏe và an toàn lao động cho người lao động trong môi trường làm việc có nguy cơ cao",
+                  "answer_start": 62
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 09/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 09/NQ-CP ban hành ngày 29/01/2021 quy định về các biện pháp hỗ trợ kinh tế và đời sống cho người dân và doanh nghiệp bị ảnh hưởng bởi đại dịch COVID-19, bao gồm các chính sách tài chính và bảo hiểm xã hội.",
+          "qas": [
+            {
+              "id": "75",
+              "question": "Nghị quyết 09/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 29/01/2021",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "76",
+              "question": "Nghị quyết 09/NQ-CP quy định hỗ trợ ai?",
+              "answers": [
+                {
+                  "text": "người dân và doanh nghiệp bị ảnh hưởng bởi đại dịch COVID-19",
+                  "answer_start": 102
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 03/2021/TT-BCT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 03/2021/TT-BCT quy định về quản lý xuất nhập khẩu và kiểm soát chất lượng hàng hóa trong lĩnh vực công nghiệp và thương mại, có hiệu lực từ ngày 15/02/2021.",
+          "qas": [
+            {
+              "id": "77",
+              "question": "Thông tư 03/2021/TT-BCT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/02/2021",
+                  "answer_start": 149
+                }
+              ]
+            },
+            {
+              "id": "78",
+              "question": "Thông tư 03/2021/TT-BCT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý xuất nhập khẩu và kiểm soát chất lượng hàng hóa trong lĩnh vực công nghiệp và thương mại",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 83/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 83/2021/NĐ-CP quy định về việc tăng cường quản lý và xử lý chất thải công nghiệp, có hiệu lực từ ngày 01/08/2021. Nghị định này nhằm đảm bảo các tiêu chuẩn môi trường và giảm thiểu tác động tiêu cực đến sức khỏe cộng đồng.",
+          "qas": [
+            {
+              "id": "79",
+              "question": "Nghị định 83/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/08/2021",
+                  "answer_start": 107
+                }
+              ]
+            },
+            {
+              "id": "80",
+              "question": "Nghị định 83/2021/NĐ-CP quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "tăng cường quản lý và xử lý chất thải công nghiệp",
+                  "answer_start": 41
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 20/2021/TT-BGTVT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 20/2021/TT-BGTVT quy định về quản lý, bảo trì đường bộ, có hiệu lực từ ngày 01/09/2021. Thông tư này bao gồm các hướng dẫn về quy trình kiểm tra, bảo trì và sửa chữa các tuyến đường giao thông nhằm đảm bảo an toàn và bền vững.",
+          "qas": [
+            {
+              "id": "81",
+              "question": "Thông tư 20/2021/TT-BGTVT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/09/2021",
+                  "answer_start": 80
+                }
+              ]
+            },
+            {
+              "id": "82",
+              "question": "Thông tư 20/2021/TT-BGTVT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý, bảo trì đường bộ",
+                  "answer_start": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 128/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 128/NQ-CP ban hành ngày 11/10/2021 quy định về thích ứng an toàn, linh hoạt, và kiểm soát hiệu quả dịch COVID-19. Nghị quyết này cung cấp các biện pháp kiểm soát dịch ở từng cấp độ và hướng dẫn cách ứng phó với các tình huống cụ thể trong đại dịch.",
+          "qas": [
+            {
+              "id": "83",
+              "question": "Nghị quyết 128/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 11/10/2021",
+                  "answer_start": 30
+                }
+              ]
+            },
+            {
+              "id": "84",
+              "question": "Nghị quyết 128/NQ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "thích ứng an toàn, linh hoạt, và kiểm soát hiệu quả dịch COVID-19",
+                  "answer_start": 58
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 32/2021/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 32/2021/TT-BTC hướng dẫn về chế độ kế toán cho doanh nghiệp nhỏ và vừa, có hiệu lực từ ngày 01/11/2021. Thông tư này quy định các chuẩn mực kế toán và báo cáo tài chính, giúp các doanh nghiệp dễ dàng tuân thủ các quy định kế toán hiện hành.",
+          "qas": [
+            {
+              "id": "85",
+              "question": "Thông tư 32/2021/TT-BTC có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/11/2021",
+                  "answer_start": 96
+                }
+              ]
+            },
+            {
+              "id": "86",
+              "question": "Thông tư 32/2021/TT-BTC hướng dẫn về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "chế độ kế toán cho doanh nghiệp nhỏ và vừa",
+                  "answer_start": 37
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 15/2022/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 15/2022/NĐ-CP ban hành ngày 28/01/2022, quy định về giảm thuế giá trị gia tăng từ 10% xuống còn 8% trong năm 2022 để hỗ trợ nền kinh tế bị ảnh hưởng bởi dịch COVID-19. Quy định này nhằm giảm bớt gánh nặng tài chính cho các doanh nghiệp và người tiêu dùng.",
+          "qas": [
+            {
+              "id": "87",
+              "question": "Nghị định 15/2022/NĐ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 28/01/2022",
+                  "answer_start": 33
+                }
+              ]
+            },
+            {
+              "id": "88",
+              "question": "Nghị định 15/2022/NĐ-CP quy định giảm thuế giá trị gia tăng xuống mức nào?",
+              "answers": [
+                {
+                  "text": "từ 10% xuống còn 8%",
+                  "answer_start": 89
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 06/2022/TT-BKHĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 06/2022/TT-BKHĐT quy định chi tiết việc lập, thẩm định, phê duyệt kế hoạch đầu tư công trung hạn và hằng năm của các cơ quan nhà nước, có hiệu lực từ ngày 15/02/2022.",
+          "qas": [
+            {
+              "id": "89",
+              "question": "Thông tư 06/2022/TT-BKHĐT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/02/2022",
+                  "answer_start": 159
+                }
+              ]
+            },
+            {
+              "id": "90",
+              "question": "Thông tư 06/2022/TT-BKHĐT quy định chi tiết về việc gì?",
+              "answers": [
+                {
+                  "text": "lập, thẩm định, phê duyệt kế hoạch đầu tư công trung hạn và hằng năm",
+                  "answer_start": 49
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 09/2022/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 09/2022/TT-BTC quy định về thủ tục hoàn thuế giá trị gia tăng cho các doanh nghiệp trong lĩnh vực xuất nhập khẩu, có hiệu lực từ ngày 01/04/2022. Thông tư này nhằm giúp giảm bớt gánh nặng tài chính và khuyến khích các hoạt động thương mại quốc tế.",
+          "qas": [
+            {
+              "id": "91",
+              "question": "Thông tư 09/2022/TT-BTC có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/04/2022",
+                  "answer_start": 138
+                }
+              ]
+            },
+            {
+              "id": "92",
+              "question": "Thông tư 09/2022/TT-BTC quy định về thủ tục gì?",
+              "answers": [
+                {
+                  "text": "thủ tục hoàn thuế giá trị gia tăng cho các doanh nghiệp trong lĩnh vực xuất nhập khẩu",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 50/2022/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 50/2022/NĐ-CP được ban hành nhằm cải thiện quy trình cấp phép xây dựng, có hiệu lực từ ngày 01/07/2022. Nghị định này bao gồm các quy định về thủ tục đơn giản hóa cấp phép xây dựng đối với các công trình dân dụng và công nghiệp.",
+          "qas": [
+            {
+              "id": "93",
+              "question": "Nghị định 50/2022/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2022",
+                  "answer_start": 97
+                }
+              ]
+            },
+            {
+              "id": "94",
+              "question": "Nghị định 50/2022/NĐ-CP cải thiện quy trình gì?",
+              "answers": [
+                {
+                  "text": "cấp phép xây dựng",
+                  "answer_start": 63
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 12/2022/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 12/2022/TT-BGDĐT ban hành ngày 15/08/2022, quy định về tiêu chuẩn giảng dạy cho giáo viên các cấp học, từ mầm non đến trung học phổ thông. Thông tư này nhằm nâng cao chất lượng giáo dục và đáp ứng các tiêu chí của nền giáo dục hiện đại.",
+          "qas": [
+            {
+              "id": "95",
+              "question": "Thông tư 12/2022/TT-BGDĐT ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/08/2022",
+                  "answer_start": 35
+                }
+              ]
+            },
+            {
+              "id": "96",
+              "question": "Thông tư 12/2022/TT-BGDĐT quy định về tiêu chuẩn gì?",
+              "answers": [
+                {
+                  "text": "tiêu chuẩn giảng dạy cho giáo viên các cấp học",
+                  "answer_start": 64
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 45/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 45/NQ-CP ban hành ngày 10/10/2022, quy định về kế hoạch phát triển kinh tế - xã hội 5 năm giai đoạn 2021-2025. Nghị quyết này đề ra các mục tiêu tăng trưởng kinh tế, giảm nghèo, và phát triển hạ tầng cơ sở trên toàn quốc.",
+          "qas": [
+            {
+              "id": "97",
+              "question": "Nghị quyết 45/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 10/10/2022",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "98",
+              "question": "Nghị quyết 45/NQ-CP quy định về kế hoạch phát triển trong giai đoạn nào?",
+              "answers": [
+                {
+                  "text": "5 năm giai đoạn 2021-2025",
+                  "answer_start": 95
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 18/2022/TT-BNNPTNT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 18/2022/TT-BNNPTNT ban hành ngày 01/12/2022, quy định về việc kiểm soát chất lượng giống cây trồng và vật nuôi. Thông tư này nhằm nâng cao năng suất và chất lượng sản phẩm nông nghiệp, đáp ứng nhu cầu trong nước và xuất khẩu.",
+          "qas": [
+            {
+              "id": "99",
+              "question": "Thông tư 18/2022/TT-BNNPTNT ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/12/2022",
+                  "answer_start": 37
+                }
+              ]
+            },
+            {
+              "id": "100",
+              "question": "Thông tư 18/2022/TT-BNNPTNT quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "kiểm soát chất lượng giống cây trồng và vật nuôi",
+                  "answer_start": 71
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 75/2022/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 75/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực giáo dục, có hiệu lực từ ngày 01/01/2023. Nghị định này bao gồm các mức phạt và quy trình xử lý đối với các hành vi vi phạm trong môi trường giáo dục, nhằm nâng cao chất lượng giáo dục và tuân thủ pháp luật.",
+          "qas": [
+            {
+              "id": "101",
+              "question": "Nghị định 75/2022/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2023",
+                  "answer_start": 103
+                }
+              ]
+            },
+            {
+              "id": "102",
+              "question": "Nghị định 75/2022/NĐ-CP quy định xử phạt trong lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "lĩnh vực giáo dục",
+                  "answer_start": 69
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 05/2023/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 05/2023/TT-BYT hướng dẫn về quản lý an toàn thực phẩm trong các cơ sở kinh doanh dịch vụ ăn uống, có hiệu lực từ ngày 15/03/2023. Thông tư này đề ra các tiêu chuẩn vệ sinh và an toàn thực phẩm nhằm bảo vệ sức khỏe người tiêu dùng.",
+          "qas": [
+            {
+              "id": "103",
+              "question": "Thông tư 05/2023/TT-BYT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/03/2023",
+                  "answer_start": 122
+                }
+              ]
+            },
+            {
+              "id": "104",
+              "question": "Thông tư 05/2023/TT-BYT hướng dẫn về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý an toàn thực phẩm trong các cơ sở kinh doanh dịch vụ ăn uống",
+                  "answer_start": 37
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 23/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 23/NQ-CP ban hành ngày 10/04/2023, quy định về chiến lược phát triển năng lượng tái tạo, nhằm tăng cường nguồn năng lượng sạch và giảm thiểu tác động tiêu cực đến môi trường. Nghị quyết này bao gồm các mục tiêu phát triển năng lượng mặt trời, gió và sinh khối trong giai đoạn đến năm 2030.",
+          "qas": [
+            {
+              "id": "105",
+              "question": "Nghị quyết 23/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 10/04/2023",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "106",
+              "question": "Nghị quyết 23/NQ-CP quy định về chiến lược phát triển gì?",
+              "answers": [
+                {
+                  "text": "phát triển năng lượng tái tạo",
+                  "answer_start": 69
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 13/2023/TT-BNNPTNT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 13/2023/TT-BNNPTNT quy định về quản lý và giám sát việc sử dụng thuốc bảo vệ thực vật, có hiệu lực từ ngày 01/05/2023. Thông tư này đưa ra các biện pháp kiểm soát nhằm đảm bảo an toàn cho môi trường và sức khỏe cộng đồng.",
+          "qas": [
+            {
+              "id": "107",
+              "question": "Thông tư 13/2023/TT-BNNPTNT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/05/2023",
+                  "answer_start": 111
+                }
+              ]
+            },
+            {
+              "id": "108",
+              "question": "Thông tư 13/2023/TT-BNNPTNT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý và giám sát việc sử dụng thuốc bảo vệ thực vật",
+                  "answer_start": 40
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 90/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 90/2023/NĐ-CP ban hành ngày 15/06/2023 quy định về chính sách hỗ trợ phát triển doanh nghiệp nhỏ và vừa. Nghị định này bao gồm các biện pháp về tài chính, đào tạo, và hỗ trợ công nghệ nhằm giúp các doanh nghiệp nhỏ và vừa nâng cao năng lực cạnh tranh.",
+          "qas": [
+            {
+              "id": "109",
+              "question": "Nghị định 90/2023/NĐ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/06/2023",
+                  "answer_start": 33
+                }
+              ]
+            },
+            {
+              "id": "110",
+              "question": "Nghị định 90/2023/NĐ-CP quy định về chính sách hỗ trợ phát triển đối tượng nào?",
+              "answers": [
+                {
+                  "text": "doanh nghiệp nhỏ và vừa",
+                  "answer_start": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 21/2023/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 21/2023/TT-BTC quy định về chế độ báo cáo tài chính đối với các doanh nghiệp thuộc khối nhà nước, có hiệu lực từ ngày 01/07/2023. Thông tư này hướng dẫn các doanh nghiệp nhà nước lập và trình bày báo cáo tài chính đúng theo chuẩn mực và minh bạch.",
+          "qas": [
+            {
+              "id": "111",
+              "question": "Thông tư 21/2023/TT-BTC có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2023",
+                  "answer_start": 122
+                }
+              ]
+            },
+            {
+              "id": "112",
+              "question": "Thông tư 21/2023/TT-BTC quy định về chế độ gì?",
+              "answers": [
+                {
+                  "text": "chế độ báo cáo tài chính đối với các doanh nghiệp thuộc khối nhà nước",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 55/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 55/2023/NĐ-CP ban hành ngày 15/08/2023, quy định về việc bảo vệ quyền lợi người tiêu dùng trong giao dịch thương mại điện tử. Nghị định này đưa ra các biện pháp bảo vệ thông tin cá nhân và hướng dẫn cách xử lý tranh chấp trong môi trường mua sắm trực tuyến.",
+          "qas": [
+            {
+              "id": "113",
+              "question": "Nghị định 55/2023/NĐ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/08/2023",
+                  "answer_start": 33
+                }
+              ]
+            },
+            {
+              "id": "114",
+              "question": "Nghị định 55/2023/NĐ-CP quy định về việc bảo vệ quyền lợi người tiêu dùng trong lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "giao dịch thương mại điện tử",
+                  "answer_start": 106
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 30/2023/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 30/2023/TT-BGDĐT quy định về tiêu chuẩn kiểm định chất lượng trường học từ mầm non đến trung học phổ thông, có hiệu lực từ ngày 01/09/2023. Thông tư này nhằm đảm bảo môi trường học tập đạt tiêu chuẩn và đáp ứng nhu cầu giáo dục ngày càng cao.",
+          "qas": [
+            {
+              "id": "115",
+              "question": "Thông tư 30/2023/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/09/2023",
+                  "answer_start": 132
+                }
+              ]
+            },
+            {
+              "id": "116",
+              "question": "Thông tư 30/2023/TT-BGDĐT quy định về tiêu chuẩn gì?",
+              "answers": [
+                {
+                  "text": "tiêu chuẩn kiểm định chất lượng trường học từ mầm non đến trung học phổ thông",
+                  "answer_start": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 77/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 77/NQ-CP ban hành ngày 01/10/2023, đề ra chính sách hỗ trợ và phát triển nền công nghiệp sáng tạo nhằm thúc đẩy các lĩnh vực như công nghệ số, sản xuất nội dung số và ứng dụng AI trong nền kinh tế. Chính sách này nhằm phát triển nguồn nhân lực và nâng cao năng lực cạnh tranh quốc gia.",
+          "qas": [
+            {
+              "id": "117",
+              "question": "Nghị quyết 77/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/10/2023",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "118",
+              "question": "Nghị quyết 77/NQ-CP đề ra chính sách phát triển cho lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "công nghiệp sáng tạo",
+                  "answer_start": 88
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 35/2023/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 35/2023/TT-BLĐTBXH quy định về việc nâng cao an toàn lao động trong các ngành công nghiệp nặng như khai thác khoáng sản và luyện kim, có hiệu lực từ ngày 15/10/2023. Thông tư này nhằm giảm thiểu tai nạn lao động và cải thiện điều kiện làm việc cho người lao động.",
+          "qas": [
+            {
+              "id": "119",
+              "question": "Thông tư 35/2023/TT-BLĐTBXH có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/10/2023",
+                  "answer_start": 158
+                }
+              ]
+            },
+            {
+              "id": "120",
+              "question": "Thông tư 35/2023/TT-BLĐTBXH quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "nâng cao an toàn lao động trong các ngành công nghiệp nặng như khai thác khoáng sản và luyện kim",
+                  "answer_start": 45
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 10/2024/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 10/2024/NĐ-CP quy định về quản lý tài sản công của nhà nước, có hiệu lực từ ngày 01/01/2024. Nghị định này nhằm tăng cường trách nhiệm trong quản lý và sử dụng tài sản công, đảm bảo tính minh bạch và hiệu quả.",
+          "qas": [
+            {
+              "id": "121",
+              "question": "Nghị định 10/2024/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2024",
+                  "answer_start": 86
+                }
+              ]
+            },
+            {
+              "id": "122",
+              "question": "Nghị định 10/2024/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý tài sản công của nhà nước",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 12/2024/TT-BNV",
+      "paragraphs": [
+        {
+          "context": "Thông tư 12/2024/TT-BNV ban hành ngày 15/02/2024, quy định về tiêu chuẩn cán bộ, công chức làm việc trong lĩnh vực hành chính công. Thông tư này nhằm đảm bảo chất lượng nhân sự và nâng cao hiệu quả hoạt động công vụ.",
+          "qas": [
+            {
+              "id": "123",
+              "question": "Thông tư 12/2024/TT-BNV ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/02/2024",
+                  "answer_start": 33
+                }
+              ]
+            },
+            {
+              "id": "124",
+              "question": "Thông tư 12/2024/TT-BNV quy định về tiêu chuẩn của đối tượng nào?",
+              "answers": [
+                {
+                  "text": "cán bộ, công chức làm việc trong lĩnh vực hành chính công",
+                  "answer_start": 73
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 34/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 34/NQ-CP ban hành ngày 01/03/2024, đề ra các chính sách khuyến khích đầu tư vào lĩnh vực nông nghiệp công nghệ cao. Nghị quyết này hướng tới mục tiêu tăng cường sản xuất nông sản chất lượng cao và thúc đẩy sự phát triển bền vững.",
+          "qas": [
+            {
+              "id": "125",
+              "question": "Nghị quyết 34/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/03/2024",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "126",
+              "question": "Nghị quyết 34/NQ-CP đề ra chính sách cho lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "lĩnh vực nông nghiệp công nghệ cao",
+                  "answer_start": 91
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 18/2024/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 18/2024/TT-BTC quy định về việc quản lý và giám sát hoạt động đấu giá tài sản công, có hiệu lực từ ngày 01/04/2024. Thông tư này nhằm nâng cao tính minh bạch và bảo vệ quyền lợi của người tham gia đấu giá.",
+          "qas": [
+            {
+              "id": "127",
+              "question": "Thông tư 18/2024/TT-BTC có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/04/2024",
+                  "answer_start": 108
+                }
+              ]
+            },
+            {
+              "id": "128",
+              "question": "Thông tư 18/2024/TT-BTC quy định về việc quản lý hoạt động gì?",
+              "answers": [
+                {
+                  "text": "đấu giá tài sản công",
+                  "answer_start": 71
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 45/2024/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 45/2024/NĐ-CP quy định về chính sách hỗ trợ doanh nghiệp khởi nghiệp sáng tạo, có hiệu lực từ ngày 15/05/2024. Nghị định này khuyến khích doanh nghiệp sáng tạo và đưa ra các biện pháp tài chính nhằm hỗ trợ hoạt động khởi nghiệp.",
+          "qas": [
+            {
+              "id": "129",
+              "question": "Nghị định 45/2024/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/05/2024",
+                  "answer_start": 104
+                }
+              ]
+            },
+            {
+              "id": "130",
+              "question": "Nghị định 45/2024/NĐ-CP quy định về chính sách hỗ trợ đối tượng nào?",
+              "answers": [
+                {
+                  "text": "doanh nghiệp khởi nghiệp sáng tạo",
+                  "answer_start": 54
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 23/2024/TT-BGTVT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 23/2024/TT-BGTVT ban hành ngày 01/06/2024, quy định về quản lý và giám sát an toàn giao thông đường bộ. Thông tư này đặt ra các tiêu chuẩn an toàn cho hệ thống đường bộ, nhằm giảm thiểu tai nạn và đảm bảo an toàn cho người tham gia giao thông.",
+          "qas": [
+            {
+              "id": "131",
+              "question": "Thông tư 23/2024/TT-BGTVT ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/06/2024",
+                  "answer_start": 35
+                }
+              ]
+            },
+            {
+              "id": "132",
+              "question": "Thông tư 23/2024/TT-BGTVT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý và giám sát an toàn giao thông đường bộ",
+                  "answer_start": 64
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 51/2024/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 51/2024/NĐ-CP quy định về việc xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, có hiệu lực từ ngày 15/07/2024. Nghị định này nhằm bảo vệ môi trường bằng cách đưa ra các biện pháp xử lý nghiêm các hành vi gây ô nhiễm.",
+          "qas": [
+            {
+              "id": "133",
+              "question": "Nghị định 51/2024/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/07/2024",
+                  "answer_start": 117
+                }
+              ]
+            },
+            {
+              "id": "134",
+              "question": "Nghị định 51/2024/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+                  "answer_start": 41
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 29/2024/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 29/2024/TT-BYT quy định về tiêu chuẩn an toàn vệ sinh thực phẩm đối với các cơ sở sản xuất và kinh doanh thực phẩm, có hiệu lực từ ngày 01/08/2024. Thông tư này yêu cầu các cơ sở thực phẩm tuân thủ các tiêu chuẩn vệ sinh để bảo vệ sức khỏe người tiêu dùng.",
+          "qas": [
+            {
+              "id": "135",
+              "question": "Thông tư 29/2024/TT-BYT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/08/2024",
+                  "answer_start": 140
+                }
+              ]
+            },
+            {
+              "id": "136",
+              "question": "Thông tư 29/2024/TT-BYT quy định về tiêu chuẩn gì?",
+              "answers": [
+                {
+                  "text": "tiêu chuẩn an toàn vệ sinh thực phẩm",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 63/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 63/NQ-CP ban hành ngày 10/09/2024, đề ra chính sách phát triển nông thôn và nâng cao đời sống cho người dân khu vực nông thôn. Nghị quyết này nhấn mạnh việc cải thiện cơ sở hạ tầng, giáo dục và y tế cho người dân vùng sâu, vùng xa.",
+          "qas": [
+            {
+              "id": "137",
+              "question": "Nghị quyết 63/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 10/09/2024",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "138",
+              "question": "Nghị quyết 63/NQ-CP đề ra chính sách phát triển cho khu vực nào?",
+              "answers": [
+                {
+                  "text": "khu vực nông thôn",
+                  "answer_start": 119
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 34/2024/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 34/2024/TT-BLĐTBXH quy định về chính sách hỗ trợ đào tạo nghề cho lao động thất nghiệp, có hiệu lực từ ngày 15/10/2024. Thông tư này nhằm giúp người lao động thất nghiệp có cơ hội học nghề và tìm kiếm việc làm mới.",
+          "qas": [
+            {
+              "id": "139",
+              "question": "Thông tư 34/2024/TT-BLĐTBXH có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/10/2024",
+                  "answer_start": 112
+                }
+              ]
+            },
+            {
+              "id": "140",
+              "question": "Thông tư 34/2024/TT-BLĐTBXH quy định về chính sách hỗ trợ gì?",
+              "answers": [
+                {
+                  "text": "hỗ trợ đào tạo nghề cho lao động thất nghiệp",
+                  "answer_start": 51
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 60/2024/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 60/2024/NĐ-CP quy định về bảo vệ và phát triển rừng, đặc biệt là các khu rừng phòng hộ và rừng đặc dụng, có hiệu lực từ ngày 01/11/2024. Nghị định này đề ra các biện pháp quản lý chặt chẽ và bảo vệ rừng trước các hành vi xâm hại và khai thác bất hợp pháp.",
+          "qas": [
+            {
+              "id": "141",
+              "question": "Nghị định 60/2024/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/11/2024",
+                  "answer_start": 130
+                }
+              ]
+            },
+            {
+              "id": "142",
+              "question": "Nghị định 60/2024/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ và phát triển rừng, đặc biệt là các khu rừng phòng hộ và rừng đặc dụng",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 40/2024/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 40/2024/TT-BYT quy định về việc kiểm tra chất lượng các sản phẩm thuốc và dược phẩm trên thị trường, có hiệu lực từ ngày 15/12/2024. Thông tư này nhằm đảm bảo an toàn cho người tiêu dùng và ngăn chặn sản phẩm không đạt tiêu chuẩn lưu hành.",
+          "qas": [
+            {
+              "id": "143",
+              "question": "Thông tư 40/2024/TT-BYT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/12/2024",
+                  "answer_start": 125
+                }
+              ]
+            },
+            {
+              "id": "144",
+              "question": "Thông tư 40/2024/TT-BYT quy định về việc kiểm tra chất lượng của sản phẩm nào?",
+              "answers": [
+                {
+                  "text": "các sản phẩm thuốc và dược phẩm trên thị trường",
+                  "answer_start": 61
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 70/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 70/NQ-CP ban hành ngày 20/12/2024, đề ra chính sách tăng cường hợp tác quốc tế trong lĩnh vực khoa học và công nghệ. Nghị quyết này khuyến khích nghiên cứu khoa học, đổi mới sáng tạo và thúc đẩy các dự án hợp tác với các tổ chức quốc tế.",
+          "qas": [
+            {
+              "id": "145",
+              "question": "Nghị quyết 70/NQ-CP ban hành ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 20/12/2024",
+                  "answer_start": 29
+                }
+              ]
+            },
+            {
+              "id": "146",
+              "question": "Nghị quyết 70/NQ-CP đề ra chính sách hợp tác trong lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "khoa học và công nghệ",
+                  "answer_start": 105
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 45/2024/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 45/2024/TT-BGDĐT quy định về tiêu chuẩn đánh giá chất lượng giáo viên và cán bộ quản lý giáo dục, có hiệu lực từ ngày 01/01/2025. Thông tư này nhằm nâng cao chất lượng đội ngũ giáo viên, đảm bảo đáp ứng yêu cầu đào tạo trong thời kỳ mới.",
+          "qas": [
+            {
+              "id": "147",
+              "question": "Thông tư 45/2024/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2025",
+                  "answer_start": 122
+                }
+              ]
+            },
+            {
+              "id": "148",
+              "question": "Thông tư 45/2024/TT-BGDĐT quy định về tiêu chuẩn đánh giá chất lượng của đối tượng nào?",
+              "answers": [
+                {
+                  "text": "giáo viên và cán bộ quản lý giáo dục",
+                  "answer_start": 69
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 80/2024/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 80/2024/NĐ-CP quy định về việc khuyến khích phát triển kinh tế tuần hoàn trong các ngành công nghiệp sản xuất và chế biến, có hiệu lực từ ngày 15/01/2025. Nghị định này nhằm thúc đẩy các mô hình sản xuất bền vững, giảm thiểu ô nhiễm và tái chế tài nguyên.",
+          "qas": [
+            {
+              "id": "149",
+              "question": "Nghị định 80/2024/NĐ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/01/2025",
+                  "answer_start": 148
+                }
+              ]
+            },
+            {
+              "id": "150",
+              "question": "Nghị định 80/2024/NĐ-CP quy định về việc khuyến khích phát triển mô hình gì?",
+              "answers": [
+                {
+                  "text": "kinh tế tuần hoàn",
+                  "answer_start": 65
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 15/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 15/2023/NĐ-CP quy định xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. Theo đó, mức phạt tối đa đối với cá nhân là 1 tỷ đồng và 2 tỷ đồng đối với tổ chức vi phạm nghiêm trọng.",
+          "qas": [
+            {
+              "id": "151",
+              "question": "Mức phạt tối đa đối với cá nhân vi phạm nghiêm trọng trong Nghị định 15/2023/NĐ-CP là bao nhiêu?",
+              "answers": [
+                {
+                  "text": "1 tỷ đồng",
+                  "answer_start": 138
+                }
+              ]
+            },
+            {
+              "id": "152",
+              "question": "Nghị định 15/2023/NĐ-CP quy định xử phạt vi phạm trong lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "bảo vệ môi trường",
+                  "answer_start": 75
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 06/2023/TT-BXD",
+      "paragraphs": [
+        {
+          "context": "Thông tư 06/2023/TT-BXD hướng dẫn chi tiết về quy chuẩn kỹ thuật xây dựng công trình cao tầng và công trình công cộng, có hiệu lực từ ngày 01/06/2023.",
+          "qas": [
+            {
+              "id": "153",
+              "question": "Thông tư 06/2023/TT-BXD có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/06/2023",
+                  "answer_start": 134
+                }
+              ]
+            },
+            {
+              "id": "154",
+              "question": "Thông tư 06/2023/TT-BXD hướng dẫn về quy chuẩn kỹ thuật cho loại công trình nào?",
+              "answers": [
+                {
+                  "text": "công trình cao tầng và công trình công cộng",
+                  "answer_start": 74
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 19/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 19/2023/QĐ-TTg quy định về tiêu chí đánh giá và phân loại các cơ sở kinh doanh dịch vụ du lịch có trách nhiệm bảo vệ môi trường, có hiệu lực từ ngày 15/04/2023.",
+          "qas": [
+            {
+              "id": "155",
+              "question": "Quyết định 19/2023/QĐ-TTg có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 15/04/2023",
+                  "answer_start": 155
+                }
+              ]
+            },
+            {
+              "id": "156",
+              "question": "Quyết định 19/2023/QĐ-TTg quy định tiêu chí đánh giá cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "các cơ sở kinh doanh dịch vụ du lịch có trách nhiệm bảo vệ môi trường",
+                  "answer_start": 69
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 08/2023/TT-BCT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 08/2023/TT-BCT quy định về hướng dẫn thủ tục cấp giấy chứng nhận xuất xứ hàng hóa cho doanh nghiệp xuất khẩu, có hiệu lực từ ngày 01/07/2023.",
+          "qas": [
+            {
+              "id": "157",
+              "question": "Thông tư 08/2023/TT-BCT có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/07/2023",
+                  "answer_start": 134
+                }
+              ]
+            },
+            {
+              "id": "158",
+              "question": "Thông tư 08/2023/TT-BCT hướng dẫn thủ tục cấp giấy chứng nhận cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "doanh nghiệp xuất khẩu",
+                  "answer_start": 95
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 40/2023/QH15",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 40/2023/QH15 ban hành chính sách hỗ trợ học phí cho học sinh vùng đặc biệt khó khăn trong cả nước, với mục tiêu giảm bớt gánh nặng tài chính cho gia đình học sinh. Nghị quyết này có hiệu lực từ ngày 01/09/2023.",
+          "qas": [
+            {
+              "id": "159",
+              "question": "Nghị quyết 40/2023/QH15 có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/09/2023",
+                  "answer_start": 205
+                }
+              ]
+            },
+            {
+              "id": "160",
+              "question": "Nghị quyết 40/2023/QH15 hỗ trợ học phí cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "học sinh vùng đặc biệt khó khăn",
+                  "answer_start": 63
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 38/2022/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 38/2022/NĐ-CP quy định mức lương tối thiểu vùng đối với người lao động làm việc theo hợp đồng lao động. Theo đó, mức lương tối thiểu vùng I là 4,680,000 đồng/tháng, vùng II là 4,160,000 đồng/tháng, vùng III là 3,640,000 đồng/tháng và vùng IV là 3,250,000 đồng/tháng.",
+          "qas": [
+            {
+              "id": "161",
+              "question": "Mức lương tối thiểu vùng I theo Nghị định 38/2022/NĐ-CP là bao nhiêu?",
+              "answers": [
+                {
+                  "text": "4,680,000 đồng/tháng",
+                  "answer_start": 153
+                }
+              ]
+            },
+            {
+              "id": "162",
+              "question": "Nghị định 38/2022/NĐ-CP quy định mức lương tối thiểu cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "người lao động làm việc theo hợp đồng lao động",
+                  "answer_start": 66
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 22/2023/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 22/2023/TT-BGDĐT quy định về chương trình giáo dục phổ thông mới, yêu cầu các cơ sở giáo dục thực hiện chuẩn hóa nội dung và phương pháp giảng dạy, nhằm nâng cao chất lượng giáo dục quốc gia.",
+          "qas": [
+            {
+              "id": "163",
+              "question": "Thông tư 22/2023/TT-BGDĐT quy định về chương trình nào?",
+              "answers": [
+                {
+                  "text": "chương trình giáo dục phổ thông mới",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "164",
+              "question": "Mục tiêu của Thông tư 22/2023/TT-BGDĐT là gì?",
+              "answers": [
+                {
+                  "text": "nâng cao chất lượng giáo dục quốc gia",
+                  "answer_start": 162
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 30/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 30/2023/NQ-CP quy định chính sách hỗ trợ người lao động bị ảnh hưởng bởi đại dịch COVID-19, bao gồm các khoản trợ cấp và hỗ trợ đào tạo để tái hòa nhập thị trường lao động. Nghị quyết có hiệu lực từ ngày 01/01/2023.",
+          "qas": [
+            {
+              "id": "165",
+              "question": "Nghị quyết 30/2023/NQ-CP hỗ trợ đối tượng nào?",
+              "answers": [
+                {
+                  "text": "người lao động bị ảnh hưởng bởi đại dịch COVID-19",
+                  "answer_start": 52
+                }
+              ]
+            },
+            {
+              "id": "166",
+              "question": "Nghị quyết 30/2023/NQ-CP có hiệu lực từ ngày nào?",
+              "answers": [
+                {
+                  "text": "ngày 01/01/2023",
+                  "answer_start": 210
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 24/2022/TT-BTNMT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 24/2022/TT-BTNMT quy định về tiêu chuẩn kỹ thuật và quy trình quản lý chất lượng nước tại các khu công nghiệp, nhằm giảm thiểu ô nhiễm môi trường và bảo vệ sức khỏe cộng đồng.",
+          "qas": [
+            {
+              "id": "167",
+              "question": "Thông tư 24/2022/TT-BTNMT quy định về tiêu chuẩn nào?",
+              "answers": [
+                {
+                  "text": "tiêu chuẩn kỹ thuật và quy trình quản lý chất lượng nước tại các khu công nghiệp",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "168",
+              "question": "Mục tiêu của Thông tư 24/2022/TT-BTNMT là gì?",
+              "answers": [
+                {
+                  "text": "giảm thiểu ô nhiễm môi trường và bảo vệ sức khỏe cộng đồng",
+                  "answer_start": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 60/2022/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 60/2022/NĐ-CP quy định về quyền lợi và nghĩa vụ của người lao động nước ngoài làm việc tại Việt Nam, bao gồm các điều khoản về thời gian làm việc, bảo hiểm xã hội và các phúc lợi khác.",
+          "qas": [
+            {
+              "id": "169",
+              "question": "Nghị định 60/2022/NĐ-CP quy định quyền lợi và nghĩa vụ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "người lao động nước ngoài làm việc tại Việt Nam",
+                  "answer_start": 62
+                }
+              ]
+            },
+            {
+              "id": "170",
+              "question": "Nghị định 60/2022/NĐ-CP bao gồm các điều khoản nào?",
+              "answers": [
+                {
+                  "text": "thời gian làm việc, bảo hiểm xã hội và các phúc lợi khác",
+                  "answer_start": 137
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 152/2020/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 152/2020/NĐ-CP quy định về tuyển dụng, quản lý người lao động nước ngoài làm việc tại Việt Nam. Theo đó, người lao động nước ngoài cần có giấy phép lao động và tuân thủ các điều kiện về trình độ, kỹ năng nghề.",
+          "qas": [
+            {
+              "id": "171",
+              "question": "Nghị định 152/2020/NĐ-CP quy định về đối tượng nào?",
+              "answers": [
+                {
+                  "text": "người lao động nước ngoài làm việc tại Việt Nam",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "172",
+              "question": "Người lao động nước ngoài cần có giấy tờ gì để làm việc tại Việt Nam theo Nghị định 152/2020/NĐ-CP?",
+              "answers": [
+                {
+                  "text": "giấy phép lao động",
+                  "answer_start": 148
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 11/2022/TT-BCA",
+      "paragraphs": [
+        {
+          "context": "Thông tư 11/2022/TT-BCA hướng dẫn quy trình đăng ký xe tại các cơ quan công an. Người dân cần cung cấp các giấy tờ liên quan như chứng minh nhân dân, giấy chứng nhận đăng ký xe để thực hiện thủ tục đăng ký.",
+          "qas": [
+            {
+              "id": "173",
+              "question": "Thông tư 11/2022/TT-BCA hướng dẫn quy trình gì?",
+              "answers": [
+                {
+                  "text": "đăng ký xe tại các cơ quan công an",
+                  "answer_start": 44
+                }
+              ]
+            },
+            {
+              "id": "174",
+              "question": "Người dân cần cung cấp giấy tờ nào khi đăng ký xe theo Thông tư 11/2022/TT-BCA?",
+              "answers": [
+                {
+                  "text": "chứng minh nhân dân, giấy chứng nhận đăng ký xe",
+                  "answer_start": 129
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 23/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 23/2023/QĐ-TTg quy định về mức hỗ trợ tài chính cho các hộ nghèo ở vùng đặc biệt khó khăn, nhằm cải thiện chất lượng cuộc sống và giảm thiểu đói nghèo. Mức hỗ trợ được cấp định kỳ hàng tháng.",
+          "qas": [
+            {
+              "id": "175",
+              "question": "Quyết định 23/2023/QĐ-TTg hỗ trợ tài chính cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "các hộ nghèo ở vùng đặc biệt khó khăn",
+                  "answer_start": 63
+                }
+              ]
+            },
+            {
+              "id": "176",
+              "question": "Mức hỗ trợ tài chính theo Quyết định 23/2023/QĐ-TTg được cấp như thế nào?",
+              "answers": [
+                {
+                  "text": "định kỳ hàng tháng",
+                  "answer_start": 183
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 30/2022/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 30/2022/TT-BYT hướng dẫn quy trình phòng, chống dịch bệnh truyền nhiễm tại các cơ sở y tế công cộng. Các cơ sở y tế cần tuân thủ các biện pháp vệ sinh và cách ly để ngăn ngừa lây lan dịch bệnh.",
+          "qas": [
+            {
+              "id": "177",
+              "question": "Thông tư 30/2022/TT-BYT hướng dẫn quy trình nào?",
+              "answers": [
+                {
+                  "text": "phòng, chống dịch bệnh truyền nhiễm tại các cơ sở y tế công cộng",
+                  "answer_start": 44
+                }
+              ]
+            },
+            {
+              "id": "178",
+              "question": "Các cơ sở y tế cần tuân thủ biện pháp gì theo Thông tư 30/2022/TT-BYT?",
+              "answers": [
+                {
+                  "text": "vệ sinh và cách ly",
+                  "answer_start": 152
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 24/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 24/2023/NQ-CP về chính sách bảo vệ tài nguyên rừng và đa dạng sinh học. Theo đó, các cơ quan và cộng đồng địa phương phải tham gia vào việc bảo vệ rừng và duy trì đa dạng sinh học.",
+          "qas": [
+            {
+              "id": "179",
+              "question": "Nghị quyết 24/2023/NQ-CP đề cập đến chính sách gì?",
+              "answers": [
+                {
+                  "text": "chính sách bảo vệ tài nguyên rừng và đa dạng sinh học",
+                  "answer_start": 28
+                }
+              ]
+            },
+            {
+              "id": "180",
+              "question": "Ai phải tham gia bảo vệ rừng theo Nghị quyết 24/2023/NQ-CP?",
+              "answers": [
+                {
+                  "text": "các cơ quan và cộng đồng địa phương",
+                  "answer_start": 92
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 15/2021/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 15/2021/NĐ-CP quy định về bảo vệ quyền lợi người tiêu dùng, bao gồm các điều khoản về việc cung cấp thông tin chính xác về sản phẩm, hàng hóa và dịch vụ cho người tiêu dùng.",
+          "qas": [
+            {
+              "id": "181",
+              "question": "Nghị định 15/2021/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ quyền lợi người tiêu dùng",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "182",
+              "question": "Theo Nghị định 15/2021/NĐ-CP, người tiêu dùng cần được cung cấp thông tin gì?",
+              "answers": [
+                {
+                  "text": "thông tin chính xác về sản phẩm, hàng hóa và dịch vụ",
+                  "answer_start": 110
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 18/2022/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 18/2022/TT-BLĐTBXH hướng dẫn về an toàn lao động trong ngành xây dựng. Các chủ đầu tư và nhà thầu phải thực hiện các biện pháp an toàn để bảo vệ sức khỏe của công nhân trong quá trình thi công.",
+          "qas": [
+            {
+              "id": "183",
+              "question": "Thông tư 18/2022/TT-BLĐTBXH hướng dẫn về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "an toàn lao động trong ngành xây dựng",
+                  "answer_start": 41
+                }
+              ]
+            },
+            {
+              "id": "184",
+              "question": "Ai phải thực hiện các biện pháp an toàn theo Thông tư 18/2022/TT-BLĐTBXH?",
+              "answers": [
+                {
+                  "text": "các chủ đầu tư và nhà thầu",
+                  "answer_start": 82
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 18/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 18/2023/QĐ-TTg ban hành chính sách hỗ trợ cho trẻ em mồ côi do dịch COVID-19. Chính sách này nhằm đảm bảo các em có đủ điều kiện sống và tiếp cận giáo dục.",
+          "qas": [
+            {
+              "id": "185",
+              "question": "Quyết định 18/2023/QĐ-TTg hỗ trợ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "trẻ em mồ côi do dịch COVID-19",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "186",
+              "question": "Mục tiêu của Quyết định 18/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "đảm bảo các em có đủ điều kiện sống và tiếp cận giáo dục",
+                  "answer_start": 109
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 31/2022/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 31/2022/TT-BTC hướng dẫn quản lý và sử dụng kinh phí từ ngân sách nhà nước cho các dự án đầu tư phát triển. Các đơn vị cần lập dự toán và thực hiện quyết toán theo đúng quy định.",
+          "qas": [
+            {
+              "id": "187",
+              "question": "Thông tư 31/2022/TT-BTC hướng dẫn về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý và sử dụng kinh phí từ ngân sách nhà nước cho các dự án đầu tư phát triển",
+                  "answer_start": 34
+                }
+              ]
+            },
+            {
+              "id": "188",
+              "question": "Các đơn vị cần thực hiện gì theo Thông tư 31/2022/TT-BTC?",
+              "answers": [
+                {
+                  "text": "lập dự toán và thực hiện quyết toán",
+                  "answer_start": 132
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 26/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 26/2023/NQ-CP đề ra các giải pháp nhằm phát triển kinh tế bền vững và bảo vệ môi trường. Các giải pháp bao gồm khuyến khích đầu tư vào năng lượng tái tạo và giảm thiểu khí thải.",
+          "qas": [
+            {
+              "id": "189",
+              "question": "Nghị quyết 26/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "phát triển kinh tế bền vững và bảo vệ môi trường",
+                  "answer_start": 50
+                }
+              ]
+            },
+            {
+              "id": "190",
+              "question": "Một trong các giải pháp của Nghị quyết 26/2023/NQ-CP là gì?",
+              "answers": [
+                {
+                  "text": "khuyến khích đầu tư vào năng lượng tái tạo",
+                  "answer_start": 122
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 27/2022/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 27/2022/NĐ-CP quy định về quản lý chất lượng và bảo trì công trình xây dựng. Nghị định yêu cầu các chủ đầu tư phải thực hiện các biện pháp bảo trì định kỳ để đảm bảo an toàn cho công trình.",
+          "qas": [
+            {
+              "id": "191",
+              "question": "Nghị định 27/2022/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý chất lượng và bảo trì công trình xây dựng",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "192",
+              "question": "Theo Nghị định 27/2022/NĐ-CP, ai phải thực hiện biện pháp bảo trì định kỳ?",
+              "answers": [
+                {
+                  "text": "các chủ đầu tư",
+                  "answer_start": 105
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 29/2022/TT-BGTVT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 29/2022/TT-BGTVT quy định về an toàn giao thông đường bộ, yêu cầu các đơn vị quản lý giao thông phải thực hiện các biện pháp nâng cao ý thức của người tham gia giao thông.",
+          "qas": [
+            {
+              "id": "193",
+              "question": "Thông tư 29/2022/TT-BGTVT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "an toàn giao thông đường bộ",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "194",
+              "question": "Theo Thông tư 29/2022/TT-BGTVT, ai phải nâng cao ý thức giao thông?",
+              "answers": [
+                {
+                  "text": "người tham gia giao thông",
+                  "answer_start": 154
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 22/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 22/2023/QĐ-TTg ban hành chính sách hỗ trợ cho hộ sản xuất nông nghiệp bị thiệt hại do thiên tai. Chính sách này nhằm khôi phục sản xuất và đảm bảo an sinh xã hội cho người dân.",
+          "qas": [
+            {
+              "id": "195",
+              "question": "Quyết định 22/2023/QĐ-TTg hỗ trợ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "hộ sản xuất nông nghiệp bị thiệt hại do thiên tai",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "196",
+              "question": "Mục tiêu của Quyết định 22/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "khôi phục sản xuất và đảm bảo an sinh xã hội cho người dân",
+                  "answer_start": 128
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 23/2022/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 23/2022/TT-BTC quy định chế độ quản lý tài chính đối với các dự án đầu tư công. Các đơn vị cần phải lập dự toán chi tiết và thực hiện kiểm tra, giám sát tài chính theo quy định.",
+          "qas": [
+            {
+              "id": "197",
+              "question": "Thông tư 23/2022/TT-BTC quy định chế độ quản lý gì?",
+              "answers": [
+                {
+                  "text": "quản lý tài chính đối với các dự án đầu tư công",
+                  "answer_start": 40
+                }
+              ]
+            },
+            {
+              "id": "198",
+              "question": "Các đơn vị cần thực hiện gì theo Thông tư 23/2022/TT-BTC?",
+              "answers": [
+                {
+                  "text": "lập dự toán chi tiết và thực hiện kiểm tra, giám sát tài chính",
+                  "answer_start": 109
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 28/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 28/2023/NQ-CP đề ra các giải pháp thúc đẩy sản xuất nông nghiệp ứng dụng công nghệ cao. Các biện pháp bao gồm hỗ trợ vốn, đào tạo kỹ thuật và kết nối thị trường.",
+          "qas": [
+            {
+              "id": "199",
+              "question": "Nghị quyết 28/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "thúc đẩy sản xuất nông nghiệp ứng dụng công nghệ cao",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "200",
+              "question": "Một trong các biện pháp của Nghị quyết 28/2023/NQ-CP là gì?",
+              "answers": [
+                {
+                  "text": "hỗ trợ vốn",
+                  "answer_start": 121
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 32/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 32/2023/NĐ-CP quy định về việc hỗ trợ doanh nghiệp nhỏ và vừa trong việc tiếp cận vốn tín dụng. Nghị định nhấn mạnh vai trò của ngân hàng trong việc tạo điều kiện cho các doanh nghiệp này vay vốn.",
+          "qas": [
+            {
+              "id": "201",
+              "question": "Nghị định 32/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "hỗ trợ doanh nghiệp nhỏ và vừa trong việc tiếp cận vốn tín dụng",
+                  "answer_start": 41
+                }
+              ]
+            },
+            {
+              "id": "202",
+              "question": "Ai được nhấn mạnh trong Nghị định 32/2023/NĐ-CP trong việc hỗ trợ doanh nghiệp?",
+              "answers": [
+                {
+                  "text": "ngân hàng",
+                  "answer_start": 138
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 36/2022/TT-BNNPTNT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 36/2022/TT-BNNPTNT hướng dẫn quản lý sản xuất, chế biến và tiêu thụ sản phẩm nông nghiệp. Thông tư yêu cầu các cơ sở sản xuất phải đảm bảo an toàn thực phẩm và truy xuất nguồn gốc sản phẩm.",
+          "qas": [
+            {
+              "id": "203",
+              "question": "Thông tư 36/2022/TT-BNNPTNT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý sản xuất, chế biến và tiêu thụ sản phẩm nông nghiệp",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "204",
+              "question": "Các cơ sở sản xuất cần đảm bảo điều gì theo Thông tư 36/2022/TT-BNNPTNT?",
+              "answers": [
+                {
+                  "text": "an toàn thực phẩm và truy xuất nguồn gốc sản phẩm",
+                  "answer_start": 148
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 24/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 24/2023/QĐ-TTg quy định chính sách hỗ trợ cho các đối tượng khuyết tật trong việc tiếp cận dịch vụ công. Chính sách này nhằm nâng cao chất lượng cuộc sống cho người khuyết tật.",
+          "qas": [
+            {
+              "id": "205",
+              "question": "Quyết định 24/2023/QĐ-TTg hỗ trợ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "các đối tượng khuyết tật",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "206",
+              "question": "Mục tiêu của Quyết định 24/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "nâng cao chất lượng cuộc sống cho người khuyết tật",
+                  "answer_start": 136
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 25/2022/TT-BTP",
+      "paragraphs": [
+        {
+          "context": "Thông tư 25/2022/TT-BTP quy định về thủ tục hành chính trong lĩnh vực đăng ký hộ tịch. Thông tư yêu cầu các cơ quan đăng ký hộ tịch phải thực hiện nghiêm túc việc tiếp nhận và giải quyết hồ sơ của công dân.",
+          "qas": [
+            {
+              "id": "207",
+              "question": "Thông tư 25/2022/TT-BTP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "thủ tục hành chính trong lĩnh vực đăng ký hộ tịch",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "208",
+              "question": "Các cơ quan đăng ký hộ tịch cần thực hiện gì theo Thông tư 25/2022/TT-BTP?",
+              "answers": [
+                {
+                  "text": "tiếp nhận và giải quyết hồ sơ của công dân",
+                  "answer_start": 163
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 30/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 30/2023/NQ-CP đề ra các giải pháp để cải cách hành chính và nâng cao hiệu quả hoạt động của các cơ quan nhà nước. Nghị quyết yêu cầu tăng cường ứng dụng công nghệ thông tin trong quản lý hành chính.",
+          "qas": [
+            {
+              "id": "209",
+              "question": "Nghị quyết 30/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "cải cách hành chính và nâng cao hiệu quả hoạt động của các cơ quan nhà nước",
+                  "answer_start": 48
+                }
+              ]
+            },
+            {
+              "id": "210",
+              "question": "Một trong các yêu cầu của Nghị quyết 30/2023/NQ-CP là gì?",
+              "answers": [
+                {
+                  "text": "tăng cường ứng dụng công nghệ thông tin trong quản lý hành chính",
+                  "answer_start": 144
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 33/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 33/2023/NĐ-CP quy định về việc cấp giấy phép xây dựng và quản lý chất lượng công trình. Nghị định yêu cầu các chủ đầu tư phải có giấy phép xây dựng trước khi tiến hành thi công.",
+          "qas": [
+            {
+              "id": "211",
+              "question": "Nghị định 33/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "cấp giấy phép xây dựng và quản lý chất lượng công trình",
+                  "answer_start": 41
+                }
+              ]
+            },
+            {
+              "id": "212",
+              "question": "Ai phải có giấy phép xây dựng theo Nghị định 33/2023/NĐ-CP?",
+              "answers": [
+                {
+                  "text": "các chủ đầu tư",
+                  "answer_start": 116
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 37/2022/TT-BKHĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 37/2022/TT-BKHĐT quy định về quản lý dự án đầu tư công. Thông tư yêu cầu các đơn vị phải lập báo cáo dự án và thực hiện công khai thông tin liên quan đến dự án.",
+          "qas": [
+            {
+              "id": "213",
+              "question": "Thông tư 37/2022/TT-BKHĐT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý dự án đầu tư công",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "214",
+              "question": "Các đơn vị cần thực hiện gì theo Thông tư 37/2022/TT-BKHĐT?",
+              "answers": [
+                {
+                  "text": "lập báo cáo dự án và thực hiện công khai thông tin",
+                  "answer_start": 98
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 26/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 26/2023/QĐ-TTg ban hành chính sách hỗ trợ cho các hộ gia đình nghèo trong việc tiếp cận nhà ở. Chính sách này nhằm giảm thiểu tình trạng thiếu nhà ở cho người dân.",
+          "qas": [
+            {
+              "id": "215",
+              "question": "Quyết định 26/2023/QĐ-TTg hỗ trợ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "các hộ gia đình nghèo",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "216",
+              "question": "Mục tiêu của Quyết định 26/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "giảm thiểu tình trạng thiếu nhà ở cho người dân",
+                  "answer_start": 126
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 30/2022/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 30/2022/TT-BLĐTBXH hướng dẫn thực hiện chính sách bảo hiểm xã hội đối với người lao động. Thông tư quy định quyền lợi và nghĩa vụ của người lao động trong việc tham gia bảo hiểm.",
+          "qas": [
+            {
+              "id": "217",
+              "question": "Thông tư 30/2022/TT-BLĐTBXH quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "chính sách bảo hiểm xã hội đối với người lao động",
+                  "answer_start": 48
+                }
+              ]
+            },
+            {
+              "id": "218",
+              "question": "Ai được quy định quyền lợi và nghĩa vụ trong Thông tư 30/2022/TT-BLĐTBXH?",
+              "answers": [
+                {
+                  "text": "người lao động",
+                  "answer_start": 83
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 34/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 34/2023/NQ-CP đề ra các giải pháp bảo vệ môi trường và phát triển bền vững. Nghị quyết kêu gọi sự tham gia của cộng đồng trong các hoạt động bảo vệ môi trường.",
+          "qas": [
+            {
+              "id": "219",
+              "question": "Nghị quyết 34/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ môi trường và phát triển bền vững",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "220",
+              "question": "Nghị quyết 34/2023/NQ-CP kêu gọi ai tham gia bảo vệ môi trường?",
+              "answers": [
+                {
+                  "text": "sự tham gia của cộng đồng",
+                  "answer_start": 106
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 34/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 34/2023/NĐ-CP quy định về chế độ đãi ngộ đối với cán bộ, công chức, viên chức. Nghị định này nhằm nâng cao hiệu quả làm việc và khuyến khích tinh thần cống hiến của đội ngũ cán bộ.",
+          "qas": [
+            {
+              "id": "221",
+              "question": "Nghị định 34/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "chế độ đãi ngộ đối với cán bộ, công chức, viên chức",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "222",
+              "question": "Mục tiêu của Nghị định 34/2023/NĐ-CP là gì?",
+              "answers": [
+                {
+                  "text": "nâng cao hiệu quả làm việc và khuyến khích tinh thần cống hiến",
+                  "answer_start": 108
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 40/2022/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 40/2022/TT-BGDĐT quy định về công tác quản lý và tổ chức giáo dục. Thông tư yêu cầu các cơ sở giáo dục phải đảm bảo chất lượng giáo dục và an toàn cho học sinh.",
+          "qas": [
+            {
+              "id": "223",
+              "question": "Thông tư 40/2022/TT-BGDĐT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "công tác quản lý và tổ chức giáo dục",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "224",
+              "question": "Các cơ sở giáo dục cần đảm bảo điều gì theo Thông tư 40/2022/TT-BGDĐT?",
+              "answers": [
+                {
+                  "text": "chất lượng giáo dục và an toàn cho học sinh",
+                  "answer_start": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 28/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 28/2023/QĐ-TTg ban hành chính sách hỗ trợ cho trẻ em có hoàn cảnh khó khăn. Chính sách này nhằm đảm bảo quyền lợi và phát triển toàn diện cho trẻ em.",
+          "qas": [
+            {
+              "id": "225",
+              "question": "Quyết định 28/2023/QĐ-TTg hỗ trợ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "trẻ em có hoàn cảnh khó khăn",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "226",
+              "question": "Mục tiêu của Quyết định 28/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "đảm bảo quyền lợi và phát triển toàn diện cho trẻ em",
+                  "answer_start": 107
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 42/2022/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 42/2022/TT-BYT quy định về tiêu chuẩn sức khỏe đối với người lao động. Thông tư yêu cầu các cơ sở y tế phải thực hiện khám sức khỏe định kỳ cho người lao động.",
+          "qas": [
+            {
+              "id": "227",
+              "question": "Thông tư 42/2022/TT-BYT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "tiêu chuẩn sức khỏe đối với người lao động",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "228",
+              "question": "Các cơ sở y tế cần thực hiện điều gì theo Thông tư 42/2022/TT-BYT?",
+              "answers": [
+                {
+                  "text": "khám sức khỏe định kỳ cho người lao động",
+                  "answer_start": 127
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 36/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 36/2023/NQ-CP đề ra các giải pháp nâng cao chất lượng dịch vụ công. Nghị quyết yêu cầu các cơ quan nhà nước phải cải cách thủ tục hành chính và tăng cường sự minh bạch.",
+          "qas": [
+            {
+              "id": "229",
+              "question": "Nghị quyết 36/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "nâng cao chất lượng dịch vụ công",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "230",
+              "question": "Một trong các yêu cầu của Nghị quyết 36/2023/NQ-CP là gì?",
+              "answers": [
+                {
+                  "text": "cải cách thủ tục hành chính và tăng cường sự minh bạch",
+                  "answer_start": 124
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 35/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 35/2023/NĐ-CP quy định về điều kiện và thủ tục cấp Giấy chứng nhận quyền sử dụng đất. Nghị định này nhằm đảm bảo quyền lợi cho người sử dụng đất và tăng cường quản lý đất đai.",
+          "qas": [
+            {
+              "id": "231",
+              "question": "Nghị định 35/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "điều kiện và thủ tục cấp Giấy chứng nhận quyền sử dụng đất",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "232",
+              "question": "Mục tiêu của Nghị định 35/2023/NĐ-CP là gì?",
+              "answers": [
+                {
+                  "text": "đảm bảo quyền lợi cho người sử dụng đất và tăng cường quản lý đất đai",
+                  "answer_start": 115
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 44/2022/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 44/2022/TT-BLĐTBXH quy định về quy trình lập và thực hiện kế hoạch đào tạo nghề. Thông tư yêu cầu các cơ sở đào tạo phải đảm bảo chất lượng và tính phù hợp của chương trình đào tạo.",
+          "qas": [
+            {
+              "id": "233",
+              "question": "Thông tư 44/2022/TT-BLĐTBXH quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quy trình lập và thực hiện kế hoạch đào tạo nghề",
+                  "answer_start": 40
+                }
+              ]
+            },
+            {
+              "id": "234",
+              "question": "Các cơ sở đào tạo cần đảm bảo điều gì theo Thông tư 44/2022/TT-BLĐTBXH?",
+              "answers": [
+                {
+                  "text": "chất lượng và tính phù hợp của chương trình đào tạo",
+                  "answer_start": 138
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 30/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 30/2023/QĐ-TTg ban hành chính sách hỗ trợ cho người dân vùng sâu, vùng xa trong việc phát triển kinh tế. Chính sách này nhằm cải thiện đời sống cho người dân.",
+          "qas": [
+            {
+              "id": "235",
+              "question": "Quyết định 30/2023/QĐ-TTg hỗ trợ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "người dân vùng sâu, vùng xa",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "236",
+              "question": "Mục tiêu của Quyết định 30/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "cải thiện đời sống cho người dân",
+                  "answer_start": 136
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 45/2022/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 45/2022/TT-BTC hướng dẫn thực hiện chính sách thuế đối với doanh nghiệp nhỏ và vừa. Thông tư này nhằm tạo điều kiện thuận lợi cho doanh nghiệp trong việc thực hiện nghĩa vụ thuế.",
+          "qas": [
+            {
+              "id": "237",
+              "question": "Thông tư 45/2022/TT-BTC quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "chính sách thuế đối với doanh nghiệp nhỏ và vừa",
+                  "answer_start": 44
+                }
+              ]
+            },
+            {
+              "id": "238",
+              "question": "Mục tiêu của Thông tư 45/2022/TT-BTC là gì?",
+              "answers": [
+                {
+                  "text": "tạo điều kiện thuận lợi cho doanh nghiệp trong việc thực hiện nghĩa vụ thuế",
+                  "answer_start": 111
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 38/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 38/2023/NQ-CP đề ra các giải pháp phát triển hạ tầng giao thông. Nghị quyết kêu gọi các nguồn lực đầu tư từ cả khu vực nhà nước và tư nhân.",
+          "qas": [
+            {
+              "id": "239",
+              "question": "Nghị quyết 38/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "phát triển hạ tầng giao thông",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "240",
+              "question": "Nghị quyết 38/2023/NQ-CP kêu gọi nguồn lực đầu tư từ đâu?",
+              "answers": [
+                {
+                  "text": "khu vực nhà nước và tư nhân",
+                  "answer_start": 122
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 36/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 36/2023/NĐ-CP quy định về chính sách hỗ trợ cho người lao động bị ảnh hưởng bởi dịch bệnh. Nghị định này nhằm khôi phục thị trường lao động và bảo vệ quyền lợi của người lao động.",
+          "qas": [
+            {
+              "id": "241",
+              "question": "Nghị định 36/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "chính sách hỗ trợ cho người lao động bị ảnh hưởng bởi dịch bệnh",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "242",
+              "question": "Mục tiêu của Nghị định 36/2023/NĐ-CP là gì?",
+              "answers": [
+                {
+                  "text": "khôi phục thị trường lao động và bảo vệ quyền lợi của người lao động",
+                  "answer_start": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 46/2022/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 46/2022/TT-BYT quy định về quy trình quản lý và bảo trì trang thiết bị y tế. Thông tư yêu cầu các cơ sở y tế thực hiện bảo trì định kỳ để đảm bảo chất lượng thiết bị.",
+          "qas": [
+            {
+              "id": "243",
+              "question": "Thông tư 46/2022/TT-BYT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quy trình quản lý và bảo trì trang thiết bị y tế",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "244",
+              "question": "Các cơ sở y tế cần thực hiện điều gì theo Thông tư 46/2022/TT-BYT?",
+              "answers": [
+                {
+                  "text": "bảo trì định kỳ để đảm bảo chất lượng thiết bị",
+                  "answer_start": 128
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 32/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 32/2023/QĐ-TTg ban hành chính sách hỗ trợ cho các hộ gia đình khó khăn trong việc tiếp cận dịch vụ điện. Chính sách này nhằm nâng cao chất lượng cuộc sống cho người dân.",
+          "qas": [
+            {
+              "id": "245",
+              "question": "Quyết định 32/2023/QĐ-TTg hỗ trợ cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "các hộ gia đình khó khăn",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "246",
+              "question": "Mục tiêu của Quyết định 32/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "nâng cao chất lượng cuộc sống cho người dân",
+                  "answer_start": 136
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 48/2022/TT-BTC",
+      "paragraphs": [
+        {
+          "context": "Thông tư 48/2022/TT-BTC hướng dẫn về chế độ kế toán cho doanh nghiệp vừa và nhỏ. Thông tư này nhằm đơn giản hóa thủ tục kế toán cho doanh nghiệp.",
+          "qas": [
+            {
+              "id": "247",
+              "question": "Thông tư 48/2022/TT-BTC quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "chế độ kế toán cho doanh nghiệp vừa và nhỏ",
+                  "answer_start": 37
+                }
+              ]
+            },
+            {
+              "id": "248",
+              "question": "Mục tiêu của Thông tư 48/2022/TT-BTC là gì?",
+              "answers": [
+                {
+                  "text": "đơn giản hóa thủ tục kế toán cho doanh nghiệp",
+                  "answer_start": 99
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 40/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 40/2023/NQ-CP đề ra các giải pháp bảo vệ môi trường và phát triển bền vững. Nghị quyết yêu cầu các cơ quan nhà nước phải tăng cường quản lý tài nguyên thiên nhiên.",
+          "qas": [
+            {
+              "id": "249",
+              "question": "Nghị quyết 40/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ môi trường và phát triển bền vững",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "250",
+              "question": "Một trong các yêu cầu của Nghị quyết 40/2023/NQ-CP là gì?",
+              "answers": [
+                {
+                  "text": "tăng cường quản lý tài nguyên thiên nhiên",
+                  "answer_start": 132
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 37/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 37/2023/NĐ-CP quy định về quản lý, sử dụng tài sản công tại các đơn vị sự nghiệp công lập. Nghị định này nhằm đảm bảo tính minh bạch và hiệu quả trong việc sử dụng tài sản công.",
+          "qas": [
+            {
+              "id": "251",
+              "question": "Nghị định 37/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý, sử dụng tài sản công tại các đơn vị sự nghiệp công lập",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "252",
+              "question": "Mục tiêu của Nghị định 37/2023/NĐ-CP là gì?",
+              "answers": [
+                {
+                  "text": "đảm bảo tính minh bạch và hiệu quả trong việc sử dụng tài sản công",
+                  "answer_start": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 49/2022/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 49/2022/TT-BGDĐT hướng dẫn về công tác tư vấn tâm lý học đường cho học sinh. Thông tư yêu cầu các trường học cung cấp dịch vụ tư vấn tâm lý nhằm hỗ trợ học sinh phát triển toàn diện.",
+          "qas": [
+            {
+              "id": "253",
+              "question": "Thông tư 49/2022/TT-BGDĐT quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "công tác tư vấn tâm lý học đường cho học sinh",
+                  "answer_start": 39
+                }
+              ]
+            },
+            {
+              "id": "254",
+              "question": "Mục tiêu của Thông tư 49/2022/TT-BGDĐT là gì?",
+              "answers": [
+                {
+                  "text": "hỗ trợ học sinh phát triển toàn diện",
+                  "answer_start": 154
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 33/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 33/2023/QĐ-TTg ban hành các chính sách khuyến khích đầu tư vào lĩnh vực nông nghiệp công nghệ cao. Chính sách này nhằm thúc đẩy phát triển bền vững nông nghiệp và nâng cao hiệu quả sản xuất.",
+          "qas": [
+            {
+              "id": "255",
+              "question": "Quyết định 33/2023/QĐ-TTg ban hành các chính sách khuyến khích đầu tư vào lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "nông nghiệp công nghệ cao",
+                  "answer_start": 83
+                }
+              ]
+            },
+            {
+              "id": "256",
+              "question": "Mục tiêu của Quyết định 33/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "thúc đẩy phát triển bền vững nông nghiệp và nâng cao hiệu quả sản xuất",
+                  "answer_start": 130
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 50/2022/TT-BTNMT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 50/2022/TT-BTNMT quy định về quy trình đánh giá tác động môi trường cho các dự án đầu tư xây dựng. Thông tư yêu cầu các chủ đầu tư phải thực hiện đánh giá tác động môi trường để bảo vệ hệ sinh thái.",
+          "qas": [
+            {
+              "id": "257",
+              "question": "Thông tư 50/2022/TT-BTNMT quy định về quy trình nào?",
+              "answers": [
+                {
+                  "text": "quy trình đánh giá tác động môi trường cho các dự án đầu tư xây dựng",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "258",
+              "question": "Các chủ đầu tư phải thực hiện điều gì theo Thông tư 50/2022/TT-BTNMT?",
+              "answers": [
+                {
+                  "text": "đánh giá tác động môi trường để bảo vệ hệ sinh thái",
+                  "answer_start": 155
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 42/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 42/2023/NQ-CP đề ra các giải pháp cải thiện chất lượng dịch vụ công trực tuyến. Nghị quyết yêu cầu các cơ quan hành chính nhà nước tăng cường ứng dụng công nghệ thông tin để nâng cao hiệu quả dịch vụ.",
+          "qas": [
+            {
+              "id": "259",
+              "question": "Nghị quyết 42/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "cải thiện chất lượng dịch vụ công trực tuyến",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "260",
+              "question": "Nghị quyết 42/2023/NQ-CP yêu cầu các cơ quan hành chính thực hiện điều gì?",
+              "answers": [
+                {
+                  "text": "tăng cường ứng dụng công nghệ thông tin để nâng cao hiệu quả dịch vụ",
+                  "answer_start": 142
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 38/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 38/2023/NĐ-CP quy định về quản lý, sử dụng tài nguyên đất tại các khu công nghiệp. Nghị định này nhằm bảo vệ quỹ đất và khuyến khích phát triển công nghiệp bền vững.",
+          "qas": [
+            {
+              "id": "261",
+              "question": "Nghị định 38/2023/NĐ-CP quy định về quản lý tài nguyên nào?",
+              "answers": [
+                {
+                  "text": "tài nguyên đất tại các khu công nghiệp",
+                  "answer_start": 53
+                }
+              ]
+            },
+            {
+              "id": "262",
+              "question": "Mục tiêu của Nghị định 38/2023/NĐ-CP là gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ quỹ đất và khuyến khích phát triển công nghiệp bền vững",
+                  "answer_start": 112
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 51/2022/TT-BGTVT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 51/2022/TT-BGTVT quy định về tiêu chuẩn an toàn giao thông đường bộ cho các phương tiện vận tải. Thông tư yêu cầu các phương tiện phải đáp ứng tiêu chuẩn kỹ thuật trước khi được phép lưu hành.",
+          "qas": [
+            {
+              "id": "263",
+              "question": "Thông tư 51/2022/TT-BGTVT quy định về tiêu chuẩn an toàn nào?",
+              "answers": [
+                {
+                  "text": "an toàn giao thông đường bộ cho các phương tiện vận tải",
+                  "answer_start": 49
+                }
+              ]
+            },
+            {
+              "id": "264",
+              "question": "Theo Thông tư 51/2022/TT-BGTVT, các phương tiện vận tải phải đáp ứng điều gì?",
+              "answers": [
+                {
+                  "text": "đáp ứng tiêu chuẩn kỹ thuật trước khi được phép lưu hành",
+                  "answer_start": 144
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 34/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 34/2023/QĐ-TTg ban hành chính sách hỗ trợ phát triển hạ tầng giáo dục tại các vùng khó khăn. Chính sách này nhằm nâng cao chất lượng giáo dục và tạo điều kiện học tập tốt cho học sinh.",
+          "qas": [
+            {
+              "id": "265",
+              "question": "Quyết định 34/2023/QĐ-TTg hỗ trợ phát triển hạ tầng giáo dục ở đâu?",
+              "answers": [
+                {
+                  "text": "tại các vùng khó khăn",
+                  "answer_start": 81
+                }
+              ]
+            },
+            {
+              "id": "266",
+              "question": "Mục tiêu của Quyết định 34/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "nâng cao chất lượng giáo dục và tạo điều kiện học tập tốt cho học sinh",
+                  "answer_start": 124
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 52/2022/TT-BNNPTNT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 52/2022/TT-BNNPTNT quy định về quy trình bảo vệ rừng phòng hộ và rừng đặc dụng. Thông tư này yêu cầu các cơ quan quản lý rừng thực hiện giám sát và bảo vệ rừng nhằm đảm bảo phát triển bền vững.",
+          "qas": [
+            {
+              "id": "267",
+              "question": "Thông tư 52/2022/TT-BNNPTNT quy định về quy trình bảo vệ gì?",
+              "answers": [
+                {
+                  "text": "bảo vệ rừng phòng hộ và rừng đặc dụng",
+                  "answer_start": 50
+                }
+              ]
+            },
+            {
+              "id": "268",
+              "question": "Thông tư 52/2022/TT-BNNPTNT yêu cầu các cơ quan quản lý rừng thực hiện điều gì?",
+              "answers": [
+                {
+                  "text": "giám sát và bảo vệ rừng nhằm đảm bảo phát triển bền vững",
+                  "answer_start": 145
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 44/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 44/2023/NQ-CP đề ra các giải pháp phát triển kinh tế biển bền vững. Nghị quyết khuyến khích đầu tư vào các dự án khai thác tài nguyên biển một cách có trách nhiệm và bảo vệ môi trường biển.",
+          "qas": [
+            {
+              "id": "269",
+              "question": "Nghị quyết 44/2023/NQ-CP nhằm mục tiêu gì?",
+              "answers": [
+                {
+                  "text": "phát triển kinh tế biển bền vững",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "270",
+              "question": "Nghị quyết 44/2023/NQ-CP khuyến khích đầu tư vào các dự án khai thác tài nguyên biển như thế nào?",
+              "answers": [
+                {
+                  "text": "một cách có trách nhiệm và bảo vệ môi trường biển",
+                  "answer_start": 150
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 39/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 39/2023/NĐ-CP quy định về việc quản lý chất lượng công trình xây dựng công cộng. Nghị định yêu cầu các chủ đầu tư phải đảm bảo các tiêu chuẩn kỹ thuật trong quá trình thi công để duy trì an toàn và bền vững cho công trình.",
+          "qas": [
+            {
+              "id": "271",
+              "question": "Nghị định 39/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "quản lý chất lượng công trình xây dựng công cộng",
+                  "answer_start": 41
+                }
+              ]
+            },
+            {
+              "id": "272",
+              "question": "Nghị định 39/2023/NĐ-CP yêu cầu gì đối với các chủ đầu tư?",
+              "answers": [
+                {
+                  "text": "đảm bảo các tiêu chuẩn kỹ thuật trong quá trình thi công để duy trì an toàn và bền vững cho công trình",
+                  "answer_start": 129
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 53/2022/TT-BLĐTBXH",
+      "paragraphs": [
+        {
+          "context": "Thông tư 53/2022/TT-BLĐTBXH quy định về chế độ bảo hiểm cho người lao động trong các ngành nghề nguy hiểm. Thông tư yêu cầu các doanh nghiệp phải đảm bảo điều kiện an toàn lao động và cung cấp bảo hiểm đầy đủ cho người lao động.",
+          "qas": [
+            {
+              "id": "273",
+              "question": "Thông tư 53/2022/TT-BLĐTBXH quy định về chế độ bảo hiểm cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "người lao động trong các ngành nghề nguy hiểm",
+                  "answer_start": 60
+                }
+              ]
+            },
+            {
+              "id": "274",
+              "question": "Thông tư 53/2022/TT-BLĐTBXH yêu cầu các doanh nghiệp thực hiện điều gì?",
+              "answers": [
+                {
+                  "text": "đảm bảo điều kiện an toàn lao động và cung cấp bảo hiểm đầy đủ cho người lao động",
+                  "answer_start": 146
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 35/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 35/2023/QĐ-TTg ban hành chính sách hỗ trợ phát triển ngành thủy sản tại các khu vực ven biển. Chính sách này nhằm cải thiện đời sống ngư dân và thúc đẩy phát triển kinh tế vùng biển.",
+          "qas": [
+            {
+              "id": "275",
+              "question": "Quyết định 35/2023/QĐ-TTg hỗ trợ phát triển ngành nào?",
+              "answers": [
+                {
+                  "text": "ngành thủy sản tại các khu vực ven biển",
+                  "answer_start": 64
+                }
+              ]
+            },
+            {
+              "id": "276",
+              "question": "Mục tiêu của Quyết định 35/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "cải thiện đời sống ngư dân và thúc đẩy phát triển kinh tế vùng biển",
+                  "answer_start": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 54/2022/TT-BKHĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 54/2022/TT-BKHĐT quy định về thủ tục cấp giấy chứng nhận đầu tư cho các dự án công nghệ cao. Thông tư yêu cầu các nhà đầu tư phải đáp ứng các tiêu chuẩn về công nghệ và bảo vệ môi trường để được cấp giấy chứng nhận.",
+          "qas": [
+            {
+              "id": "277",
+              "question": "Thông tư 54/2022/TT-BKHĐT quy định về thủ tục gì?",
+              "answers": [
+                {
+                  "text": "thủ tục cấp giấy chứng nhận đầu tư cho các dự án công nghệ cao",
+                  "answer_start": 38
+                }
+              ]
+            },
+            {
+              "id": "278",
+              "question": "Các nhà đầu tư cần đáp ứng điều gì để được cấp giấy chứng nhận theo Thông tư 54/2022/TT-BKHĐT?",
+              "answers": [
+                {
+                  "text": "đáp ứng các tiêu chuẩn về công nghệ và bảo vệ môi trường",
+                  "answer_start": 139
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 45/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 45/2023/NQ-CP đưa ra các chính sách thúc đẩy phát triển du lịch xanh và bảo tồn di sản văn hóa. Nghị quyết yêu cầu các cơ quan quản lý du lịch tăng cường kiểm tra để đảm bảo bảo vệ tài nguyên du lịch.",
+          "qas": [
+            {
+              "id": "279",
+              "question": "Nghị quyết 45/2023/NQ-CP đưa ra các chính sách thúc đẩy phát triển loại hình du lịch nào?",
+              "answers": [
+                {
+                  "text": "du lịch xanh và bảo tồn di sản văn hóa",
+                  "answer_start": 67
+                }
+              ]
+            },
+            {
+              "id": "280",
+              "question": "Nghị quyết 45/2023/NQ-CP yêu cầu các cơ quan quản lý du lịch thực hiện điều gì?",
+              "answers": [
+                {
+                  "text": "tăng cường kiểm tra để đảm bảo bảo vệ tài nguyên du lịch",
+                  "answer_start": 154
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 40/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 40/2023/NĐ-CP quy định về quản lý và khai thác tài nguyên khoáng sản. Nghị định yêu cầu các tổ chức và cá nhân khai thác khoáng sản phải tuân thủ các quy định bảo vệ môi trường và an toàn lao động.",
+          "qas": [
+            {
+              "id": "281",
+              "question": "Nghị định 40/2023/NĐ-CP quy định về lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "quản lý và khai thác tài nguyên khoáng sản",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "282",
+              "question": "Theo Nghị định 40/2023/NĐ-CP, các tổ chức và cá nhân khai thác khoáng sản phải tuân thủ điều gì?",
+              "answers": [
+                {
+                  "text": "tuân thủ các quy định bảo vệ môi trường và an toàn lao động",
+                  "answer_start": 147
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 55/2022/TT-BYT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 55/2022/TT-BYT quy định về điều kiện an toàn vệ sinh thực phẩm đối với các cơ sở kinh doanh dịch vụ ăn uống. Thông tư yêu cầu các cơ sở phải đạt chuẩn vệ sinh và thường xuyên kiểm tra nguồn nguyên liệu để đảm bảo sức khỏe người tiêu dùng.",
+          "qas": [
+            {
+              "id": "283",
+              "question": "Thông tư 55/2022/TT-BYT quy định điều kiện an toàn vệ sinh thực phẩm cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "các cơ sở kinh doanh dịch vụ ăn uống",
+                  "answer_start": 80
+                }
+              ]
+            },
+            {
+              "id": "284",
+              "question": "Các cơ sở kinh doanh dịch vụ ăn uống phải làm gì theo Thông tư 55/2022/TT-BYT?",
+              "answers": [
+                {
+                  "text": "đạt chuẩn vệ sinh và thường xuyên kiểm tra nguồn nguyên liệu",
+                  "answer_start": 150
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 36/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 36/2023/QĐ-TTg đưa ra các chính sách hỗ trợ phát triển nông nghiệp hữu cơ. Chính sách này nhằm giảm thiểu tác động tiêu cực đến môi trường và nâng cao giá trị sản phẩm nông nghiệp.",
+          "qas": [
+            {
+              "id": "285",
+              "question": "Quyết định 36/2023/QĐ-TTg hỗ trợ phát triển loại hình nông nghiệp nào?",
+              "answers": [
+                {
+                  "text": "nông nghiệp hữu cơ",
+                  "answer_start": 66
+                }
+              ]
+            },
+            {
+              "id": "286",
+              "question": "Mục tiêu của Quyết định 36/2023/QĐ-TTg là gì?",
+              "answers": [
+                {
+                  "text": "giảm thiểu tác động tiêu cực đến môi trường và nâng cao giá trị sản phẩm nông nghiệp",
+                  "answer_start": 106
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 56/2022/TT-BNNPTNT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 56/2022/TT-BNNPTNT quy định về việc kiểm dịch động vật và sản phẩm động vật nhập khẩu. Thông tư yêu cầu các sản phẩm này phải trải qua quy trình kiểm tra chặt chẽ để ngăn ngừa dịch bệnh.",
+          "qas": [
+            {
+              "id": "287",
+              "question": "Thông tư 56/2022/TT-BNNPTNT quy định về việc gì?",
+              "answers": [
+                {
+                  "text": "kiểm dịch động vật và sản phẩm động vật nhập khẩu",
+                  "answer_start": 45
+                }
+              ]
+            },
+            {
+              "id": "288",
+              "question": "Các sản phẩm động vật nhập khẩu phải trải qua quy trình gì theo Thông tư 56/2022/TT-BNNPTNT?",
+              "answers": [
+                {
+                  "text": "quy trình kiểm tra chặt chẽ để ngăn ngừa dịch bệnh",
+                  "answer_start": 144
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 46/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 46/2023/NQ-CP đề ra các giải pháp phát triển hệ thống giao thông xanh, bao gồm khuyến khích sử dụng các phương tiện giao thông công cộng và các phương tiện sử dụng năng lượng tái tạo nhằm giảm ô nhiễm môi trường.",
+          "qas": [
+            {
+              "id": "289",
+              "question": "Nghị quyết 46/2023/NQ-CP đề ra giải pháp phát triển hệ thống giao thông nào?",
+              "answers": [
+                {
+                  "text": "hệ thống giao thông xanh",
+                  "answer_start": 56
+                }
+              ]
+            },
+            {
+              "id": "290",
+              "question": "Nghị quyết 46/2023/NQ-CP khuyến khích sử dụng loại phương tiện nào?",
+              "answers": [
+                {
+                  "text": "các phương tiện giao thông công cộng và các phương tiện sử dụng năng lượng tái tạo",
+                  "answer_start": 111
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị định 41/2023/NĐ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị định 41/2023/NĐ-CP quy định về xử lý chất thải công nghiệp và chất thải nguy hại nhằm bảo vệ môi trường. Nghị định yêu cầu các doanh nghiệp phải có kế hoạch xử lý chất thải hiệu quả, tránh gây ô nhiễm môi trường xung quanh.",
+          "qas": [
+            {
+              "id": "291",
+              "question": "Nghị định 41/2023/NĐ-CP quy định về vấn đề gì?",
+              "answers": [
+                {
+                  "text": "xử lý chất thải công nghiệp và chất thải nguy hại",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "292",
+              "question": "Theo Nghị định 41/2023/NĐ-CP, các doanh nghiệp phải làm gì để bảo vệ môi trường?",
+              "answers": [
+                {
+                  "text": "có kế hoạch xử lý chất thải hiệu quả, tránh gây ô nhiễm môi trường xung quanh",
+                  "answer_start": 150
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 57/2022/TT-BGDĐT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 57/2022/TT-BGDĐT quy định về tiêu chuẩn giáo viên mầm non, tiểu học, trung học cơ sở. Theo đó, giáo viên phải đạt các tiêu chuẩn về trình độ chuyên môn, kỹ năng sư phạm, và đạo đức nghề nghiệp.",
+          "qas": [
+            {
+              "id": "293",
+              "question": "Thông tư 57/2022/TT-BGDĐT quy định tiêu chuẩn cho đối tượng nào?",
+              "answers": [
+                {
+                  "text": "giáo viên mầm non, tiểu học, trung học cơ sở",
+                  "answer_start": 49
+                }
+              ]
+            },
+            {
+              "id": "294",
+              "question": "Giáo viên cần đạt các tiêu chuẩn gì theo Thông tư 57/2022/TT-BGDĐT?",
+              "answers": [
+                {
+                  "text": "trình độ chuyên môn, kỹ năng sư phạm, và đạo đức nghề nghiệp",
+                  "answer_start": 141
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quyết định 37/2023/QĐ-TTg",
+      "paragraphs": [
+        {
+          "context": "Quyết định 37/2023/QĐ-TTg ban hành các chính sách hỗ trợ doanh nghiệp nhỏ và vừa trong việc phát triển công nghệ. Chính sách này bao gồm hỗ trợ tài chính, đào tạo nhân lực, và ưu đãi thuế để nâng cao năng lực cạnh tranh của doanh nghiệp.",
+          "qas": [
+            {
+              "id": "295",
+              "question": "Quyết định 37/2023/QĐ-TTg hỗ trợ đối tượng nào?",
+              "answers": [
+                {
+                  "text": "doanh nghiệp nhỏ và vừa",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "296",
+              "question": "Quyết định 37/2023/QĐ-TTg bao gồm những hỗ trợ nào?",
+              "answers": [
+                {
+                  "text": "hỗ trợ tài chính, đào tạo nhân lực, và ưu đãi thuế",
+                  "answer_start": 137
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thông tư 58/2022/TT-BGTVT",
+      "paragraphs": [
+        {
+          "context": "Thông tư 58/2022/TT-BGTVT quy định về điều kiện kinh doanh vận tải đường bộ. Thông tư yêu cầu các doanh nghiệp vận tải phải đảm bảo các điều kiện an toàn, chất lượng dịch vụ và bảo vệ môi trường trong quá trình hoạt động.",
+          "qas": [
+            {
+              "id": "297",
+              "question": "Thông tư 58/2022/TT-BGTVT quy định điều kiện kinh doanh cho lĩnh vực nào?",
+              "answers": [
+                {
+                  "text": "vận tải đường bộ",
+                  "answer_start": 59
+                }
+              ]
+            },
+            {
+              "id": "298",
+              "question": "Doanh nghiệp vận tải đường bộ cần đảm bảo các điều kiện gì theo Thông tư 58/2022/TT-BGTVT?",
+              "answers": [
+                {
+                  "text": "an toàn, chất lượng dịch vụ và bảo vệ môi trường",
+                  "answer_start": 146
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nghị quyết 47/2023/NQ-CP",
+      "paragraphs": [
+        {
+          "context": "Nghị quyết 47/2023/NQ-CP khuyến khích các doanh nghiệp phát triển năng lượng tái tạo, bao gồm điện gió, điện mặt trời và điện sinh khối. Nghị quyết đề ra các chính sách hỗ trợ về thuế, tài chính và hạ tầng để thúc đẩy sự phát triển của ngành năng lượng xanh.",
+          "qas": [
+            {
+              "id": "299",
+              "question": "Nghị quyết 47/2023/NQ-CP khuyến khích phát triển loại năng lượng nào?",
+              "answers": [
+                {
+                  "text": "năng lượng tái tạo",
+                  "answer_start": 66
+                }
+              ]
+            },
+            {
+              "id": "300",
+              "question": "Các chính sách hỗ trợ của Nghị quyết 47/2023/NQ-CP bao gồm những gì?",
+              "answers": [
+                {
+                  "text": "hỗ trợ về thuế, tài chính và hạ tầng",
+                  "answer_start": 169
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
