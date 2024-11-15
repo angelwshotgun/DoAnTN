@@ -87,8 +87,8 @@ def main():
     """
     Hàm chính
     """
-    input_file = "C:\\Users\\z\\Documents\\vu\\python\\DoAnTN\\flask_squad_app\\data\\xd.json"
-    output_file = "qa_dataset_fixed.json"
+    input_file = "C:\\Users\\z\\Documents\\vu\\python\\DoAnTN\\flask_squad_app\\data\\xdfixed1.json"
+    output_file = "C:\\Users\\z\\Documents\\vu\\python\\DoAnTN\\flask_squad_app\\data\\xdfixed2.json"
     
     try:
         results = validate_and_fix_answer_start(input_file, output_file)

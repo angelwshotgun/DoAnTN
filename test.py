@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
 # Load fine-tuned model and tokenizer
-model_path = "C:\\Users\\z\\Documents\\vu\\python\\DoAnTN\\phobert-qa1"  # Thư mục chứa mô hình đã tinh chỉnh
+model_path = "C:\\Users\\z\\Documents\\vu\\python\\phobert-qa1"  # Thư mục chứa mô hình đã tinh chỉnh
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForQuestionAnswering.from_pretrained(model_path)
 

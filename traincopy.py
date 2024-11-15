@@ -10,7 +10,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Đường dẫn đến file JSON chứa dữ liệu theo định dạng SQuAD
-json_file_path = "C:\\Users\\z\\Documents\\vu\\python\\DoAnTN\\flask_squad_app\\data\\xd.json"
+json_file_path = "C:\\Users\\z\\Documents\\vu\\python\\DoAnTN\\flask_squad_app\\data\\xdfixed2.json"
 
 # Load dữ liệu từ file JSON
 print(f"Loading dataset from: {json_file_path}")
@@ -47,6 +47,7 @@ print("Model and tokenizer loaded.")
 
 # Tokenize dữ liệu và sử dụng answer_start có sẵn từ JSON
 def process_row(context, question, answer):
+    tokenizer.truncation_side = "left"
     inputs = tokenizer(
         question,
         context,
@@ -79,18 +80,16 @@ data_collator = DataCollatorWithPadding(tokenizer, padding=True)
 
 # Thiết lập các thông số training
 training_args = TrainingArguments(
-    output_dir="./phobert-qa2",
+    output_dir="./phobert-qa",
     overwrite_output_dir=True,
-    num_train_epochs=8,
-    learning_rate=1e-5,
-    warmup_ratio=0.1,
+    num_train_epochs=4,
+    learning_rate=3e-5,
     weight_decay=0.01,
-    per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
     gradient_accumulation_steps=2,
     eval_strategy="epoch",
-    save_steps=10_000,
-    save_total_limit=2,
+    save_strategy = "epoch",
     logging_dir='./logs',
     logging_steps=50,
     report_to="none",
@@ -115,7 +114,7 @@ trainer.train()
 
 # Lưu mô hình đã fine-tuned
 print("Saving model and tokenizer...")
-trainer.save_model("./phobert-qa2")
-tokenizer.save_pretrained("./phobert-qa2")
+trainer.save_model("./phobert-qa")
+tokenizer.save_pretrained("./phobert-qa")
 
 print("Fine-tuning completed and model saved.")
