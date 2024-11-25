@@ -10602,8 +10602,8 @@
               "question": "Thông báo này liên quan đến việc gì?",
               "answers": [
                 {
-                  "text": "áp dụng hệ thống giao thông thông minh tại các thành phố lớn",
-                  "answer_start": 35
+                  "text": "về việc áp dụng hệ thống giao thông thông minh tại các thành phố lớn",
+                  "answer_start": 27
                 }
               ]
             },
@@ -10632,8 +10632,8 @@
               "question": "Thông báo này liên quan đến việc gì?",
               "answers": [
                 {
-                  "text": "triển khai các biện pháp an toàn giao thông trong mùa mưa bão",
-                  "answer_start": 45
+                  "text": "về việc triển khai các biện pháp an toàn giao thông trong mùa mưa bão",
+                  "answer_start": 37
                 }
               ]
             },

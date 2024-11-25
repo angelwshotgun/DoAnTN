@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
 # Load fine-tuned model and tokenizer
-model_path = "C:\\Users\\z\\Documents\\vu\\python\\phobert-qa1"  # Thư mục chứa mô hình đã tinh chỉnh
+model_path = "C:\\Users\\z\\Documents\\vu\\python\\phobert-qa"  # Thư mục chứa mô hình đã tinh chỉnh
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForQuestionAnswering.from_pretrained(model_path)
 
@@ -27,6 +27,6 @@ def answer_question(context, question):
     return answer
 
 # Example usage
-context = "Nghị quyết 28/2023/NQ-CP đề ra các giải pháp thúc đẩy sản xuất nông nghiệp ứng dụng công nghệ cao."
-question = "Nghị quyết 28/2023/NQ-CP nhằm mục tiêu gì?"
+context = "Thông tư 54/2022/TT-BKHĐT quy định về thủ tục cấp giấy chứng nhận đầu tư cho các dự án công nghệ cao. Thông tư yêu cầu các nhà đầu tư phải đáp ứng các tiêu chuẩn về công nghệ và bảo vệ môi trường để được cấp giấy chứng nhận."
+question = "Thông tư 54/2022/TT-BKHĐT quy định về thủ tục gì?"
 print(answer_question(context, question))
