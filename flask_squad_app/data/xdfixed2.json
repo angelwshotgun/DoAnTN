@@ -26,6 +26,16 @@
                   "answer_start": 138
                 }
               ]
+            },
+            {
+              "id": "2.1",
+              "question": "Tên của văn bản là gì?",
+              "answers": [
+                {
+                  "text": "Thông tư 01/2020/TT-BTP",
+                  "answer_start": 138
+                }
+              ]
             }
           ]
         }
@@ -54,6 +64,16 @@
                 {
                   "text": "lĩnh vực giao thông đường bộ và đường sắt",
                   "answer_start": 70
+                }
+              ]
+            },
+            {
+              "id": "4.1",
+              "question": "Tên của văn bản là gì?",
+              "answers": [
+                {
+                  "text": "Nghị định 100/2019/NĐ-CP",
+                  "answer_start": 138
                 }
               ]
             }
@@ -86,6 +106,36 @@
                   "answer_start": 106
                 }
               ]
+            },
+            {
+              "id": "6.1",
+              "question": "Luật được ai thông qua?",
+              "answers": [
+                {
+                  "text": "được Quốc hội thông qua",
+                  "answer_start": 106
+                }
+              ]
+            },
+            {
+              "id": "6.1",
+              "question": "Luật được thông qua bởi ai?",
+              "answers": [
+                {
+                  "text": "Quốc hội",
+                  "answer_start": 106
+                }
+              ]
+            },
+            {
+              "id": "6.1",
+              "question": "Luật được thông qua vào ngày bao nhiêu?",
+              "answers": [
+                {
+                  "text": "ngày 17/11/2020",
+                  "answer_start": 106
+                }
+              ]
             }
           ]
         }
@@ -113,6 +163,26 @@
               "answers": [
                 {
                   "text": "về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử",
+                  "answer_start": 34
+                }
+              ]
+            },
+            {
+              "id": "8.1",
+              "question": "Tên của văn bản là gì?",
+              "answers": [
+                {
+                  "text": "Nghị định 123/2020/NĐ-CP",
+                  "answer_start": 34
+                }
+              ]
+            },
+            {
+              "id": "8.1",
+              "question": "Nội dung của văn bản là gì?",
+              "answers": [
+                {
+                  "text": "quy định về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử, có hiệu lực từ ngày 01/07/2022",
                   "answer_start": 34
                 }
               ]
