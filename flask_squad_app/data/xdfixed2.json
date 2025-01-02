@@ -9,7 +9,7 @@
           "qas": [
             {
               "id": "1",
-              "question": "Thông tư 01/2020/TT-BTP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2020",
@@ -19,7 +19,7 @@
             },
             {
               "id": "2",
-              "question": "Thông tư 01/2020/TT-BTP áp dụng cho những đối tượng nào?",
+              "question": "Văn bản áp dụng cho những đối tượng nào?",
               "answers": [
                 {
                   "text": "cơ quan hộ tịch, tổ chức và cá nhân liên quan đến đăng ký hộ tịch tại Việt Nam",
@@ -49,7 +49,7 @@
           "qas": [
             {
               "id": "3",
-              "question": "Nghị định 100/2019/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/01/2020",
@@ -89,7 +89,7 @@
           "qas": [
             {
               "id": "5",
-              "question": "Luật Bảo vệ môi trường 2020 có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/01/2022",
@@ -99,7 +99,7 @@
             },
             {
               "id": "6",
-              "question": "Mục tiêu chính của Luật Bảo vệ môi trường 2020 là gì?",
+              "question": "Mục tiêu chính của Luật là gì?",
               "answers": [
                 {
                   "text": "bảo vệ và cải thiện chất lượng môi trường",
@@ -149,7 +149,7 @@
           "qas": [
             {
               "id": "7",
-              "question": "Nghị định 123/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2022",
@@ -159,7 +159,7 @@
             },
             {
               "id": "8",
-              "question": "Nghị định 123/2020/NĐ-CP quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử",
@@ -199,7 +199,7 @@
           "qas": [
             {
               "id": "9",
-              "question": "Thông tư 09/2021/TT-BYT có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/06/2021",
@@ -209,7 +209,7 @@
             },
             {
               "id": "10",
-              "question": "Thông tư 09/2021/TT-BYT quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "việc cấp chứng nhận tiêm chủng COVID-19",
@@ -229,7 +229,7 @@
           "qas": [
             {
               "id": "11",
-              "question": "Nghị định 145/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/02/2021",
@@ -239,7 +239,7 @@
             },
             {
               "id": "12",
-              "question": "Nghị định 145/2020/NĐ-CP hướng dẫn thi hành về vấn đề gì?",
+              "question": "Văn bản hướng dẫn thi hành về vấn đề gì?",
               "answers": [
                 {
                   "text": "về điều kiện lao động và quan hệ lao động",
@@ -259,7 +259,7 @@
           "qas": [
             {
               "id": "13",
-              "question": "Luật Doanh nghiệp 2020 có hiệu lực từ ngày nào?",
+              "question": "Luật có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/01/2021",
@@ -269,7 +269,7 @@
             },
             {
               "id": "14",
-              "question": "Luật Doanh nghiệp 2020 quy định về vấn đề gì?",
+              "question": "Luật quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quyền và nghĩa vụ của các doanh nghiệp tại Việt Nam",
@@ -289,7 +289,7 @@
           "qas": [
             {
               "id": "15",
-              "question": "Thông tư 02/2021/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 20/03/2021",
@@ -299,7 +299,7 @@
             },
             {
               "id": "16",
-              "question": "Thông tư 02/2021/TT-BGDĐT quy định về vấn đề gì?",
+              "question": "Thông tư quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "tiêu chuẩn đánh giá chất lượng giáo dục đối với cơ sở giáo dục phổ thông",
@@ -319,7 +319,7 @@
           "qas": [
             {
               "id": "17",
-              "question": "Nghị định 59/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Nghị định có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 15/07/2020",
@@ -329,7 +329,7 @@
             },
             {
               "id": "18",
-              "question": "Nghị định 59/2020/NĐ-CP quy định về vấn đề gì?",
+              "question": "Nghị định quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quản lý và xử lý chất thải rắn sinh hoạt",
@@ -345,11 +345,11 @@
       "title": "Thông tư 10/2021/TT-BTNMT",
       "paragraphs": [
         {
-          "context": "Thông tư 10/2021/TT-BTNMT quy định kỹ thuật về quan trắc môi trường nước, không khí và đất, có hiệu lực từ ngày 01/05/2021.",
+          "context": "Thông tư quy định kỹ thuật về quan trắc môi trường nước, không khí và đất, có hiệu lực từ ngày 01/05/2021.",
           "qas": [
             {
               "id": "19",
-              "question": "Thông tư 10/2021/TT-BTNMT có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/05/2021",
@@ -359,7 +359,7 @@
             },
             {
               "id": "20",
-              "question": "Thông tư 10/2021/TT-BTNMT quy định về vấn đề gì?",
+              "question": "Thông tư quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "kỹ thuật về quan trắc môi trường nước, không khí và đất",
@@ -379,7 +379,7 @@
           "qas": [
             {
               "id": "21",
-              "question": "Nghị định 31/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Nghị định có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 26/03/2021",
@@ -389,7 +389,7 @@
             },
             {
               "id": "22",
-              "question": "Nghị định 31/2021/NĐ-CP hướng dẫn thi hành Luật nào?",
+              "question": "Nghị định hướng dẫn thi hành Luật nào?",
               "answers": [
                 {
                   "text": "Luật Đầu tư",
@@ -409,7 +409,7 @@
           "qas": [
             {
               "id": "23",
-              "question": "Thông tư 11/2021/TT-BTC có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2021",
@@ -419,7 +419,7 @@
             },
             {
               "id": "24",
-              "question": "Thông tư 11/2021/TT-BTC quy định về vấn đề gì?",
+              "question": "Thông tư quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quản lý và sử dụng vốn ODA và vốn vay ưu đãi của các nhà tài trợ nước ngoài",
@@ -439,7 +439,7 @@
           "qas": [
             {
               "id": "25",
-              "question": "Nghị định 82/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/10/2020",
@@ -449,7 +449,7 @@
             },
             {
               "id": "26",
-              "question": "Nghị định 82/2020/NĐ-CP quy định về những khu vực nào?",
+              "question": "Văn bản quy định về những khu vực nào?",
               "answers": [
                 {
                   "text": "khu công nghiệp và khu kinh tế",
@@ -469,7 +469,7 @@
           "qas": [
             {
               "id": "27",
-              "question": "Luật Cư trú 2020 có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2021",
@@ -479,7 +479,7 @@
             },
             {
               "id": "28",
-              "question": "Luật Cư trú 2020 quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quyền và nghĩa vụ cư trú của công dân, cũng như các thủ tục liên quan đến đăng ký thường trú, tạm trú",
@@ -499,7 +499,7 @@
           "qas": [
             {
               "id": "29",
-              "question": "Thông tư 12/2021/TT-BYT có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/10/2021",
@@ -509,7 +509,7 @@
             },
             {
               "id": "30",
-              "question": "Thông tư 12/2021/TT-BYT quy định về việc gì?",
+              "question": "Thông tư quy định về việc gì?",
               "answers": [
                 {
                   "text": "khám sức khỏe định kỳ và các tiêu chuẩn y tế đối với người lao động trong các ngành công nghiệp nặng",
@@ -529,7 +529,7 @@
           "qas": [
             {
               "id": "31",
-              "question": "Luật Phòng, chống tham nhũng 2018 có hiệu lực từ ngày nào?",
+              "question": "Luật có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2019",
@@ -539,7 +539,7 @@
             },
             {
               "id": "32",
-              "question": "Luật Phòng, chống tham nhũng 2018 quy định về vấn đề gì?",
+              "question": "Luật quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "các biện pháp phòng ngừa và xử lý hành vi tham nhũng trong các tổ chức nhà nước và tư nhân",
@@ -559,7 +559,7 @@
           "qas": [
             {
               "id": "33",
-              "question": "Nghị định 90/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Nghị định có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 20/11/2020",
@@ -569,7 +569,7 @@
             },
             {
               "id": "34",
-              "question": "Nghị định 90/2020/NĐ-CP quy định về việc gì?",
+              "question": "Nghị định quy định về việc gì?",
               "answers": [
                 {
                   "text": "xếp hạng và tính lương cho viên chức trong các cơ quan nhà nước",
@@ -589,7 +589,7 @@
           "qas": [
             {
               "id": "35",
-              "question": "Thông tư 08/2020/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/09/2020",
@@ -599,7 +599,7 @@
             },
             {
               "id": "36",
-              "question": "Thông tư 08/2020/TT-BGDĐT quy định về việc gì?",
+              "question": "Thông tư quy định về việc gì?",
               "answers": [
                 {
                   "text": "việc công nhận và xếp hạng trường phổ thông dân tộc nội trú",
@@ -619,7 +619,7 @@
           "qas": [
             {
               "id": "37",
-              "question": "Nghị định 37/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 15/05/2021",
@@ -629,7 +629,7 @@
             },
             {
               "id": "38",
-              "question": "Nghị định 37/2021/NĐ-CP quy định về việc gì?",
+              "question": "Văn bản quy định về việc gì?",
               "answers": [
                 {
                   "text": "trình tự, thủ tục đăng ký và cấp giấy phép cho các hoạt động xây dựng công trình",
@@ -649,7 +649,7 @@
           "qas": [
             {
               "id": "39",
-              "question": "Luật Giáo dục 2019 có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2020",
@@ -659,7 +659,7 @@
             },
             {
               "id": "40",
-              "question": "Luật Giáo dục 2019 quy định về những vấn đề gì?",
+              "question": "Văn bản quy định về những vấn đề gì?",
               "answers": [
                 {
                   "text": "hệ thống giáo dục quốc dân, nội dung giáo dục và quyền, nghĩa vụ của học sinh, sinh viên và nhà giáo",
@@ -679,7 +679,7 @@
           "qas": [
             {
               "id": "41",
-              "question": "Nghị định 96/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 24/12/2020",
@@ -689,7 +689,7 @@
             },
             {
               "id": "42",
-              "question": "Nghị định 96/2020/NĐ-CP quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "kiểm soát hành vi hạn chế cạnh tranh và tập trung kinh tế",
@@ -709,7 +709,7 @@
           "qas": [
             {
               "id": "43",
-              "question": "Thông tư 14/2021/TT-BLĐTBXH có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/04/2021",
@@ -719,7 +719,7 @@
             },
             {
               "id": "44",
-              "question": "Thông tư 14/2021/TT-BLĐTBXH hướng dẫn thực hiện vấn đề gì?",
+              "question": "Văn bản hướng dẫn thực hiện vấn đề gì?",
               "answers": [
                 {
                   "text": "các biện pháp an toàn lao động trong các doanh nghiệp xây dựng",
@@ -739,7 +739,7 @@
           "qas": [
             {
               "id": "45",
-              "question": "Nghị định 78/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2021",
@@ -749,7 +749,7 @@
             },
             {
               "id": "46",
-              "question": "Nghị định 78/2021/NĐ-CP quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "đăng ký doanh nghiệp và các thủ tục liên quan",
@@ -769,7 +769,7 @@
           "qas": [
             {
               "id": "47",
-              "question": "Thông tư 18/2021/TT-BTNMT có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 10/06/2021",
@@ -779,7 +779,7 @@
             },
             {
               "id": "48",
-              "question": "Thông tư 18/2021/TT-BTNMT quy định về vấn đề gì?",
+              "question": "Thông tư quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "thu gom và xử lý chất thải rắn sinh hoạt tại các đô thị",
@@ -799,7 +799,7 @@
           "qas": [
             {
               "id": "49",
-              "question": "Luật An ninh mạng 2018 có hiệu lực từ ngày nào?",
+              "question": "Luật có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/01/2019",
@@ -809,7 +809,7 @@
             },
             {
               "id": "50",
-              "question": "Luật An ninh mạng 2018 quy định về vấn đề gì?",
+              "question": "Luật quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "bảo vệ an ninh mạng quốc gia, quyền và trách nhiệm của các tổ chức và cá nhân trong việc sử dụng mạng internet",
@@ -829,7 +829,7 @@
           "qas": [
             {
               "id": "51",
-              "question": "Nghị định 40/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/02/2021",
@@ -839,7 +839,7 @@
             },
             {
               "id": "52",
-              "question": "Nghị định 40/2021/NĐ-CP quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "các quyền lợi và nghĩa vụ của người lao động khi làm việc tại nước ngoài",
@@ -859,7 +859,7 @@
           "qas": [
             {
               "id": "53",
-              "question": "Thông tư 09/2021/TT-BYT có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 15/05/2021",
@@ -869,7 +869,7 @@
             },
             {
               "id": "54",
-              "question": "Thông tư 09/2021/TT-BYT quy định về việc gì?",
+              "question": "Văn bản quy định về việc gì?",
               "answers": [
                 {
                   "text": "quản lý và sử dụng trang thiết bị y tế tại các cơ sở khám chữa bệnh",
@@ -889,7 +889,7 @@
           "qas": [
             {
               "id": "55",
-              "question": "Nghị quyết 68/NQ-CP ban hành ngày nào?",
+              "question": "Văn bản ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2021",
@@ -899,7 +899,7 @@
             },
             {
               "id": "56",
-              "question": "Nghị quyết 68/NQ-CP hỗ trợ những đối tượng nào?",
+              "question": "Văn bản hỗ trợ những đối tượng nào?",
               "answers": [
                 {
                   "text": "người lao động và người sử dụng lao động gặp khó khăn do đại dịch COVID-19",
@@ -919,7 +919,7 @@
           "qas": [
             {
               "id": "57",
-              "question": "Thông tư 17/2021/TT-BTNMT có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/10/2021",
@@ -929,7 +929,7 @@
             },
             {
               "id": "58",
-              "question": "Thông tư 17/2021/TT-BTNMT quy định về vấn đề gì?",
+              "question": "Thông tư quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quy trình kiểm soát ô nhiễm môi trường tại các khu công nghiệp và khu dân cư",
@@ -949,7 +949,7 @@
           "qas": [
             {
               "id": "59",
-              "question": "Nghị định 59/2020/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Nghị định có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2020",
@@ -959,7 +959,7 @@
             },
             {
               "id": "60",
-              "question": "Nghị định 59/2020/NĐ-CP quy định về việc gì?",
+              "question": "Nghị định quy định về việc gì?",
               "answers": [
                 {
                   "text": "đánh giá tác động môi trường trong các dự án đầu tư xây dựng",
@@ -979,7 +979,7 @@
           "qas": [
             {
               "id": "61",
-              "question": "Thông tư 24/2021/TT-BTC có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/08/2021",
@@ -989,7 +989,7 @@
             },
             {
               "id": "62",
-              "question": "Thông tư 24/2021/TT-BTC hướng dẫn về việc gì?",
+              "question": "Thông tư hướng dẫn về việc gì?",
               "answers": [
                 {
                   "text": "quản lý thuế đối với các doanh nghiệp có hoạt động liên quan đến giao dịch điện tử",
@@ -1009,7 +1009,7 @@
           "qas": [
             {
               "id": "63",
-              "question": "Luật Doanh nghiệp 2020 có hiệu lực từ ngày nào?",
+              "question": "Luật có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/01/2021",
@@ -1019,7 +1019,7 @@
             },
             {
               "id": "64",
-              "question": "Luật Doanh nghiệp 2020 quy định về vấn đề gì?",
+              "question": "Luật quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quyền và nghĩa vụ của doanh nghiệp, thủ tục thành lập và giải thể doanh nghiệp",
@@ -1039,7 +1039,7 @@
           "qas": [
             {
               "id": "65",
-              "question": "Nghị định 92/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Nghị định có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 27/10/2021",
@@ -1049,7 +1049,7 @@
             },
             {
               "id": "66",
-              "question": "Nghị định 92/2021/NĐ-CP hỗ trợ các doanh nghiệp trong vấn đề gì?",
+              "question": "Nghị định hỗ trợ các doanh nghiệp trong vấn đề gì?",
               "answers": [
                 {
                   "text": "giảm thuế thu nhập doanh nghiệp, thuế giá trị gia tăng và tiền thuê đất",
@@ -1069,7 +1069,7 @@
           "qas": [
             {
               "id": "67",
-              "question": "Thông tư 10/2021/TT-BGDĐT có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 05/05/2021",
@@ -1079,7 +1079,7 @@
             },
             {
               "id": "68",
-              "question": "Thông tư 10/2021/TT-BGDĐT quy định về vấn đề gì?",
+              "question": "Thông tư quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "tiêu chuẩn và quy trình đánh giá chất lượng giáo dục trong các trường trung học phổ thông",
@@ -1099,7 +1099,7 @@
           "qas": [
             {
               "id": "69",
-              "question": "Nghị quyết 116/NQ-CP ban hành ngày nào?",
+              "question": "Văn bản ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 24/09/2021",
@@ -1109,7 +1109,7 @@
             },
             {
               "id": "70",
-              "question": "Nghị quyết 116/NQ-CP hỗ trợ người lao động trong vấn đề gì?",
+              "question": "Văn bản hỗ trợ người lao động trong vấn đề gì?",
               "answers": [
                 {
                   "text": "bảo hiểm thất nghiệp cho người lao động bị ảnh hưởng bởi đại dịch COVID-19",
@@ -1129,7 +1129,7 @@
           "qas": [
             {
               "id": "71",
-              "question": "Nghị định 45/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2021",
@@ -1139,7 +1139,7 @@
             },
             {
               "id": "72",
-              "question": "Nghị định 45/2021/NĐ-CP quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
@@ -1159,7 +1159,7 @@
           "qas": [
             {
               "id": "73",
-              "question": "Thông tư 22/2021/TT-BLĐTBXH có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/09/2021",
@@ -1169,7 +1169,7 @@
             },
             {
               "id": "74",
-              "question": "Thông tư 22/2021/TT-BLĐTBXH hướng dẫn về vấn đề gì?",
+              "question": "Văn bản hướng dẫn về vấn đề gì?",
               "answers": [
                 {
                   "text": "bảo vệ sức khỏe và an toàn lao động cho người lao động trong môi trường làm việc có nguy cơ cao",
@@ -1189,7 +1189,7 @@
           "qas": [
             {
               "id": "75",
-              "question": "Nghị quyết 09/NQ-CP ban hành ngày nào?",
+              "question": "Văn bản ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 29/01/2021",
@@ -1199,7 +1199,7 @@
             },
             {
               "id": "76",
-              "question": "Nghị quyết 09/NQ-CP quy định hỗ trợ ai?",
+              "question": "Văn bản quy định hỗ trợ ai?",
               "answers": [
                 {
                   "text": "người dân và doanh nghiệp bị ảnh hưởng bởi đại dịch COVID-19",
@@ -1219,7 +1219,7 @@
           "qas": [
             {
               "id": "77",
-              "question": "Thông tư 03/2021/TT-BCT có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 15/02/2021",
@@ -1229,7 +1229,7 @@
             },
             {
               "id": "78",
-              "question": "Thông tư 03/2021/TT-BCT quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quản lý xuất nhập khẩu và kiểm soát chất lượng hàng hóa trong lĩnh vực công nghiệp và thương mại",
@@ -1249,7 +1249,7 @@
           "qas": [
             {
               "id": "79",
-              "question": "Nghị định 83/2021/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/08/2021",
@@ -1259,7 +1259,7 @@
             },
             {
               "id": "80",
-              "question": "Nghị định 83/2021/NĐ-CP quy định về việc gì?",
+              "question": "Văn bản quy định về việc gì?",
               "answers": [
                 {
                   "text": "tăng cường quản lý và xử lý chất thải công nghiệp",
@@ -1279,7 +1279,7 @@
           "qas": [
             {
               "id": "81",
-              "question": "Thông tư 20/2021/TT-BGTVT có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/09/2021",
@@ -1289,7 +1289,7 @@
             },
             {
               "id": "82",
-              "question": "Thông tư 20/2021/TT-BGTVT quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "quản lý, bảo trì đường bộ",
@@ -1309,7 +1309,7 @@
           "qas": [
             {
               "id": "83",
-              "question": "Nghị quyết 128/NQ-CP ban hành ngày nào?",
+              "question": "Văn bảnP ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 11/10/2021",
@@ -1319,7 +1319,7 @@
             },
             {
               "id": "84",
-              "question": "Nghị quyết 128/NQ-CP quy định về vấn đề gì?",
+              "question": "Văn bản quy định về vấn đề gì?",
               "answers": [
                 {
                   "text": "thích ứng an toàn, linh hoạt, và kiểm soát hiệu quả dịch COVID-19",
@@ -1339,7 +1339,7 @@
           "qas": [
             {
               "id": "85",
-              "question": "Thông tư 32/2021/TT-BTC có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/11/2021",
@@ -1349,7 +1349,7 @@
             },
             {
               "id": "86",
-              "question": "Thông tư 32/2021/TT-BTC hướng dẫn về vấn đề gì?",
+              "question": "Văn bản hướng dẫn về vấn đề gì?",
               "answers": [
                 {
                   "text": "chế độ kế toán cho doanh nghiệp nhỏ và vừa",
@@ -1369,7 +1369,7 @@
           "qas": [
             {
               "id": "87",
-              "question": "Nghị định 15/2022/NĐ-CP ban hành ngày nào?",
+              "question": "Văn bản ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 28/01/2022",
@@ -1379,7 +1379,7 @@
             },
             {
               "id": "88",
-              "question": "Nghị định 15/2022/NĐ-CP quy định giảm thuế giá trị gia tăng xuống mức nào?",
+              "question": "Văn bản quy định giảm thuế giá trị gia tăng xuống mức nào?",
               "answers": [
                 {
                   "text": "từ 10% xuống còn 8%",
@@ -1399,7 +1399,7 @@
           "qas": [
             {
               "id": "89",
-              "question": "Thông tư 06/2022/TT-BKHĐT có hiệu lực từ ngày nào?",
+              "question": "Văn bản có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 15/02/2022",
@@ -1409,7 +1409,7 @@
             },
             {
               "id": "90",
-              "question": "Thông tư 06/2022/TT-BKHĐT quy định chi tiết về việc gì?",
+              "question": "Văn bản quy định chi tiết về việc gì?",
               "answers": [
                 {
                   "text": "lập, thẩm định, phê duyệt kế hoạch đầu tư công trung hạn và hằng năm",
@@ -1429,7 +1429,7 @@
           "qas": [
             {
               "id": "91",
-              "question": "Thông tư 09/2022/TT-BTC có hiệu lực từ ngày nào?",
+              "question": "Thông tư có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/04/2022",
@@ -1439,7 +1439,7 @@
             },
             {
               "id": "92",
-              "question": "Thông tư 09/2022/TT-BTC quy định về thủ tục gì?",
+              "question": "Thông tư quy định về thủ tục gì?",
               "answers": [
                 {
                   "text": "thủ tục hoàn thuế giá trị gia tăng cho các doanh nghiệp trong lĩnh vực xuất nhập khẩu",
@@ -1459,7 +1459,7 @@
           "qas": [
             {
               "id": "93",
-              "question": "Nghị định 50/2022/NĐ-CP có hiệu lực từ ngày nào?",
+              "question": "Nghị định có hiệu lực từ ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/07/2022",
@@ -1469,7 +1469,7 @@
             },
             {
               "id": "94",
-              "question": "Nghị định 50/2022/NĐ-CP cải thiện quy trình gì?",
+              "question": "Nghị định cải thiện quy trình gì?",
               "answers": [
                 {
                   "text": "cấp phép xây dựng",
@@ -1489,7 +1489,7 @@
           "qas": [
             {
               "id": "95",
-              "question": "Thông tư 12/2022/TT-BGDĐT ban hành ngày nào?",
+              "question": "Thông tư ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 15/08/2022",
@@ -1499,7 +1499,7 @@
             },
             {
               "id": "96",
-              "question": "Thông tư 12/2022/TT-BGDĐT quy định về tiêu chuẩn gì?",
+              "question": "Thông tư quy định về tiêu chuẩn gì?",
               "answers": [
                 {
                   "text": "tiêu chuẩn giảng dạy cho giáo viên các cấp học",
@@ -1519,7 +1519,7 @@
           "qas": [
             {
               "id": "97",
-              "question": "Nghị quyết 45/NQ-CP ban hành ngày nào?",
+              "question": "Nghị quyết ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 10/10/2022",
@@ -1529,7 +1529,7 @@
             },
             {
               "id": "98",
-              "question": "Nghị quyết 45/NQ-CP quy định về kế hoạch phát triển trong giai đoạn nào?",
+              "question": "Nghị quyết quy định về kế hoạch phát triển trong giai đoạn nào?",
               "answers": [
                 {
                   "text": "5 năm giai đoạn 2021-2025",
@@ -1549,7 +1549,7 @@
           "qas": [
             {
               "id": "99",
-              "question": "Thông tư 18/2022/TT-BNNPTNT ban hành ngày nào?",
+              "question": "Thông tư ban hành ngày nào?",
               "answers": [
                 {
                   "text": "ngày 01/12/2022",
@@ -1559,7 +1559,7 @@
             },
             {
               "id": "100",
-              "question": "Thông tư 18/2022/TT-BNNPTNT quy định về việc gì?",
+              "question": "Thông tư quy định về việc gì?",
               "answers": [
                 {
                   "text": "kiểm soát chất lượng giống cây trồng và vật nuôi",
