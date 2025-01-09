@@ -7,9 +7,12 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load model and tokenizer
-model_path = "/content/phobert-qa2"
+model_path = "../phobert-qa2"
 model = AutoModelForQuestionAnswering.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True)
+
+# Define confidence threshold
+CONFIDENCE_THRESHOLD = 0.6  # Adjust as needed
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -37,8 +40,21 @@ def predict():
             start_logits = outputs.start_logits
             end_logits = outputs.end_logits
 
+        start_prob = torch.softmax(start_logits, dim=-1)
+        end_prob = torch.softmax(end_logits, dim=-1)
+
         start_index = torch.argmax(start_logits)
         end_index = torch.argmax(end_logits)
+
+        # Calculate confidence
+        confidence = (start_prob[0][start_index] + end_prob[0][end_index]) / 2
+
+        # Check confidence threshold
+        if confidence < CONFIDENCE_THRESHOLD:
+            return jsonify({
+                'answer': 'Không thể trả lời câu hỏi này.',
+                'status': 'unrelated'
+            })
 
         # Get answer
         tokens = inputs['input_ids'][0][start_index:end_index + 1]
@@ -46,7 +62,8 @@ def predict():
 
         return jsonify({
             'answer': answer,
-            'status': 'success'
+            'status': 'success',
+            'confidence': confidence.item()
         })
 
     except Exception as e:

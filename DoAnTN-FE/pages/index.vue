@@ -73,6 +73,8 @@
 
 <script setup>
 import axios from 'axios';
+import { ref, watch, nextTick, onMounted } from 'vue';
+
 const newMessage = ref('');
 const loading = ref(false);
 const messages = ref([]);
@@ -87,10 +89,12 @@ const data1 = ref({
     'Hà Nội ngày 20 tháng 12 năm 2024 Vụ việc nghỉ Tết Dương lịch năm 2025 và Tết Nguyên đán Ất Tỵ năm 2025 của ngành Giáo dục và Đào tạo Hà Nội. Thời gian nghỉ Tết Dương lịch năm 2025: 01 ngày (ngày 01/01/2025, thứ Tư). Thời gian nghỉ Tết Nguyên đán Ất Tỵ năm 2025 09 ngày liên tục, từ thứ Bảy ngày 25/01/2025 đến hết Chủ nhật ngày 02/02/2025.',
 });
 
+const API_URL = 'http://127.0.0.1:5000/predict';
+
 const sendMessage = async () => {
   if (!newMessage.value.trim() || loading.value || !selectedContext.value) return;
 
-  // Thêm tin nhắn người dùng
+  // Add user message
   messages.value.push({
     content: newMessage.value,
     isUser: true,
@@ -102,18 +106,21 @@ const sendMessage = async () => {
   loading.value = true;
 
   try {
-    const response = await axios.post('http://localhost:5000/predict', {
+    const response = await axios.post(API_URL, {
       question: userQuestion,
-      context: data.value[selectedContext.value],
+      context: data1.value[selectedContext.value], // Use the selected context from data1
     });
 
-    const botResponse = response.data.answer || 'Không tìm thấy câu trả lời phù hợp.';
-
-    messages.value.push({
-      content: botResponse,
-      isUser: false,
-      timestamp: new Date(),
-    });
+    if (response.data.status === 'success') {
+      const botResponse = response.data.answer || 'Không tìm thấy câu trả lời phù hợp.';
+      messages.value.push({
+        content: botResponse,
+        isUser: false,
+        timestamp: new Date(),
+      });
+    } else {
+      throw new Error(response.data.error || 'Unknown error');
+    }
 
     await nextTick();
     scrollToBottom();
@@ -140,6 +147,7 @@ const uploadFile = (event) => {
   const reader = new FileReader();
   reader.onload = (e) => {
     data.value[file.name] = e.target.result;
+    data1.value[file.name] = e.target.result; // Add to data1 as well
   };
   reader.readAsText(file);
 };

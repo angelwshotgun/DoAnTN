@@ -30,11 +30,11 @@
 const items = ref([
   {
     label: 'Trang chủ',
-    route: '/#',
+    route: '/',
   },
   {
     label: 'Đánh Giá Mô Hình',
-    route: '/#',
+    route: '/danhgiamohinh',
   },
 ]);
 </script>
