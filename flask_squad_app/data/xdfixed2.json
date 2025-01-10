@@ -33,7 +33,7 @@
               "answers": [
                 {
                   "text": "Thông tư 01/2020/TT-BTP",
-                  "answer_start": 138
+                  "answer_start": 0
                 }
               ]
             }
@@ -73,7 +73,7 @@
               "answers": [
                 {
                   "text": "Nghị định 100/2019/NĐ-CP",
-                  "answer_start": 138
+                  "answer_start": 0
                 }
               ]
             }
@@ -113,7 +113,7 @@
               "answers": [
                 {
                   "text": "được Quốc hội thông qua",
-                  "answer_start": 106
+                  "answer_start": 28
                 }
               ]
             },
@@ -123,7 +123,7 @@
               "answers": [
                 {
                   "text": "Quốc hội",
-                  "answer_start": 106
+                  "answer_start": 33
                 }
               ]
             },
@@ -133,7 +133,7 @@
               "answers": [
                 {
                   "text": "ngày 17/11/2020",
-                  "answer_start": 106
+                  "answer_start": 52
                 }
               ]
             }
@@ -173,7 +173,7 @@
               "answers": [
                 {
                   "text": "Nghị định 123/2020/NĐ-CP",
-                  "answer_start": 34
+                  "answer_start": 0
                 }
               ]
             },
@@ -183,7 +183,7 @@
               "answers": [
                 {
                   "text": "quy định về hóa đơn, chứng từ, bao gồm cả hóa đơn điện tử, có hiệu lực từ ngày 01/07/2022",
-                  "answer_start": 34
+                  "answer_start": 25
                 }
               ]
             }
@@ -353,7 +353,7 @@
               "answers": [
                 {
                   "text": "ngày 01/05/2021",
-                  "answer_start": 107
+                  "answer_start": 90
                 }
               ]
             },
@@ -363,7 +363,7 @@
               "answers": [
                 {
                   "text": "kỹ thuật về quan trắc môi trường nước, không khí và đất",
-                  "answer_start": 35
+                  "answer_start": 18
                 }
               ]
             }
