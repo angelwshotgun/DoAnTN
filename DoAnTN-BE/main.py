@@ -1,69 +1,53 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import torch
-from transformers import AutoModelForQuestionAnswering, AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load model and tokenizer
-model_path = "../phobert-qa2"
-model = AutoModelForQuestionAnswering.from_pretrained(model_path)
-tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True)
+model_dir = "../vit5-finetuned"  # Replace with your saved model path
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Define confidence threshold
-CONFIDENCE_THRESHOLD = 0.6  # Adjust as needed
+tokenizer = AutoTokenizer.from_pretrained(model_dir)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_dir).to(device)
 
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
         data = request.get_json()
-        question = data.get('question')
-        context = data.get('context')
+        input_text = data.get('input')
         
-        if not question or not context:
-            return jsonify({'error': 'Question and context are required'}), 400
+        if not input_text:
+            return jsonify({'error': 'Input text is required'}), 400
 
         # Tokenize input
-        inputs = tokenizer(
-            question,
-            context[:512],
+        encoded_input = tokenizer(
+            input_text,
             return_tensors="pt",
-            max_length=258,
-            truncation="only_second",
-            padding="max_length"
+            padding=True,
+            truncation=True,
+            max_length=128
+        ).to(device)
+        
+        # Generate response
+        output_ids = model.generate(
+            input_ids=encoded_input["input_ids"],
+            attention_mask=encoded_input["attention_mask"],
+            max_length=50,
+            num_beams=4,
+            length_penalty=1.0,
+            early_stopping=True,
+            no_repeat_ngram_size=2
         )
-
-        # Make prediction
-        with torch.no_grad():
-            outputs = model(**inputs)
-            start_logits = outputs.start_logits
-            end_logits = outputs.end_logits
-
-        start_prob = torch.softmax(start_logits, dim=-1)
-        end_prob = torch.softmax(end_logits, dim=-1)
-
-        start_index = torch.argmax(start_logits)
-        end_index = torch.argmax(end_logits)
-
-        # Calculate confidence
-        confidence = (start_prob[0][start_index] + end_prob[0][end_index]) / 2
-
-        # Check confidence threshold
-        if confidence < CONFIDENCE_THRESHOLD:
-            return jsonify({
-                'answer': 'Không thể trả lời câu hỏi này.',
-                'status': 'unrelated'
-            })
-
-        # Get answer
-        tokens = inputs['input_ids'][0][start_index:end_index + 1]
-        answer = tokenizer.decode(tokens, skip_special_tokens=True)
+        
+        # Decode response
+        answer = tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
         return jsonify({
             'answer': answer,
-            'status': 'success',
-            'confidence': confidence.item()
+            'status': 'success'
         })
 
     except Exception as e:

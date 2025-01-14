@@ -73,7 +73,8 @@
         "examples": [
             "Bạn giỏi quá",
             "Bạn thật tuyệt",
-            "Bạn không giúp được gì cả"
+            "Bạn không giúp được gì cả",
+            "Đúng rồi"
         ],
         "responses": [
           "Cảm ơn phản hồi của bạn! Tôi sẽ cố gắng phục vụ tốt hơn."
@@ -84,7 +85,9 @@
         "examples": [
             "...",
             "???",
-            "!!!!!"
+            "!!!!!",
+            "a",
+            "b"
         ],
         "responses": [
           "Xin lỗi, tôi không hiểu ý bạn. Bạn có thể nói rõ hơn được không?"
@@ -1000,6 +1003,15 @@
         ],
         "responses": [
           "Xe cứu hộ giao thông đường bộ vi phạm tốc độ sẽ bị phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng và tạm giữ giấy phép lái xe."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "người tham gia giao thông phải lưu ý gì?"
+        ],
+        "responses": [
+          "Người giam gia giao thông phải thi hành và tuân thủ đúng pháp luật."
         ]
       },
       {

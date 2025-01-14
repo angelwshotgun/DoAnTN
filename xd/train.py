@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 import torch
 from sklearn.model_selection import train_test_split
 from transformers import (
@@ -49,7 +50,7 @@ train_dataset = Dataset.from_dict({"input_text": train_inputs, "output_text": tr
 val_dataset = Dataset.from_dict({"input_text": val_inputs, "output_text": val_outputs})
 
 # **2. Chọn mô hình và tokenizer**
-model_name = "VietAI/vit5-base"
+model_name = "vinai/bartpho-word"
 print(f"Loading model: {model_name}")
 
 # Load tokenizer
@@ -93,15 +94,16 @@ data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 training_args = TrainingArguments(
     output_dir="./vit5-finetuned",  # Thư mục lưu kết quả
     overwrite_output_dir=True,
-    num_train_epochs=3,
-    per_device_train_batch_size=4,
-    per_device_eval_batch_size=4,
+    num_train_epochs=5,
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=8,
     save_strategy="epoch",
-    evaluation_strategy="epoch",
+    eval_strategy="epoch",  # Thay đổi `evaluation_strategy` thành `eval_strategy`
     logging_dir="./logs",
-    logging_steps=20,
+    logging_steps=10,
     report_to="none",
     fp16=torch.cuda.is_available(),  # Sử dụng mixed precision nếu có GPU
+    save_total_limit=1,  # Giữ lại checkpoint gần nhất
 )
 
 trainer = Trainer(
@@ -110,7 +112,6 @@ trainer = Trainer(
     train_dataset=train_dataset_doubled,
     eval_dataset=val_dataset_doubled,
     data_collator=data_collator,
-    tokenizer=tokenizer,
 )
 
 # Bắt đầu huấn luyện
@@ -121,5 +122,16 @@ metrics = trainer.evaluate()
 print("Evaluation Metrics:", metrics)
 
 # Lưu mô hình
-model.save_pretrained("./vit5-finetuned")
-tokenizer.save_pretrained("./vit5-finetuned")
+model_dir = "./vit5-finetuned"
+model.save_pretrained(model_dir)
+tokenizer.save_pretrained(model_dir)
+
+# Xóa các checkpoint sau khi train xong
+if os.path.exists(model_dir):
+    for subdir in os.listdir(model_dir):
+        if subdir.startswith("checkpoint"):
+            checkpoint_path = os.path.join(model_dir, subdir)
+            shutil.rmtree(checkpoint_path)
+            print(f"Removed checkpoint: {checkpoint_path}")
+
+print(f"Model and tokenizer saved at: {model_dir}")

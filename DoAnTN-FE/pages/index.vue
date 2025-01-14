@@ -1,43 +1,62 @@
 <template>
   <div class="flex justify-center items-center min-h-[92vh] bg-gray-100">
     <div class="flex w-screen">
-      <!-- Sidebar -->
+      <!-- Sidebar with Date-based Chat History -->
       <div class="w-64 bg-gray-100 rounded-xl shadow-lg overflow-hidden">
         <div class="p-4">
-          <div v-for="(value, key) in data1" :key="key" class="mb-2">
-            <div
-              @click="selectContext(key)"
-              class="text-gray-800 hover:bg-gray-200 rounded-lg p-2 cursor-pointer"
-            >
-              {{ key }}
+          <div class="font-medium text-gray-700 mb-3">Lịch sử trò chuyện</div>
+          <Button 
+            @click="startNewChat"
+            class="w-full mb-4 p-button-secondary"
+            icon="pi pi-plus"
+            label="Cuộc trò chuyện mới"
+          />
+          
+          <div class="space-y-4">
+            <div v-for="(chats, date) in groupedChats" :key="date">
+              <div class="text-sm font-medium text-gray-600 mb-2">{{ formatDate(date) }}</div>
+              <div class="space-y-2">
+                <div 
+                  v-for="chat in chats" 
+                  :key="chat.id"
+                  @click="loadChat(chat.id)"
+                  class="text-gray-800 hover:bg-gray-200 rounded-lg p-2 cursor-pointer text-sm"
+                  :class="{'bg-gray-200': currentChat?.id === chat.id}"
+                >
+                  <div class="truncate">{{ chat.title || 'Cuộc trò chuyện mới' }}</div>
+                  <div class="text-xs text-gray-500">{{ formatTime(chat.timestamp) }}</div>
+                </div>
+              </div>
             </div>
           </div>
-          <input type="file" @change="uploadFile" class="mt-4" />
         </div>
       </div>
 
-      <!-- Chat -->
+      <!-- Chat Area -->
       <div class="flex-1 bg-white rounded-xl shadow-lg overflow-hidden">
         <div class="h-[94.75vh] flex flex-col">
           <div
-            ref="chatHistory"
+            ref="chatMessagesRef"
             class="flex-1 p-4 overflow-y-auto scroll-smooth space-y-4 bg-gray-50"
           >
             <div
-              v-for="(message, index) in messages"
+              v-for="(message, index) in currentChat?.messages"
               :key="index"
               class="flex"
               :class="message.isUser ? 'justify-end' : 'justify-start'"
             >
               <div
                 :class="[
-                  'max-w-[80%] px-4 py-2 rounded-full shadow-sm',
+                  'max-w-[80%] px-4 py-2 rounded-lg shadow-sm',
                   message.isUser
-                    ? 'bg-[#e8e8e880] text-black rounded'
-                    : 'bg-white rounded',
+                    ? 'bg-[#e8e8e880] text-black'
+                    : 'bg-white',
                 ]"
               >
                 <p class="text-sm md:text-base">{{ message.content }}</p>
+                <span class="text-xs text-gray-500">
+                  {{ formatTime(message.timestamp) }}
+                </span>
               </div>
             </div>
           </div>
@@ -49,17 +68,16 @@
             >
               <InputText
                 v-model="newMessage"
-                placeholder="Nhập câu hỏi..."
+                placeholder="Nhập tin nhắn..."
                 class="flex-1 rounded-full border-gray-300 focus:ring-blue-500 focus:border-blue-500"
-                :disabled="loading || !selectedContext"
+                :disabled="loading"
               />
               <Button
                 type="submit"
-                :disabled="!newMessage.trim() || loading || !selectedContext"
+                :disabled="!newMessage.trim() || loading"
                 class="p-button-rounded p-button-primary"
                 icon="pi pi-send"
-              >
-              </Button>
+              />
             </form>
             <div v-if="loading" class="text-xs text-gray-500 mt-2 ml-4">
               Đang trả lời...
@@ -73,50 +91,130 @@
 
 <script setup>
 import axios from 'axios';
-import { ref, watch, nextTick, onMounted } from 'vue';
+import { ref, computed, watch, nextTick, onMounted } from 'vue';
 
 const newMessage = ref('');
 const loading = ref(false);
-const messages = ref([]);
-const chatHistory = ref(null);
-const selectedContext = ref(null);
-
-const data = ref({});
-const data1 = ref({
-  'Số: 3981/QĐ-BYT':
-    'Hà Nội ngày 30 tháng 12 năm 2024 QUYẾT ĐỊNH Ban hành Kế hoạch Cải cách hành chính năm 2025 của Bộ Y tế Thủ trưởng các đơn vị thuộc và trực thuộc Bộ Y tế; các đơn vị liên quan theo chức năng nhiệm vụ được giao có trách nhiệm tổ chức triển khai thực hiện Kế hoạch Cải cách hành chính năm 2025 của Bộ Y tế Đổi mới hệ thống tổ chức y tế theo hướng tinh giản tổ chức, thu gọn đầu môi, tăng cường phân cấp quản lý nhà nước trong lĩnh vực y tế.',
-  'Số: 4561/SGDĐT-VP':
-    'Hà Nội ngày 20 tháng 12 năm 2024 Vụ việc nghỉ Tết Dương lịch năm 2025 và Tết Nguyên đán Ất Tỵ năm 2025 của ngành Giáo dục và Đào tạo Hà Nội. Thời gian nghỉ Tết Dương lịch năm 2025: 01 ngày (ngày 01/01/2025, thứ Tư). Thời gian nghỉ Tết Nguyên đán Ất Tỵ năm 2025 09 ngày liên tục, từ thứ Bảy ngày 25/01/2025 đến hết Chủ nhật ngày 02/02/2025.',
-});
+const chatMessagesRef = ref(null);
+const chatHistory = ref([]);
+const currentChatId = ref(null);
 
 const API_URL = 'http://127.0.0.1:5000/predict';
 
-const sendMessage = async () => {
-  if (!newMessage.value.trim() || loading.value || !selectedContext.value) return;
+// Generate unique ID for chats
+const generateId = () => `chat_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 
+// Group chats by date
+const groupedChats = computed(() => {
+  const groups = {};
+  chatHistory.value.forEach(chat => {
+    const date = new Date(chat.timestamp).toDateString();
+    if (!groups[date]) {
+      groups[date] = [];
+    }
+    groups[date].push(chat);
+  });
+  
+  // Sort dates in descending order
+  const sortedGroups = {};
+  Object.keys(groups)
+    .sort((a, b) => new Date(b) - new Date(a))
+    .forEach(key => {
+      sortedGroups[key] = groups[key].sort((a, b) => b.timestamp - a.timestamp);
+    });
+  
+  return sortedGroups;
+});
+
+// Get current chat
+const currentChat = computed(() => 
+  chatHistory.value.find(chat => chat.id === currentChatId.value)
+);
+
+// Format date to Vietnamese locale
+const formatDate = (dateString) => {
+  const date = new Date(dateString);
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(yesterday.getDate() - 1);
+
+  if (date.toDateString() === today.toDateString()) {
+    return 'Hôm nay';
+  } else if (date.toDateString() === yesterday.toDateString()) {
+    return 'Hôm qua';
+  } else {
+    return date.toLocaleDateString('vi-VN', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  }
+};
+
+const formatTime = (timestamp) => {
+  if (!timestamp) return '';
+  return new Date(timestamp).toLocaleTimeString('vi-VN', {
+    hour: '2-digit',
+    minute: '2-digit'
+  });
+};
+
+const startNewChat = () => {
+  const newChat = {
+    id: generateId(),
+    title: '',
+    timestamp: new Date().getTime(),
+    messages: [{
+      content: 'Xin chào! Tôi có thể giúp gì cho bạn?',
+      isUser: false,
+      timestamp: new Date().getTime()
+    }]
+  };
+  chatHistory.value.unshift(newChat);
+  currentChatId.value = newChat.id;
+};
+
+const loadChat = (chatId) => {
+  currentChatId.value = chatId;
+  nextTick(() => scrollToBottom());
+};
+
+const sendMessage = async () => {
+  if (!newMessage.value.trim() || loading.value || !currentChat.value) return;
+
+  const messageTime = new Date().getTime();
+  
   // Add user message
-  messages.value.push({
+  currentChat.value.messages.push({
     content: newMessage.value,
     isUser: true,
-    timestamp: new Date(),
+    timestamp: messageTime
   });
 
-  const userQuestion = newMessage.value;
+  // Update chat timestamp
+  currentChat.value.timestamp = messageTime;
+
+  // Update title if it's the first user message
+  if (currentChat.value.messages.length === 2 && !currentChat.value.title) {
+    currentChat.value.title = newMessage.value.slice(0, 30) + (newMessage.value.length > 30 ? '...' : '');
+  }
+
+  const userInput = newMessage.value;
   newMessage.value = '';
   loading.value = true;
 
   try {
     const response = await axios.post(API_URL, {
-      question: userQuestion,
-      context: data1.value[selectedContext.value], // Use the selected context from data1
+      input: userInput
     });
 
     if (response.data.status === 'success') {
-      const botResponse = response.data.answer || 'Không tìm thấy câu trả lời phù hợp.';
-      messages.value.push({
+      const botResponse = response.data.answer || 'Không thể trả lời câu hỏi này.';
+      currentChat.value.messages.push({
         content: botResponse,
         isUser: false,
-        timestamp: new Date(),
+        timestamp: new Date().getTime()
       });
     } else {
       throw new Error(response.data.error || 'Unknown error');
@@ -126,55 +224,41 @@ const sendMessage = async () => {
     scrollToBottom();
   } catch (error) {
     console.error('Error:', error);
-    messages.value.push({
+    currentChat.value.messages.push({
       content: 'Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại sau.',
       isUser: false,
-      timestamp: new Date(),
+      timestamp: new Date().getTime()
     });
   } finally {
     loading.value = false;
   }
 };
 
-const selectContext = (key) => {
-  selectedContext.value = key;
-};
-
-const uploadFile = (event) => {
-  const file = event.target.files[0];
-  if (!file) return;
-
-  const reader = new FileReader();
-  reader.onload = (e) => {
-    data.value[file.name] = e.target.result;
-    data1.value[file.name] = e.target.result; // Add to data1 as well
-  };
-  reader.readAsText(file);
-};
-
 const scrollToBottom = () => {
-  if (chatHistory.value) {
-    chatHistory.value.scrollTop = chatHistory.value.scrollHeight;
+  if (chatMessagesRef.value) {
+    chatMessagesRef.value.scrollTop = chatMessagesRef.value.scrollHeight;
   }
 };
 
+// Save to localStorage whenever chat history changes
 watch(
-  messages,
-  (newMessages) => {
-    localStorage.setItem('chatHistory', JSON.stringify(newMessages));
+  chatHistory,
+  (newHistory) => {
+    localStorage.setItem('chatHistory', JSON.stringify(newHistory));
   },
   { deep: true }
 );
 
+// Initialize on component mount
 onMounted(() => {
-  const savedMessages = localStorage.getItem('chatHistory');
-  if (savedMessages) {
-    messages.value = JSON.parse(savedMessages);
+  const savedHistory = localStorage.getItem('chatHistory');
+  if (savedHistory) {
+    chatHistory.value = JSON.parse(savedHistory);
+    if (chatHistory.value.length > 0) {
+      currentChatId.value = chatHistory.value[0].id;
+    }
   } else {
-    messages.value = [{
-      content: 'Chào mừng! Vui lòng chọn ngữ cảnh ở thanh bên và đặt câu hỏi.',
-      isUser: false,
-    }];
+    startNewChat();
   }
   nextTick(() => scrollToBottom());
 });
@@ -185,7 +269,6 @@ onMounted(() => {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
 .overflow-y-auto::-webkit-scrollbar {
   width: 6px;
 }
