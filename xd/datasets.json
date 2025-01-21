@@ -1,0 +1,1073 @@
+{
+    "intents": [
+      {
+        "intent": "talk",
+        "examples": [
+            "Xin chào",
+            "Chào bạn",
+            "Hello",
+            "Chào",
+            "Hi"
+        ],
+        "responses": [
+          "Chào bạn! Bạn hãy đặt câu hỏi để tôi có thể trả lời bạn!"
+        ]
+      },
+      {
+        "intent": "talk",
+        "examples": [
+            "Cảm ơn bạn",
+            "Cảm ơn"
+        ],
+        "responses": [
+          "Không có gì! Rất vui được giúp đỡ bạn."
+        ]
+      },
+      {
+        "intent": "talk",
+        "examples": [
+            "Tạm biệt",
+            "Bye",
+            "Hẹn gặp lại"
+        ],
+        "responses": [
+          "Tạm biệt bạn! Hẹn gặp lại!"
+        ]
+      },
+      {
+        "intent": "talk",
+        "examples": [
+            "Bạn là ai?",
+            "Bạn tên gì?",
+            "Bạn là bot à?"
+        ],
+        "responses": [
+          "Tôi là chatbot được tạo ra để hỗ trợ bạn. Bạn có câu hỏi gì không?"
+        ]
+      },
+      {
+        "intent": "talk",
+        "examples": [
+            "Tôi không hiểu",
+            "Ý bạn là gì?",
+            "Giải thích rõ hơn được không?",
+            "giải thích rõ hơn"
+        ],
+        "responses": [
+          "Bạn muốn tôi giải thích rõ hơn phần nào? Tôi sẽ cố gắng giải thích dễ hiểu hơn."
+        ]
+      },
+      {
+        "intent": "talk",
+        "examples": [
+            "Sai rồi",
+            "Không được",
+            "không đúng"
+        ],
+        "responses": [
+          "Tôi xin lỗi. Cảm ơn bạn đã nhắc nhở."
+        ]
+      },
+      {
+        "intent": "talk",
+        "examples": [
+            "Bạn giỏi quá",
+            "Bạn thật tuyệt",
+            "Bạn không giúp được gì cả",
+            "Đúng rồi"
+        ],
+        "responses": [
+          "Cảm ơn phản hồi của bạn! Tôi sẽ cố gắng phục vụ tốt hơn."
+        ]
+      },
+      {
+        "intent": "talk",
+        "examples": [
+            "...",
+            "???",
+            "!!!!!",
+            "a",
+            "b"
+        ],
+        "responses": [
+          "Xin lỗi, tôi không hiểu ý bạn. Bạn có thể nói rõ hơn được không?"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Những đối tượng nào bị xử phạt khi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ?",
+          "ai bị xử phạt khi mắc lỗi an toàn giao thông?"
+        ],
+        "responses": [
+          "Cá nhân, tổ chức Việt Nam; cá nhân, tổ chức nước ngoài có hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "quy định nào xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe?",
+          "văn bản nào quy định xử phạt vi phạm an toàn giao thông?"
+        ],
+        "responses": [
+          "NGHỊ ĐỊNH Số: 168/2024/NĐ-CP ngày 26 tháng 12 năm 2024"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Hình thức xử phạt vi phạm hành chính"
+        ],
+        "responses": [
+          "Đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ, cá nhân, tổ chức vi phạm phải chịu một trong các hình thức xử phạt chính sau đây: a) Cảnh cáo; b) Phạt tiền; c) Tịch thu phương tiện được sử dụng để vi phạm hành chính."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "mức xử phạt đối với xe ô tô",
+          "mức xử phạt đối với xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô"
+        ],
+        "responses": [
+          "Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, khi ra, vào vị trí dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết; Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước hoặc chuyển làn đường không đúng quy định, chở người trên buồng lái quá số lượng quy định. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe Điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h; Sử dụng còi, rú ga liên tục; sử dụng còi hơi, sử dụng đèn chiếu xa khi gặp người đi bộ qua đường"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "người đi xe ô tô không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu bị phạt bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "xe ô tô chở quá người quy định bị phạt bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe ô tô quá tốc độ quy định bị phạt bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe mô tô không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu bị phạt bao tiền?",
+          "Điều khiển xe mô tô không chấp hành hiệu lệnh bị phạt bao tiền?"
+        ],
+        "responses": [
+          "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Mức xử phạt của xe mô tô là bao nhiêu?"
+        ],
+        "responses": [
+          "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều”. Điều khiển xe đi vào đường cao tốc, trừ xe phục vụ việc quản lý, bảo trì đường cao tốc; Không chấp hành hiệu lệnh của đèn tín hiệu giao thông; Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông; Không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ. Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển xe Điều khiển xe chạy quá tốc độ quy định trên 20 km/h Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở"
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "xe mô tô Không chấp hành hiệu lệnh của đèn tín hiệu giao thông bị phạt bao tiền?",
+          "xe mô tô vượt đèn đỏ bị phạt bao tiền?",
+          "xe mô tô vượt đèn đỏ"
+        ],
+        "responses": [
+          "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "xe mô tô uống rượu bia, đồ uống có cồn bị phạt bao tiền?",
+          "xe mô tô uống rượu bia tham gia giao thông bị phạt bao tiền?"
+        ],
+        "responses": [
+          "Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Những hình thức xử phạt nào áp dụng cho vi phạm hành chính về trật tự, an toàn giao thông đường bộ?",
+          "Các biện pháp xử phạt khi vi phạm giao thông đường bộ là gì?"
+        ],
+        "responses": [
+          "Đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ, cá nhân, tổ chức vi phạm phải chịu một trong các hình thức xử phạt chính như cảnh cáo hoặc phạt tiền. Ngoài ra, có thể áp dụng các hình thức xử phạt bổ sung như tước quyền sử dụng giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ có thời hạn; tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Mức phạt cho hành vi vượt đèn đỏ theo Nghị định 168/2024/NĐ-CP là bao nhiêu?",
+          "Vượt đèn đỏ bị phạt bao nhiêu tiền theo quy định mới?"
+        ],
+        "responses": [
+          "Theo Nghị định 168/2024/NĐ-CP, hành vi vượt đèn đỏ sẽ bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng đối với người điều khiển xe ô tô, và từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe mô tô, xe gắn máy."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Người lái xe ô tô gây tai nạn mà không dừng lại xử lý thì bị phạt thế nào?",
+          "Lái xe ô tô gây tai nạn mà không trình báo cơ quan chức năng sẽ bị xử lý ra sao?",
+          "Không trợ giúp người bị nạn khi lái ô tô gây tai nạn có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe ô tô gây tai nạn giao thông nhưng không dừng lại, không giữ nguyên hiện trường, không trợ giúp người bị nạn, hoặc không trình báo cơ quan chức năng sẽ bị phạt tiền từ 16.000.000 đồng đến 18.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển ô tô mà nồng độ cồn vượt quá mức cho phép bị phạt bao nhiêu?",
+          "Người lái ô tô mà trong máu có nồng độ cồn từ 50 đến 80 miligam/100 mililít thì bị phạt thế nào?",
+          "Lái xe ô tô mà hơi thở có nồng độ cồn cao có bị xử lý không?"
+        ],
+        "responses": [
+          "Người điều khiển xe ô tô có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở sẽ bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Lái xe ô tô không chấp hành đèn tín hiệu giao thông bị phạt bao nhiêu?",
+          "Người lái ô tô vượt đèn đỏ sẽ bị xử lý thế nào?",
+          "Không tuân theo hiệu lệnh đèn giao thông khi lái ô tô sẽ bị phạt ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe ô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông sẽ bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Người lái xe ô tô không tuân theo hướng dẫn của cảnh sát giao thông bị xử lý thế nào?",
+          "Không chấp hành hiệu lệnh của người điều khiển giao thông khi lái ô tô sẽ bị phạt bao nhiêu?",
+          "Lái ô tô mà không nghe theo cảnh sát giao thông sẽ bị phạt ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe ô tô không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông sẽ bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Người điều khiển ô tô đi ngược chiều trên đường một chiều bị phạt thế nào?",
+          "Đi ô tô vào đường cấm ngược chiều sẽ bị xử lý ra sao?",
+          "Lái xe ô tô ngược chiều trên đường cấm bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển xe ô tô đi ngược chiều trên đường một chiều hoặc đi vào đường có biển cấm ngược chiều sẽ bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng, trừ các trường hợp xe ưu tiên đang làm nhiệm vụ khẩn cấp."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Gây tai nạn giao thông khi lái xe ô tô mà không giảm tốc độ bị phạt thế nào?",
+          "Người điều khiển xe ô tô không quan sát kỹ gây tai nạn sẽ bị xử lý ra sao?",
+          "Lái ô tô quá tốc độ gây tai nạn bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển xe ô tô không quan sát, không giảm tốc độ hoặc chạy quá tốc độ gây tai nạn giao thông sẽ bị phạt tiền từ 20.000.000 đồng đến 22.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không giữ khoảng cách an toàn khi lái ô tô gây tai nạn sẽ bị phạt bao nhiêu?",
+          "Người điều khiển ô tô đi vào đường cấm gây tai nạn giao thông bị xử lý thế nào?",
+          "Chuyển làn không đúng quy định khi lái xe ô tô gây tai nạn bị phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe ô tô không giữ khoảng cách an toàn, không đi đúng phần đường, làn đường, hoặc đi vào đường cấm gây tai nạn giao thông sẽ bị phạt tiền từ 20.000.000 đồng đến 22.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Thời gian lái xe liên tục tối đa được phép theo quy định mới là bao lâu?",
+          "Lái xe liên tục quá bao nhiêu giờ sẽ bị xử phạt theo Nghị định 168/2024/NĐ-CP?"
+        ],
+        "responses": [
+          "Theo Nghị định 168/2024/NĐ-CP, người lái xe không được lái xe liên tục quá 4 giờ. Nếu vi phạm, sẽ bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng và bị tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Hành vi đi xe máy trên vỉa hè bị xử phạt như thế nào theo quy định mới?",
+          "Đi xe máy trên vỉa hè sẽ bị phạt bao nhiêu tiền theo Nghị định 168/2024/NĐ-CP?"
+        ],
+        "responses": [
+          "Theo Nghị định 168/2024/NĐ-CP, hành vi điều khiển xe máy đi trên vỉa hè (trừ trường hợp đi qua để vào nhà) sẽ bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Nghị định 168/2024/NĐ-CP có hiệu lực từ khi nào?",
+          "Thời điểm áp dụng Nghị định 168/2024/NĐ-CP là khi nào?"
+        ],
+        "responses": [
+          "Nghị định 168/2024/NĐ-CP được ban hành ngày 26/12/2024 và có hiệu lực thi hành từ ngày 01/01/2025."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Người đi bộ vi phạm quy tắc giao thông sẽ bị xử phạt như thế nào?",
+          "Hành vi vi phạm của người đi bộ bị phạt bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Người đi bộ vi phạm quy tắc giao thông sẽ bị phạt tiền từ 60.000 đồng đến 100.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe mà không có giấy phép lái xe sẽ bị xử lý ra sao?",
+          "Không có giấy phép lái xe bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển xe không có giấy phép lái xe sẽ bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với xe mô tô và từ 4.000.000 đồng đến 6.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không chấp hành tín hiệu giao thông sẽ bị phạt bao nhiêu?",
+          "Phạt lỗi không chấp hành đèn tín hiệu giao thông thế nào?"
+        ],
+        "responses": [
+          "Hành vi không chấp hành tín hiệu giao thông sẽ bị phạt tiền từ 600.000 đồng đến 1.000.000 đồng đối với người điều khiển xe mô tô và từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chở hàng vượt quá trọng tải cho phép sẽ bị xử lý thế nào?",
+          "Chở hàng vượt tải có bị phạt không, mức phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Chở hàng vượt quá trọng tải cho phép sẽ bị phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng, tùy theo mức độ vượt tải."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Hành vi sử dụng rượu bia khi lái xe bị xử phạt như thế nào?",
+          "Uống rượu bia lái xe bị phạt bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện có nồng độ cồn vượt quá quy định sẽ bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với xe mô tô, và từ 30.000.000 đồng đến 40.000.000 đồng đối với xe ô tô. Ngoài ra, còn có thể bị tước quyền sử dụng giấy phép lái xe có thời hạn."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Quy định về đội mũ bảo hiểm khi đi xe máy là gì?",
+          "Không đội mũ bảo hiểm khi đi xe máy bị phạt ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển hoặc người ngồi trên xe mô tô, xe gắn máy không đội mũ bảo hiểm sẽ bị phạt tiền từ 200.000 đồng đến 300.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chạy xe quá tốc độ bị xử phạt như thế nào?",
+          "Lỗi chạy quá tốc độ bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Hành vi điều khiển phương tiện chạy quá tốc độ sẽ bị phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với xe mô tô, và từ 6.000.000 đồng đến 8.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Sử dụng điện thoại khi lái xe có bị phạt không?",
+          "Người lái xe dùng điện thoại bị xử lý thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện sử dụng điện thoại di động khi đang lái xe sẽ bị phạt tiền từ 600.000 đồng đến 1.000.000 đồng đối với xe mô tô, và từ 2.000.000 đồng đến 3.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chở quá số người quy định trên xe máy bị phạt bao nhiêu?",
+          "Lỗi chở 3 người trên xe máy bị phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe mô tô chở quá số người quy định sẽ bị phạt tiền từ 300.000 đồng đến 400.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe mà không có bảo hiểm trách nhiệm dân sự thì bị phạt bao nhiêu?",
+          "Không có bảo hiểm xe máy hoặc ô tô có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện không có hoặc không mang theo bảo hiểm trách nhiệm dân sự sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng đối với xe mô tô, và từ 400.000 đồng đến 600.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe máy hết hạn đăng kiểm thì bị xử lý ra sao?",
+          "Hết hạn kiểm định xe máy bị phạt bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Người điều khiển xe máy quá hạn kiểm định sẽ bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Gây tai nạn giao thông nhưng không dừng lại hỗ trợ bị xử phạt thế nào?",
+          "Không dừng lại khi gây tai nạn giao thông bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện gây tai nạn giao thông mà không dừng lại hỗ trợ sẽ bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với xe ô tô, và từ 4.000.000 đồng đến 5.000.000 đồng đối với xe mô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi xe đạp điện không đội mũ bảo hiểm có bị phạt không?",
+          "Lỗi không đội mũ bảo hiểm khi đi xe đạp điện bị phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển hoặc ngồi trên xe đạp điện không đội mũ bảo hiểm sẽ bị phạt tiền từ 200.000 đồng đến 300.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Bật đèn pha trong khu vực đô thị có bị phạt không?",
+          "Lỗi bật đèn pha trong thành phố bị xử phạt như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe sử dụng đèn pha trong khu vực đô thị hoặc khu đông dân cư sẽ bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi ngược chiều trên đường một chiều bị phạt bao nhiêu?",
+          "Người lái xe đi ngược chiều bị xử phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe đi ngược chiều trên đường một chiều sẽ bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với xe mô tô, và từ 4.000.000 đồng đến 6.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Dừng xe ở nơi cấm dừng cấm đỗ bị phạt ra sao?",
+          "Lỗi đỗ xe nơi không được phép có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện dừng xe hoặc đỗ xe ở nơi cấm sẽ bị phạt tiền từ 200.000 đồng đến 400.000 đồng đối với xe mô tô, và từ 800.000 đồng đến 1.200.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Bấm còi xe trong khu vực cấm có bị xử phạt không?",
+          "Hành vi bấm còi trong khu vực bệnh viện bị phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe bấm còi trong khu vực cấm sẽ bị phạt tiền từ 300.000 đồng đến 400.000 đồng đối với xe mô tô, và từ 1.000.000 đồng đến 2.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không nhường đường cho xe ưu tiên đang làm nhiệm vụ bị phạt bao nhiêu?",
+          "Xe không nhường đường cho xe cứu thương, cứu hỏa bị xử phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe không nhường đường cho xe ưu tiên đang làm nhiệm vụ sẽ bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với xe ô tô, và từ 500.000 đồng đến 1.000.000 đồng đối với xe mô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Vượt đèn đỏ bị phạt thế nào?",
+          "Phạt lỗi vượt đèn đỏ bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện vượt đèn đỏ sẽ bị phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với xe mô tô, và từ 4.000.000 đồng đến 6.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi vào làn đường dành riêng cho xe buýt có bị phạt không?",
+          "Lỗi đi vào làn xe buýt bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe đi vào làn đường dành riêng cho xe buýt sẽ bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với xe ô tô, và từ 400.000 đồng đến 600.000 đồng đối với xe mô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không bật đèn chiếu sáng khi lái xe vào ban đêm bị phạt bao nhiêu?",
+          "Lái xe ban đêm mà quên bật đèn bị xử phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện không bật đèn chiếu sáng khi lái xe vào ban đêm sẽ bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với xe mô tô, và từ 800.000 đồng đến 1.200.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không giảm tốc độ khi đi qua khu vực đông dân cư có bị phạt không?",
+          "Đi quá tốc độ trong khu đông dân cư bị xử lý thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện không giảm tốc độ khi đi qua khu vực đông dân cư sẽ bị phạt tiền từ 600.000 đồng đến 1.000.000 đồng đối với xe mô tô, và từ 2.000.000 đồng đến 4.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe mà không bật xi nhan khi chuyển hướng bị phạt bao nhiêu?",
+          "Không bật đèn xi nhan khi rẽ có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện không bật đèn xi nhan khi chuyển hướng sẽ bị phạt tiền từ 400.000 đồng đến 600.000 đồng đối với xe mô tô, và từ 800.000 đồng đến 1.200.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Sử dụng còi xe không đúng quy định bị xử phạt thế nào?",
+          "Bấm còi liên tục trong khu dân cư có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện sử dụng còi xe không đúng quy định sẽ bị phạt tiền từ 300.000 đồng đến 400.000 đồng đối với xe mô tô, và từ 800.000 đồng đến 1.200.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe khi trong người có chất ma túy bị xử phạt ra sao?",
+          "Lái xe sử dụng chất kích thích bị phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện trong cơ thể có chất ma túy sẽ bị phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và tước quyền sử dụng giấy phép lái xe từ 22 đến 24 tháng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi xe máy không có gương chiếu hậu có bị phạt không?",
+          "Xe máy thiếu gương chiếu hậu bị phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe máy không có hoặc có nhưng không đủ gương chiếu hậu đúng quy chuẩn sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đăng ký biển số xe không đúng quy định có bị phạt không?",
+          "Lỗi lắp biển số sai quy định bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện lắp biển số xe không đúng quy định sẽ bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với xe ô tô, và từ 800.000 đồng đến 1.000.000 đồng đối với xe mô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi xe máy không đội mũ bảo hiểm thì bị xử phạt bao nhiêu?",
+          "Không đội mũ bảo hiểm khi đi xe máy bị phạt thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển hoặc ngồi trên xe mô tô, xe gắn máy không đội mũ bảo hiểm sẽ bị phạt tiền từ 400.000 đồng đến 600.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chở hàng hóa cồng kềnh trên xe máy có bị phạt không?",
+          "Lỗi chở hàng vượt quá kích thước cho phép bị xử phạt như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe mô tô chở hàng hóa cồng kềnh, vượt quá giới hạn kích thước sẽ bị phạt tiền từ 400.000 đồng đến 600.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe vượt quá tốc độ cho phép bị phạt thế nào?",
+          "Vượt tốc độ quy định bị xử phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển xe vượt quá tốc độ quy định sẽ bị phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với xe mô tô, và từ 4.000.000 đồng đến 6.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Lái xe khi không có giấy phép lái xe thì bị xử phạt ra sao?",
+          "Không có bằng lái xe mà điều khiển phương tiện thì bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển xe không có giấy phép lái xe sẽ bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với xe mô tô, và từ 4.000.000 đồng đến 6.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe khi có nồng độ cồn trong máu bị xử phạt thế nào?",
+          "Lái xe trong tình trạng say rượu bị phạt bao nhiêu tiền?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện có nồng độ cồn trong máu sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với xe mô tô, và từ 6.000.000 đồng đến 8.000.000 đồng đối với xe ô tô, kèm theo tước giấy phép lái xe từ 10 đến 12 tháng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chạy xe trên vỉa hè bị xử phạt như thế nào?",
+          "Lỗi đi xe trên vỉa hè có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện chạy xe trên vỉa hè sẽ bị phạt tiền từ 400.000 đồng đến 600.000 đồng đối với xe mô tô, và từ 1.000.000 đồng đến 2.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không giữ khoảng cách an toàn với xe phía trước bị phạt ra sao?",
+          "Đi xe mà không giữ khoảng cách với xe khác bị xử lý thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe không giữ khoảng cách an toàn với xe phía trước sẽ bị phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với xe mô tô, và từ 3.000.000 đồng đến 5.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe mà không có đăng ký xe bị phạt thế nào?",
+          "Không mang theo giấy đăng ký xe thì bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện không mang theo giấy đăng ký xe sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng đối với xe mô tô, và từ 400.000 đồng đến 600.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Bật đèn cảnh báo khẩn cấp không đúng chỗ có bị phạt không?",
+          "Lỗi sử dụng đèn cảnh báo không đúng quy định bị xử phạt ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển phương tiện sử dụng đèn cảnh báo không đúng quy định sẽ bị phạt tiền từ 300.000 đồng đến 400.000 đồng đối với xe mô tô, và từ 800.000 đồng đến 1.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi xe máy vào đường cấm xe máy bị phạt như thế nào?",
+          "Lái xe vào khu vực cấm bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe đi vào khu vực cấm hoặc đường cấm sẽ bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với xe mô tô, và từ 2.000.000 đồng đến 4.000.000 đồng đối với xe ô tô."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi xe đạp vào đường cao tốc có bị phạt không?",
+          "Xe đạp đi vào đường dành cho ô tô bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp đi vào đường cao tốc sẽ bị phạt tiền từ 80.000 đồng đến 100.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chở người trên xe đạp mà không đúng quy định bị phạt thế nào?",
+          "Lỗi chở người trên xe đạp quá số lượng cho phép có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp chở người không đúng quy định sẽ bị phạt tiền từ 80.000 đồng đến 100.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe đạp máy không bật đèn chiếu sáng khi trời tối bị phạt bao nhiêu?",
+          "Không bật đèn xe đạp máy khi lưu thông vào ban đêm bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp máy không bật đèn chiếu sáng khi trời tối sẽ bị phạt tiền từ 80.000 đồng đến 100.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe thô sơ chở hàng cồng kềnh bị phạt như thế nào?",
+          "Chở hàng quá kích thước cho phép trên xe thô sơ bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe thô sơ chở hàng cồng kềnh, vượt quá giới hạn kích thước sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe đạp đi ngược chiều trên đường một chiều bị phạt không?",
+          "Đi xe đạp ngược chiều thì bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp đi ngược chiều trên đường một chiều sẽ bị phạt tiền từ 80.000 đồng đến 100.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi xe đạp mà không giữ khoảng cách an toàn bị phạt thế nào?",
+          "Lỗi không giữ khoảng cách khi đi xe đạp bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp không giữ khoảng cách an toàn với xe phía trước sẽ bị phạt tiền từ 60.000 đồng đến 80.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Người điều khiển xe thô sơ vượt đèn đỏ bị xử phạt thế nào?",
+          "Đi xe thô sơ không tuân thủ tín hiệu đèn giao thông bị phạt bao nhiêu?"
+        ],
+        "responses": [
+          "Người điều khiển xe thô sơ vượt đèn đỏ sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe đạp máy khi trong người có rượu bia bị phạt ra sao?",
+          "Lái xe đạp máy trong tình trạng say rượu có bị xử phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp máy trong tình trạng có nồng độ cồn sẽ bị phạt tiền từ 400.000 đồng đến 600.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không nhường đường cho người đi bộ khi đi xe đạp bị xử lý thế nào?",
+          "Xe đạp không nhường đường cho người đi bộ bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp không nhường đường cho người đi bộ sẽ bị phạt tiền từ 60.000 đồng đến 80.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chở người trên xe đạp máy mà không đội mũ bảo hiểm bị phạt bao nhiêu?",
+          "Đi xe đạp máy chở người không đội mũ bảo hiểm có bị xử phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp máy chở người không đội mũ bảo hiểm sẽ bị phạt tiền từ 200.000 đồng đến 300.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe đạp máy đi vào làn đường dành cho ô tô bị phạt như thế nào?",
+          "Xe đạp máy đi sai làn đường có bị xử phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp máy đi vào làn đường dành cho ô tô sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Đi xe đạp mà vượt qua rào chắn đường sắt bị phạt bao nhiêu?",
+          "Lỗi vượt rào chắn đường sắt khi đi xe đạp bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp vượt qua rào chắn đường sắt sẽ bị phạt tiền từ 200.000 đồng đến 300.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Người điều khiển xe thô sơ không tuân thủ biển báo giao thông bị xử phạt thế nào?",
+          "Đi xe thô sơ mà vi phạm biển báo cấm có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe thô sơ không tuân thủ biển báo giao thông sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe đạp khi không bấm còi để cảnh báo bị xử lý thế nào?",
+          "Xe đạp không bấm còi khi cần cảnh báo có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp không bấm còi để cảnh báo khi cần sẽ bị phạt tiền từ 80.000 đồng đến 100.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe đạp máy đi qua đường không đúng nơi quy định bị phạt thế nào?",
+          "Đi xe đạp máy qua nơi không có vạch kẻ đường bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp máy đi qua đường không đúng nơi quy định sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Không gắn đèn phản quang trên xe thô sơ khi lưu thông ban đêm có bị phạt không?",
+          "Xe thô sơ không có đèn phản quang bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe thô sơ không gắn đèn phản quang khi lưu thông vào ban đêm sẽ bị phạt tiền từ 60.000 đồng đến 80.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Người đi xe đạp dùng ô che khi điều khiển xe có bị phạt không?",
+          "Đi xe đạp mà vừa che ô vừa lái xe bị xử lý thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp sử dụng ô che khi lái xe sẽ bị phạt tiền từ 80.000 đồng đến 100.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe thô sơ chở người dưới 16 tuổi không đội mũ bảo hiểm bị phạt thế nào?",
+          "Chở trẻ em trên xe thô sơ mà không đội mũ bảo hiểm có bị xử phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe thô sơ chở trẻ em dưới 16 tuổi không đội mũ bảo hiểm sẽ bị phạt tiền từ 100.000 đồng đến 200.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Điều khiển xe đạp máy không gắn biển số có bị phạt không?",
+          "Xe đạp máy không có biển số bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Người điều khiển xe đạp máy không gắn biển số sẽ bị phạt tiền từ 300.000 đồng đến 400.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chở hàng hóa nguy hiểm trên xe thô sơ mà không có cảnh báo bị phạt ra sao?",
+          "Điều khiển xe thô sơ chở vật liệu nguy hiểm không đúng quy định có bị phạt không?"
+        ],
+        "responses": [
+          "Người điều khiển xe thô sơ chở hàng hóa nguy hiểm mà không có cảnh báo sẽ bị phạt tiền từ 200.000 đồng đến 300.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe ô tô vận chuyển hành khách quá số lượng có bị phạt không?",
+          "Chở quá số hành khách quy định trên xe ô tô bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Xe ô tô vận chuyển hành khách quá số lượng quy định sẽ bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng và tạm giữ giấy phép lái xe từ 1 đến 3 tháng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Vận chuyển hàng siêu trọng mà không có giấy phép bị phạt thế nào?",
+          "Xe chở hàng siêu trường, siêu trọng không có giấy phép lưu hành bị xử lý ra sao?",
+          "Xe chở đồ quá nặng sẽ làm sao?"
+        ],
+        "responses": [
+          "Xe vận chuyển hàng siêu trường, siêu trọng mà không có giấy phép sẽ bị phạt tiền từ 15.000.000 đồng đến 20.000.000 đồng và yêu cầu dừng lưu hành."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe chở hàng hóa nguy hiểm không có biển báo cảnh báo bị phạt bao nhiêu?",
+          "Điều khiển xe chở hàng nguy hiểm mà không có biển cảnh báo là vi phạm như thế nào?"
+        ],
+        "responses": [
+          "Xe chở hàng hóa nguy hiểm không có biển báo cảnh báo sẽ bị phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Chở trẻ em mầm non trên xe ô tô không có ghế an toàn bị phạt thế nào?",
+          "Xe ô tô không có ghế dành cho trẻ em mầm non bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Xe ô tô chở trẻ em mầm non mà không có ghế an toàn sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe ô tô chở học sinh không có biển hiệu bị phạt như thế nào?",
+          "Điều khiển xe chở học sinh mà không có biển hiệu nhận diện bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Xe ô tô chở học sinh mà không có biển hiệu nhận diện sẽ bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe ô tô chở động vật sống mà không đảm bảo vệ sinh có bị phạt không?",
+          "Chở động vật sống trên xe ô tô mà không tuân thủ quy định về vệ sinh bị xử lý thế nào?"
+        ],
+        "responses": [
+          "Xe ô tô chở động vật sống mà không đảm bảo vệ sinh sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe vận chuyển thực phẩm tươi sống không có giấy tờ kiểm dịch bị phạt thế nào?",
+          "Điều khiển xe chở thực phẩm tươi sống mà không có giấy tờ kiểm dịch bị xử lý ra sao?"
+        ],
+        "responses": [
+          "Xe vận chuyển thực phẩm tươi sống không có giấy tờ kiểm dịch sẽ bị phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe cứu thương không bật đèn ưu tiên khi lưu thông có bị phạt không?",
+          "Điều khiển xe cứu thương mà không bật đèn ưu tiên bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Xe cứu thương không bật đèn ưu tiên khi lưu thông sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe ô tô chở hàng bốn bánh có gắn động cơ mà không có giấy phép vận tải bị phạt ra sao?",
+          "Xe chở hàng bốn bánh có gắn động cơ mà không có giấy phép vận tải bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Xe ô tô chở hàng bốn bánh có gắn động cơ mà không có giấy phép vận tải sẽ bị phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "Xe cứu hộ giao thông đường bộ vi phạm tốc độ bị phạt bao nhiêu?",
+          "Điều khiển xe cứu hộ giao thông mà vi phạm tốc độ bị xử lý như thế nào?"
+        ],
+        "responses": [
+          "Xe cứu hộ giao thông đường bộ vi phạm tốc độ sẽ bị phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng và tạm giữ giấy phép lái xe."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "người tham gia giao thông phải lưu ý gì?"
+        ],
+        "responses": [
+          "Người giam gia giao thông phải thi hành và tuân thủ đúng pháp luật."
+        ]
+      },
+      {
+        "intent": "answer",
+        "examples": [
+          "cách đóng phạt như nào?",
+          "hãy chỉ tôi cách đóng tiền phạt"
+        ],
+        "responses": [
+          "Nộp tiền mặt trực tiếp tại Kho bạc Nhà nước hoặc tại ngân hàng thương mại nơi Kho bạc nhà nước mở tài khoản được ghi trong quyết định xử phạt;"
+        ]
+      },
+      {
+        "intent": "out",
+        "examples": [
+          "Bạn có thích cà phê không?",
+          "Trường Đại học Kiến Trúc Hà Nội ở đâu?",
+          "Trường Đại học Kiến Trúc ở đâu?",
+          "Con mèo có mấy chân?",
+          "1+1 bằng mấy?",
+          "Bệnh cảm có triệu chứng như nào?",
+          "Giá vàng hiện tại là bao nhiêu?",
+          "Thời tiết hôm nay",
+          "Kỳ thi THPT Quốc gia diễn ra vào tháng mấy?",
+          "Làm thế nào để học tiếng Anh hiệu quả?",
+          "Các trường đại học ở TP.HCM có những trường nào?",
+          "Cách tính điểm xét tuyển đại học như thế nào?",
+          "Triệu chứng của bệnh sốt xuất huyết là gì?",
+          "Cách phòng tránh bệnh cúm mùa?",
+          "Nên uống bao nhiêu nước mỗi ngày?",
+          "Tập thể dục buổi sáng có những lợi ích gì?",
+          "iPhone 15 có những tính năng gì mới?",
+          "Làm thế nào để tạo tài khoản Gmail?",
+          "Cách khôi phục mật khẩu Facebook?",
+          "Laptop gaming tốt nhất trong tầm giá 20 triệu?",
+          "Phim chiếu rạp mới nhất là gì?",
+          "Có những địa điểm du lịch nào đẹp ở Đà Lạt?",
+          "World Cup 2026 sẽ tổ chức ở đâu?",
+          "Cách đặt vé xem concert trực tuyến?"
+        ],
+        "responses": [
+          "Xin lỗi, tôi chỉ hỗ trợ các câu hỏi liên quan đến luật giao thông."
+        ]
+      },
+      {
+        "intent": "out",
+        "examples": [
+          "Biển báo nguy hiểm có hình dạng như nào?",
+          "Điều 1 của Bộ luật Dân sự quy định gì?",
+          "Làm thế nào để ly hôn theo luật?",
+          "Điều kiện để kết hôn là gì?",
+          "Làm thế nào để nấu phở ngon?",
+          "Cách chăm sóc cây cảnh trong nhà?",
+          "Làm sao để giặt quần áo trắng không bị ngả màu?",
+          "Những món ăn đặc sản của Hà Nội là gì?",
+          "Lãi suất ngân hàng hiện nay là bao nhiêu?",
+          "Cách mở tài khoản chứng khoán online?",
+          "Nên đầu tư vào kênh nào an toàn nhất?",
+          "Thủ tục vay ngân hàng mua nhà cần những gì?"
+        ],
+        "responses": [
+          "Xin lỗi, tôi không biết câu trả lời. Xin hãy hỏi câu hỏi khác!"
+        ]
+      }
+    ]
+  }
+  

@@ -19,12 +19,21 @@
                 <div 
                   v-for="chat in chats" 
                   :key="chat.id"
-                  @click="loadChat(chat.id)"
-                  class="text-gray-800 hover:bg-gray-200 rounded-lg p-2 cursor-pointer text-sm"
+                  class="group flex items-center justify-between text-gray-800 hover:bg-gray-200 rounded-lg p-2 cursor-pointer text-sm"
                   :class="{'bg-gray-200': currentChat?.id === chat.id}"
                 >
-                  <div class="truncate">{{ chat.title || 'Cuộc trò chuyện mới' }}</div>
-                  <div class="text-xs text-gray-500">{{ formatTime(chat.timestamp) }}</div>
+                  <div 
+                    class="flex-1 min-w-0 mr-2"
+                    @click="loadChat(chat.id)"
+                  >
+                    <div class="truncate">{{ chat.title || 'Cuộc trò chuyện mới' }}</div>
+                    <div class="text-xs text-gray-500">{{ formatTime(chat.timestamp) }}</div>
+                  </div>
+                  <Button
+                    @click.stop="confirmDeleteChat(chat.id)"
+                    class="p-button-text p-button-danger p-button-sm opacity-0 group-hover:opacity-100 transition-opacity"
+                    icon="pi pi-trash"
+                  />
                 </div>
               </div>
             </div>
@@ -86,6 +95,32 @@
         </div>
       </div>
     </div>
+
+    <!-- Delete Confirmation Dialog -->
+    <Dialog
+      v-model:visible="showDeleteDialog"
+      header="Xác nhận xóa"
+      :modal="true"
+      class="w-[90vw] md:w-[400px]"
+    >
+      <p class="m-0">
+        Bạn có chắc chắn muốn xóa cuộc trò chuyện này không?
+      </p>
+      <template #footer>
+        <Button
+          label="Hủy"
+          icon="pi pi-times"
+          @click="showDeleteDialog = false"
+          class="p-button-text"
+        />
+        <Button
+          label="Xóa"
+          icon="pi pi-trash"
+          @click="deleteChat"
+          class="p-button-danger"
+        />
+      </template>
+    </Dialog>
   </div>
 </template>
 
@@ -98,6 +133,8 @@ const loading = ref(false);
 const chatMessagesRef = ref(null);
 const chatHistory = ref([]);
 const currentChatId = ref(null);
+const showDeleteDialog = ref(false);
+const chatToDelete = ref(null);
 
 const API_URL = 'http://127.0.0.1:5000/predict';
 
@@ -131,7 +168,6 @@ const currentChat = computed(() =>
   chatHistory.value.find(chat => chat.id === currentChatId.value)
 );
 
-// Format date to Vietnamese locale
 const formatDate = (dateString) => {
   const date = new Date(dateString);
   const today = new Date();
@@ -160,6 +196,26 @@ const formatTime = (timestamp) => {
   });
 };
 
+const confirmDeleteChat = (chatId) => {
+  chatToDelete.value = chatId;
+  showDeleteDialog.value = true;
+};
+
+const deleteChat = () => {
+  const index = chatHistory.value.findIndex(chat => chat.id === chatToDelete.value);
+  if (index > -1) {
+    chatHistory.value.splice(index, 1);
+    if (currentChatId.value === chatToDelete.value) {
+      currentChatId.value = chatHistory.value[0]?.id || null;
+      if (!currentChatId.value) {
+        startNewChat();
+      }
+    }
+  }
+  showDeleteDialog.value = false;
+  chatToDelete.value = null;
+};
+
 const startNewChat = () => {
   const newChat = {
     id: generateId(),
@@ -185,17 +241,14 @@ const sendMessage = async () => {
 
   const messageTime = new Date().getTime();
   
-  // Add user message
   currentChat.value.messages.push({
     content: newMessage.value,
     isUser: true,
     timestamp: messageTime
   });
 
-  // Update chat timestamp
   currentChat.value.timestamp = messageTime;
 
-  // Update title if it's the first user message
   if (currentChat.value.messages.length === 2 && !currentChat.value.title) {
     currentChat.value.title = newMessage.value.slice(0, 30) + (newMessage.value.length > 30 ? '...' : '');
   }
