@@ -119,7 +119,7 @@
           "Hình thức xử phạt vi phạm hành chính"
         ],
         "responses": [
-          "Đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ, cá nhân, tổ chức vi phạm phải chịu một trong các hình thức xử phạt chính sau đây: \n a) Cảnh cáo; \n b) Phạt tiền; \n c) Tịch thu phương tiện được sử dụng để vi phạm hành chính."
+          "Đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ, cá nhân, tổ chức vi phạm phải chịu một trong các hình thức xử phạt chính sau đây: a) Cảnh cáo; b) Phạt tiền; c) Tịch thu phương tiện được sử dụng để vi phạm hành chính."
         ]
       },
       {
@@ -130,15 +130,6 @@
         ],
         "responses": [
           "Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, khi ra, vào vị trí dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết; Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước hoặc chuyển làn đường không đúng quy định, chở người trên buồng lái quá số lượng quy định. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe Điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h; Sử dụng còi, rú ga liên tục; sử dụng còi hơi, sử dụng đèn chiếu xa khi gặp người đi bộ qua đường"
-        ]
-      },
-      {
-        "intent": "answer",
-        "examples": [
-          "người đi xe ô tô không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu bị phạt bao nhiêu tiền?"
-        ],
-        "responses": [
-          "Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường"
         ]
       },
       {
@@ -919,7 +910,8 @@
         "intent": "answer",
         "examples": [
           "Vận chuyển hàng siêu trọng mà không có giấy phép bị phạt thế nào?",
-          "Xe chở hàng siêu trường, siêu trọng không có giấy phép lưu hành bị xử lý ra sao?"
+          "Xe chở hàng siêu trường, siêu trọng không có giấy phép lưu hành bị xử lý ra sao?",
+          "Xe chở đồ quá nặng sẽ làm sao?"
         ],
         "responses": [
           "Xe vận chuyển hàng siêu trường, siêu trọng mà không có giấy phép sẽ bị phạt tiền từ 15.000.000 đồng đến 20.000.000 đồng và yêu cầu dừng lưu hành."
@@ -1015,6 +1007,16 @@
         ]
       },
       {
+        "intent": "answer",
+        "examples": [
+          "cách đóng phạt như nào?",
+          "hãy chỉ tôi cách đóng tiền phạt"
+        ],
+        "responses": [
+          "Nộp tiền mặt trực tiếp tại Kho bạc Nhà nước hoặc tại ngân hàng thương mại nơi Kho bạc nhà nước mở tài khoản được ghi trong quyết định xử phạt;"
+        ]
+      },
+      {
         "intent": "out",
         "examples": [
           "Bạn có thích cà phê không?",
@@ -1043,7 +1045,7 @@
           "Cách đặt vé xem concert trực tuyến?"
         ],
         "responses": [
-          "Xin lỗi, tôi chỉ hỗ trợ các câu hỏi liên quan đến luật giao thông. Bạn cần hỏi gì về luật giao thông?"
+          "Xin lỗi, tôi chỉ hỗ trợ các câu hỏi liên quan đến luật giao thông."
         ]
       },
       {

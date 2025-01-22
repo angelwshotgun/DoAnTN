@@ -1,15 +1,13 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import torch
+import torch                                                                    # type: ignore
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)                                                                    # Enable CORS for all routes
 
-# Load model and tokenizer
-model_dir = "../vit5-finetuned"  # Replace with your saved model path
+model_dir = "../model" 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_dir).to(device)
 
@@ -22,7 +20,6 @@ def predict():
         if not input_text:
             return jsonify({'error': 'Input text is required'}), 400
 
-        # Tokenize input
         encoded_input = tokenizer(
             input_text,
             return_tensors="pt",
@@ -31,18 +28,16 @@ def predict():
             max_length=128
         ).to(device)
         
-        # Generate response
         output_ids = model.generate(
             input_ids=encoded_input["input_ids"],
             attention_mask=encoded_input["attention_mask"],
-            max_length=50,
+            max_length=100,
             num_beams=4,
             length_penalty=1.0,
             early_stopping=True,
             no_repeat_ngram_size=2
         )
         
-        # Decode response
         answer = tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
         return jsonify({
