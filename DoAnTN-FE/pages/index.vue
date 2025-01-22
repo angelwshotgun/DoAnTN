@@ -1,37 +1,52 @@
 <template>
-  <div class="flex justify-center items-center min-h-[92vh] bg-gray-100">
-    <div class="flex w-screen">
+  <div class="flex justify-center items-center min-h-[92vh] bg-gradient-to-br from-gray-50 to-gray-100">
+    <div class="flex w-screen max-w-7xl mx-4">
       <!-- Sidebar with Date-based Chat History -->
-      <div class="w-64 bg-gray-100 rounded-xl shadow-lg overflow-hidden">
+      <div class="w-80 bg-white rounded-lg shadow-lg overflow-hidden mr-4">
         <div class="p-4">
-          <div class="font-medium text-gray-700 mb-3">Lịch sử trò chuyện</div>
+          <div class="font-semibold text-gray-800 mb-4 text-lg flex items-center">
+            <i class="pi pi-comments mr-2"></i>
+            Lịch sử trò chuyện
+          </div>
+          
           <Button 
             @click="startNewChat"
             class="w-full mb-4 p-button-secondary"
-            icon="pi pi-plus"
-            label="Cuộc trò chuyện mới"
-          />
+            severity="secondary"
+          >
+            <i class="pi pi-plus-circle mr-2"></i>
+            Cuộc trò chuyện mới
+          </Button>
           
           <div class="space-y-4">
             <div v-for="(chats, date) in groupedChats" :key="date">
-              <div class="text-sm font-medium text-gray-600 mb-2">{{ formatDate(date) }}</div>
+              <div class="text-sm font-medium text-gray-600 mb-2 flex items-center">
+                <i class="pi pi-calendar mr-2"></i>
+                {{ formatDate(date) }}
+              </div>
               <div class="space-y-2">
                 <div 
                   v-for="chat in chats" 
                   :key="chat.id"
-                  class="group flex items-center justify-between text-gray-800 hover:bg-gray-200 rounded-lg p-2 cursor-pointer text-sm"
-                  :class="{'bg-gray-200': currentChat?.id === chat.id}"
+                  class="group flex items-center justify-between text-gray-800 hover:bg-gray-50 rounded-lg p-3 cursor-pointer text-sm transition-all duration-200"
+                  :class="{'bg-blue-50 border border-blue-200': currentChat?.id === chat.id}"
                 >
                   <div 
                     class="flex-1 min-w-0 mr-2"
                     @click="loadChat(chat.id)"
                   >
-                    <div class="truncate">{{ chat.title || 'Cuộc trò chuyện mới' }}</div>
-                    <div class="text-xs text-gray-500">{{ formatTime(chat.timestamp) }}</div>
+                    <div class="truncate font-medium flex items-center">
+                      <i class="pi pi-comments mr-2 text-gray-500"></i>
+                      {{ chat.title || 'Cuộc trò chuyện mới' }}
+                    </div>
+                    <div class="text-xs text-gray-500 flex items-center mt-1">
+                      <i class="pi pi-clock mr-1"></i>
+                      {{ formatTime(chat.timestamp) }}
+                    </div>
                   </div>
                   <Button
                     @click.stop="confirmDeleteChat(chat.id)"
-                    class="p-button-text p-button-danger p-button-sm opacity-0 group-hover:opacity-100 transition-opacity"
+                    class="p-button-text p-button-danger p-button-sm opacity-0 group-hover:opacity-100 transition-all"
                     icon="pi pi-trash"
                   />
                 </div>
@@ -42,11 +57,18 @@
       </div>
 
       <!-- Chat Area -->
-      <div class="flex-1 bg-white rounded-xl shadow-lg overflow-hidden">
+      <div class="flex-1 bg-white rounded-lg shadow-lg overflow-hidden">
         <div class="h-[94.75vh] flex flex-col">
+          <div class="p-4 border-b bg-white flex items-center">
+            <i class="pi pi-user text-xl text-gray-600 mr-2"></i>
+            <span class="font-semibold text-gray-800">
+              {{ currentChat?.title || 'Cuộc trò chuyện mới' }}
+            </span>
+          </div>
+          
           <div
             ref="chatMessagesRef"
-            class="flex-1 p-4 overflow-y-auto scroll-smooth space-y-4 bg-gray-50"
+            class="flex-1 p-6 overflow-y-auto scroll-smooth space-y-4 bg-gradient-to-b from-gray-50 to-white"
           >
             <div
               v-for="(message, index) in currentChat?.messages"
@@ -56,14 +78,15 @@
             >
               <div
                 :class="[
-                  'max-w-[80%] px-4 py-2 rounded-lg shadow-sm',
+                  'max-w-[80%] px-5 py-3 rounded-lg shadow-sm',
                   message.isUser
-                    ? 'bg-[#e8e8e880] text-black'
-                    : 'bg-white',
+                    ? 'bg-blue-500 text-white'
+                    : 'bg-gray-100 text-gray-800',
                 ]"
               >
-                <p class="text-sm md:text-base">{{ message.content }}</p>
-                <span class="text-xs text-gray-500">
+                <p class="text-sm md:text-base leading-relaxed">{{ message.content }}</p>
+                <span class="text-xs opacity-75 flex items-center mt-1">
+                  <i class="pi pi-clock mr-1"></i>
                   {{ formatTime(message.timestamp) }}
                 </span>
               </div>
@@ -73,22 +96,24 @@
           <div class="border-t bg-white p-4">
             <form
               @submit.prevent="sendMessage"
-              class="flex items-center space-x-2"
+              class="flex items-center space-x-3"
             >
               <InputText
                 v-model="newMessage"
-                placeholder="Nhập tin nhắn..."
-                class="flex-1 rounded-full border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                placeholder="Nhập tin nhắn của bạn..."
+                class="flex-1 rounded-full border-gray-300 focus:ring-blue-500 focus:border-blue-500 py-2 px-4"
                 :disabled="loading"
               />
               <Button
                 type="submit"
                 :disabled="!newMessage.trim() || loading"
-                class="p-button-rounded p-button-primary"
-                icon="pi pi-send"
-              />
+                class="p-button-rounded p-button-primary w-12 h-12"
+              >
+                <i class="pi pi-send"></i>
+              </Button>
             </form>
-            <div v-if="loading" class="text-xs text-gray-500 mt-2 ml-4">
+            <div v-if="loading" class="text-sm text-gray-600 mt-2 ml-4 flex items-center">
+              <i class="pi pi-spinner pi-spin mr-2"></i>
               Đang trả lời...
             </div>
           </div>
@@ -101,11 +126,14 @@
       v-model:visible="showDeleteDialog"
       header="Xác nhận xóa"
       :modal="true"
-      class="w-[90vw] md:w-[400px]"
+      class="w-[90vw] md:w-[400px] rounded-xl"
     >
-      <p class="m-0">
-        Bạn có chắc chắn muốn xóa cuộc trò chuyện này không?
-      </p>
+      <div class="flex items-center text-gray-700">
+        <i class="pi pi-exclamation-triangle text-yellow-500 text-xl mr-3"></i>
+        <p class="m-0">
+          Bạn có chắc chắn muốn xóa cuộc trò chuyện này không?
+        </p>
+      </div>
       <template #footer>
         <Button
           label="Hủy"
@@ -118,6 +146,7 @@
           icon="pi pi-trash"
           @click="deleteChat"
           class="p-button-danger"
+          severity="danger"
         />
       </template>
     </Dialog>
