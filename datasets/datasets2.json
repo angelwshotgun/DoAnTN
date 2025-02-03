@@ -1,6 +1,114 @@
 {
   "intents": [
     {
+      "intent": "talk",
+      "examples": ["Xin chào", "Chào bạn", "Hello", "Chào", "Hi"],
+      "responses": ["Chào bạn! Bạn hãy đặt câu hỏi để tôi có thể trả lời bạn!"]
+    },
+    {
+      "intent": "talk",
+      "examples": ["Cảm ơn bạn", "Cảm ơn"],
+      "responses": ["Không có gì! Rất vui được giúp đỡ bạn."]
+    },
+    {
+      "intent": "talk",
+      "examples": ["Tạm biệt", "Bye", "Hẹn gặp lại"],
+      "responses": ["Tạm biệt bạn! Hẹn gặp lại!"]
+    },
+    {
+      "intent": "talk",
+      "examples": ["Bạn là ai?", "Bạn tên gì?", "Bạn là bot à?"],
+      "responses": [
+        "Tôi là chatbot được tạo ra để hỗ trợ bạn. Bạn có câu hỏi gì không?"
+      ]
+    },
+    {
+      "intent": "talk",
+      "examples": [
+        "Tôi không hiểu",
+        "Ý bạn là gì?",
+        "Giải thích rõ hơn được không?",
+        "giải thích rõ hơn"
+      ],
+      "responses": [
+        "Bạn muốn tôi giải thích rõ hơn phần nào? Tôi sẽ cố gắng giải thích dễ hiểu hơn."
+      ]
+    },
+    {
+      "intent": "talk",
+      "examples": ["Sai rồi", "Không được", "không đúng"],
+      "responses": ["Tôi xin lỗi. Cảm ơn bạn đã nhắc nhở."]
+    },
+    {
+      "intent": "talk",
+      "examples": [
+        "Bạn giỏi quá",
+        "Bạn thật tuyệt",
+        "Bạn không giúp được gì cả",
+        "Đúng rồi"
+      ],
+      "responses": ["Cảm ơn phản hồi của bạn! Tôi sẽ cố gắng phục vụ tốt hơn."]
+    },
+    {
+      "intent": "talk",
+      "examples": ["...", "???", "!!!!!", "a", "b"],
+      "responses": [
+        "Xin lỗi, tôi không hiểu ý bạn. Bạn có thể nói rõ hơn được không?"
+      ]
+    },
+    {
+      "intent": "out",
+      "examples": [
+        "Bạn có thích cà phê không?",
+        "Trường Đại học Kiến Trúc Hà Nội ở đâu?",
+        "Trường Đại học Kiến Trúc ở đâu?",
+        "Con mèo có mấy chân?",
+        "1+1 bằng mấy?",
+        "Bệnh cảm có triệu chứng như nào?",
+        "Giá vàng hiện tại là bao nhiêu?",
+        "Thời tiết hôm nay",
+        "Kỳ thi THPT Quốc gia diễn ra vào tháng mấy?",
+        "Làm thế nào để học tiếng Anh hiệu quả?",
+        "Các trường đại học ở TP.HCM có những trường nào?",
+        "Cách tính điểm xét tuyển đại học như thế nào?",
+        "Triệu chứng của bệnh sốt xuất huyết là gì?",
+        "Cách phòng tránh bệnh cúm mùa?",
+        "Nên uống bao nhiêu nước mỗi ngày?",
+        "Tập thể dục buổi sáng có những lợi ích gì?",
+        "iPhone 15 có những tính năng gì mới?",
+        "Làm thế nào để tạo tài khoản Gmail?",
+        "Cách khôi phục mật khẩu Facebook?",
+        "Laptop gaming tốt nhất trong tầm giá 20 triệu?",
+        "Phim chiếu rạp mới nhất là gì?",
+        "Có những địa điểm du lịch nào đẹp ở Đà Lạt?",
+        "World Cup 2026 sẽ tổ chức ở đâu?",
+        "Cách đặt vé xem concert trực tuyến?"
+      ],
+      "responses": [
+        "Xin lỗi, tôi chỉ hỗ trợ các câu hỏi liên quan đến luật giao thông."
+      ]
+    },
+    {
+      "intent": "out",
+      "examples": [
+        "Biển báo nguy hiểm có hình dạng như nào?",
+        "Điều 1 của Bộ luật Dân sự quy định gì?",
+        "Làm thế nào để ly hôn theo luật?",
+        "Điều kiện để kết hôn là gì?",
+        "Làm thế nào để nấu phở ngon?",
+        "Cách chăm sóc cây cảnh trong nhà?",
+        "Làm sao để giặt quần áo trắng không bị ngả màu?",
+        "Những món ăn đặc sản của Hà Nội là gì?",
+        "Lãi suất ngân hàng hiện nay là bao nhiêu?",
+        "Cách mở tài khoản chứng khoán online?",
+        "Nên đầu tư vào kênh nào an toàn nhất?",
+        "Thủ tục vay ngân hàng mua nhà cần những gì?"
+      ],
+      "responses": [
+        "Xin lỗi, tôi không biết câu trả lời. Xin hãy hỏi câu hỏi khác!"
+      ]
+    },
+    {
       "intent": "answer",
       "examples": [
         "Nghị định này quy định những gì?",
