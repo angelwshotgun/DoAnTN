@@ -265,13 +265,23 @@ const loadChat = (chatId) => {
   nextTick(() => scrollToBottom());
 };
 
+const processMessageContent = (content) => {
+  // Thay thế @@ bằng dấu . ở cuối câu
+  let processedContent = content.replace(/@@/g, '.');
+  
+  // Thay \n bằng thẻ xuống dòng <br>
+  processedContent = processedContent.replace(/\n/g, '<br>');
+  
+  return processedContent;
+};
+
 const sendMessage = async () => {
   if (!newMessage.value.trim() || loading.value || !currentChat.value) return;
 
   const messageTime = new Date().getTime();
   
   currentChat.value.messages.push({
-    content: newMessage.value,
+    content: processMessageContent(newMessage.value),
     isUser: true,
     timestamp: messageTime
   });
@@ -287,14 +297,12 @@ const sendMessage = async () => {
   loading.value = true;
 
   try {
-    const response = await axios.post(API_URL, {
-      input: userInput
-    });
+    const response = await axios.post(API_URL, { input: userInput });
 
     if (response.data.status === 'success') {
       const botResponse = response.data.answer || 'Không thể trả lời câu hỏi này.';
       currentChat.value.messages.push({
-        content: botResponse,
+        content: processMessageContent(botResponse),
         isUser: false,
         timestamp: new Date().getTime()
       });
@@ -307,7 +315,7 @@ const sendMessage = async () => {
   } catch (error) {
     console.error('Error:', error);
     currentChat.value.messages.push({
-      content: 'Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại sau.',
+      content: processMessageContent('Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại sau.'),
       isUser: false,
       timestamp: new Date().getTime()
     });
@@ -315,6 +323,7 @@ const sendMessage = async () => {
     loading.value = false;
   }
 };
+
 
 const scrollToBottom = () => {
   if (chatMessagesRef.value) {
