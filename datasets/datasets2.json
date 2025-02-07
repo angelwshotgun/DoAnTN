@@ -85,16 +85,13 @@
         "Cách đặt vé xem concert trực tuyến?"
       ],
       "responses": [
-        "Xin lỗi, tôi chỉ hỗ trợ các câu hỏi liên quan đến luật giao thông."
+        "Xin lỗi, tôi không biết câu trả lời. Xin hãy hỏi câu hỏi khác!"
       ]
     },
     {
       "intent": "out",
       "examples": [
         "Biển báo nguy hiểm có hình dạng như nào?",
-        "Điều 1 của Bộ luật Dân sự quy định gì?",
-        "Làm thế nào để ly hôn theo luật?",
-        "Điều kiện để kết hôn là gì?",
         "Làm thế nào để nấu phở ngon?",
         "Cách chăm sóc cây cảnh trong nhà?",
         "Làm sao để giặt quần áo trắng không bị ngả màu?",
@@ -106,123 +103,6 @@
       ],
       "responses": [
         "Xin lỗi, tôi không biết câu trả lời. Xin hãy hỏi câu hỏi khác!"
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Nghị định này quy định những gì?",
-        "Phạm vi điều chỉnh của Nghị định 168/2024 là gì?",
-        "Nội dung chính của Điều 1 là gì?",
-        "Những hành vi nào được quy định trong Nghị định này?",
-        "Nghị định 168/2024 xử lý các vấn đề nào trong giao thông đường bộ?"
-      ],
-      "responses": [
-        "Nghị định này quy định về:a) Xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ, bao gồm: hành vi vi phạm hành chính; hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể theo từng chức danh đối với hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ;b) Mức trừ điểm giấy phép lái xe đối với từng hành vi vi phạm hành chính; trình tự, thủ tục, thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe để quản lý việc chấp hành pháp luật về trật tự, an toàn giao thông đường bộ của người lái xe."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Các hành vi không quy định tại Nghị định này sẽ được xử lý như thế nào?",
-        "Nghị định này có áp dụng cho các hành vi vi phạm khác không?",
-        "Các hành vi liên quan đến giao thông nhưng không được đề cập tại Nghị định này sẽ xử lý ra sao?",
-        "Nếu vi phạm không nằm trong Nghị định này thì áp dụng quy định nào?",
-        "Hành vi vi phạm ngoài phạm vi giao thông đường bộ được xử phạt theo luật nào?"
-      ],
-      "responses": [
-        "Các hành vi vi phạm hành chính trong lĩnh vực quản lý nhà nước khác liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ mà không quy định tại Nghị định này thì áp dụng quy định tại các Nghị định quy định về xử phạt vi phạm hành chính trong các lĩnh vực đó để xử phạt."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Ai là đối tượng áp dụng của Nghị định này?",
-        "Những tổ chức nào thuộc phạm vi áp dụng của Nghị định 168/2024?",
-        "Đối tượng nào được quy định trong Điều 2?",
-        "Các tổ chức kinh tế có bị áp dụng theo Nghị định này không?",
-        "Hộ kinh doanh bị xử phạt như thế nào theo Nghị định này?"
-      ],
-      "responses": [
-        "1. Nghị định này áp dụng đối với:- Cá nhân, tổ chức Việt Nam;- Cá nhân, tổ chức nước ngoài có hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam.2. Tổ chức bao gồm:- Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao;- Đơn vị sự nghiệp công lập;- Tổ chức chính trị - xã hội, tổ chức chính trị xã hội nghề nghiệp, tổ chức xã hội, tổ chức xã hội nghề nghiệp;- Tổ chức kinh tế được thành lập theo Luật Doanh nghiệp (doanh nghiệp tư nhân, công ty cổ phần, công ty trách nhiệm hữu hạn, công ty hợp danh, chi nhánh, văn phòng đại diện);- Tổ chức kinh tế được thành lập theo Luật Hợp tác xã (tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã);- Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe, cơ sở đăng kiểm xe cơ giới, cơ sở thử nghiệm, sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng xe;- Các tổ chức khác được thành lập theo pháp luật;- Cơ quan, tổ chức nước ngoài được cấp phép hoạt động trên lãnh thổ Việt Nam.3. Hộ kinh doanh, hộ gia đình bị xử phạt như cá nhân vi phạm.4. Người có thẩm quyền lập biên bản và xử phạt vi phạm hành chính, người liên quan đến xử phạt vi phạm hành chính.5. Người có thẩm quyền trừ điểm và phục hồi điểm giấy phép lái xe."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Hộ kinh doanh vi phạm sẽ bị xử lý như thế nào?",
-        "Hộ gia đình có bị xử phạt không?",
-        "Hành vi vi phạm của hộ kinh doanh có khác cá nhân không?",
-        "Hộ gia đình có thuộc đối tượng áp dụng của Nghị định này không?",
-        "Hộ kinh doanh có bị áp dụng Nghị định 168 không?"
-      ],
-      "responses": [
-        "Hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm hành chính quy định tại Nghị định này sẽ bị xử phạt như đối với cá nhân vi phạm."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Những tổ chức nào thuộc Điều 2 của Nghị định này?",
-        "Tổ chức nước ngoài có được áp dụng Nghị định này không?",
-        "Cơ sở đào tạo lái xe có bị xử phạt không?",
-        "Các tổ chức kinh tế bị xử phạt như thế nào?",
-        "Tổ chức chính trị - xã hội có thuộc phạm vi của Nghị định không?"
-      ],
-      "responses": [
-        "Tổ chức áp dụng bao gồm:- Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao;- Đơn vị sự nghiệp công lập;- Tổ chức chính trị - xã hội, tổ chức chính trị xã hội nghề nghiệp, tổ chức xã hội, tổ chức xã hội nghề nghiệp;- Tổ chức kinh tế được thành lập theo Luật Doanh nghiệp và Luật Hợp tác xã;- Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe, cơ sở đăng kiểm xe cơ giới, cơ sở thử nghiệm, sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng xe;- Các tổ chức khác được thành lập theo pháp luật;- Cơ quan, tổ chức nước ngoài được cấp phép hoạt động trên lãnh thổ Việt Nam."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Ai có thẩm quyền xử phạt theo Nghị định này?",
-        "Người nào có quyền lập biên bản vi phạm hành chính?",
-        "Thẩm quyền xử phạt hành chính được quy định như thế nào?",
-        "Ai có thể trừ điểm giấy phép lái xe?",
-        "Thẩm quyền phục hồi điểm giấy phép lái xe thuộc về ai?"
-      ],
-      "responses": [
-        "Người có thẩm quyền theo Nghị định này bao gồm:- Người có thẩm quyền lập biên bản vi phạm hành chính;- Người có thẩm quyền xử phạt vi phạm hành chính;- Người có thẩm quyền trừ điểm và phục hồi điểm giấy phép lái xe."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Nghị định này áp dụng cho ai?",
-        "Những ai thuộc đối tượng của nghị định này?",
-        "Tôi muốn biết nghị định áp dụng cho tổ chức nào?",
-        "Người nước ngoài có bị xử phạt không?",
-        "Cơ quan nhà nước có nằm trong phạm vi áp dụng không?"
-      ],
-      "responses": [
-        "Theo Nghị định 168/2024/NĐ-CP, đối tượng áp dụng bao gồm:- Cá nhân, tổ chức Việt Nam;- Cá nhân, tổ chức nước ngoài có hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ trên lãnh thổ Việt Nam."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Hộ kinh doanh vi phạm bị xử phạt thế nào?",
-        "Hộ gia đình có phải tuân theo nghị định này không?",
-        "Hành vi của hộ kinh doanh có khác gì cá nhân không?",
-        "Hộ gia đình có nằm trong đối tượng áp dụng không?",
-        "Hộ kinh doanh vi phạm luật giao thông bị xử lý như thế nào?"
-      ],
-      "responses": [
-        "Theo Nghị định 168/2024/NĐ-CP, hộ kinh doanh và hộ gia đình thực hiện hành vi vi phạm hành chính sẽ bị xử phạt như đối với cá nhân vi phạm."
-      ]
-    },
-    {
-      "intent": "answer",
-      "examples": [
-        "Tôi muốn biết các tổ chức nào nằm trong phạm vi áp dụng?",
-        "Trung tâm sát hạch lái xe có thuộc đối tượng áp dụng không?",
-        "Các tổ chức kinh tế bị xử phạt ra sao?",
-        "Cơ sở đào tạo lái xe có chịu sự điều chỉnh của nghị định này không?",
-        "Tổ chức nước ngoài có nằm trong quy định không?"
-      ],
-      "responses": [
-        "Theo Điều 2 của Nghị định 168/2024/NĐ-CP, các tổ chức nằm trong phạm vi áp dụng bao gồm:- Cơ quan nhà nước có hành vi vi phạm không thuộc nhiệm vụ quản lý nhà nước được giao;- Đơn vị sự nghiệp công lập;- Tổ chức chính trị - xã hội, tổ chức xã hội nghề nghiệp;- Tổ chức kinh tế thành lập theo Luật Doanh nghiệp và Luật Hợp tác xã;- Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe, cơ sở đăng kiểm xe cơ giới;- Các tổ chức khác được thành lập theo pháp luật;- Cơ quan, tổ chức nước ngoài được cấp phép hoạt động tại Việt Nam."
       ]
     },
     {
@@ -241,10 +121,6 @@
     {
       "intent": "answer",
       "examples": [
-        "Nghị định này quy định về điều gì?",
-        "Nghị định này điều chỉnh những nội dung nào?",
-        "Mức xử phạt và biện pháp khắc phục hậu quả được quy định ra sao?",
-        "Trừ điểm giấy phép lái xe có nằm trong phạm vi nghị định không?",
         "Nội dung chính của Nghị định 168/2024/NĐ-CP là gì?"
       ],
       "responses": [
@@ -257,8 +133,7 @@
         "Các hình thức xử phạt chính là gì?",
         "Hành vi vi phạm giao thông bị xử lý thế nào?",
         "Cá nhân vi phạm giao thông có thể bị phạt gì?",
-        "Tổ chức vi phạm luật giao thông bị áp dụng hình thức xử phạt nào?",
-        "Có những mức xử phạt chính nào theo nghị định này?"
+        "Tổ chức vi phạm luật giao thông bị áp dụng hình thức xử phạt nào?"
       ],
       "responses": [
         "Theo Điều 3 của Nghị định 168/2024/NĐ-CP, đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông, cá nhân, tổ chức vi phạm phải chịu một trong các hình thức xử phạt chính sau đây:- Cảnh cáo;- Phạt tiền;- Tịch thu phương tiện được sử dụng để vi phạm hành chính."
@@ -280,9 +155,6 @@
     {
       "intent": "answer",
       "examples": [
-        "Các biện pháp khắc phục hậu quả cụ thể là gì?",
-        "Nếu vi phạm, phải làm gì để khắc phục?",
-        "Tôi cần khôi phục tình trạng ban đầu, điều này có đúng không?",
         "Có quy định nào về xử lý ô nhiễm môi trường do vi phạm không?",
         "Biện pháp tháo dỡ vật che khuất biển báo là thế nào?"
       ],
@@ -293,9 +165,9 @@
     {
       "intent": "answer",
       "examples": [
-        "Tôi có giấy phép bị tẩy xóa, có phải nộp lại không?",
-        "Làm thế nào để nộp lại giấy phép bị sửa chữa sai lệch?",
-        "Nếu giấy tờ giả, có quy định thu hồi không?",
+        "Tôi có giấy phép lái xe bị tẩy xóa, có phải nộp lại không?",
+        "Làm thế nào để nộp lại giấy phép lái xe bị sửa chữa sai lệch?",
+        "Nếu giấy tờ lái xe giả, có quy định thu hồi không?",
         "Quy trình thu hồi giấy phép lái xe hết hạn thế nào?",
         "Chứng chỉ hành nghề không hợp lệ bị xử lý ra sao?"
       ],
@@ -1180,7 +1052,9 @@
         "Xe mô tô vi phạm không chấp hành hiệu lệnh của người điều khiển giao thông bị phạt bao nhiêu?",
         "Điều khiển xe máy gây cản trở xe ưu tiên bị phạt thế nào?",
         "Xe gắn máy không giảm tốc độ tại vòng xuyến bị phạt bao nhiêu?",
-        "Lái xe máy không nhường đường cho xe từ bên phải bị xử phạt thế nào?"
+        "Lái xe máy không nhường đường cho xe từ bên phải bị xử phạt thế nào?",
+        "Xe máy vượt đèn đỏ bị phạt bao nhiêu?",
+        "Mức xử phạt vượt đèn đỏ đối với xe máy là bao nhiêu?"
       ],
       "responses": [
         "Theo Điều 7, khoản 7 của Nghị định 168/2024/NĐ-CP, nếu người điều khiển xe mô tô, xe gắn máy không chấp hành hiệu lệnh của người điều khiển giao thông hoặc không nhường đường cho xe ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ, mức phạt có thể từ 4 triệu đồng đến 6 triệu đồng."
@@ -2719,7 +2593,7 @@
         "Tôi sử dụng xe máy chuyên dùng nhưng không có đăng ký, bị phạt gì?"
       ],
       "responses": [
-        "Theo Điều 16 của Nghị định 168/2024/NĐ-CP, người điều khiển xe máy chuyên dùng vi phạm quy định về điều kiện phương tiện có thể bị:- Phạt tiền;- Tịch thu phương tiện nếu xe máy chuyên dùng sản xuất, lắp ráp, cải tạo trái quy định;- Tịch thu biển số xe nếu có hành vi vi phạm quy định tại điểm d khoản 2 Điều này;- Tịch thu phương tiện nếu không chứng minh được nguồn gốc xuất xứ, không có giấy tờ hợp lệ hoặc giấy tờ bị tẩy xóa."
+        "Theo Điều 16 của Nghị định 168/2024/NĐ-CP, người điều khiển xe máy chuyên dùng vi phạm quy định về điều kiện phương tiện có thể bị:- Phạt tiền;- Tịch thu phương tiện nếu xe máy chuyên dùng sản xuất, lắp ráp, cải tạo trái quy định;- Tịch thu biển số xe nếu có hành vi vi phạm quy định;- Tịch thu phương tiện nếu không chứng minh được nguồn gốc xuất xứ, không có giấy tờ hợp lệ hoặc giấy tờ bị tẩy xóa."
       ]
     },
     {
@@ -2836,7 +2710,7 @@
         "Trừ bao nhiêu điểm khi lái xe ô tô đổ đất đá ra đường?"
       ],
       "responses": [
-        "Theo Điều 17 của Nghị định 168/2024/NĐ-CP, người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về đổ rác, đất, cát, đá, vật liệu, chất phế thải tại khoản 3 và khoản 4 của Điều này sẽ bị trừ 02 điểm trên giấy phép lái xe."
+        "Theo Điều 17 của Nghị định 168/2024/NĐ-CP, người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về đổ rác, đất, cát, đá, vật liệu, chất phế thải sẽ bị trừ 02 điểm trên giấy phép lái xe."
       ]
     },
     {
@@ -3044,7 +2918,7 @@
         "Xe ô tô sử dụng giấy phép lái xe hết hạn có bị thu hồi giấy phép không?"
       ],
       "responses": [
-        "Ngoài hình thức xử phạt tiền, người điều khiển phương tiện có hành vi vi phạm quy định tại điểm a, điểm c khoản 5; điểm b, điểm d khoản 7; điểm c khoản 8; điểm b khoản 9 Điều này còn bị thu hồi giấy phép lái xe không do cơ quan có thẩm quyền cấp hoặc giấy phép lái xe không hợp lệ."
+        "Ngoài hình thức xử phạt tiền, người điều khiển phương tiện có hành vi vi phạm quy định còn bị thu hồi giấy phép lái xe không do cơ quan có thẩm quyền cấp hoặc giấy phép lái xe không hợp lệ."
       ]
     },
     {
@@ -3406,7 +3280,7 @@
         "Lái xe ô tô khách đón trả khách trên cao tốc bị trừ điểm giấy phép lái xe không?"
       ],
       "responses": [
-        "Người điều khiển xe ô tô chở hành khách vi phạm quy định đón trả khách trên cao tốc bị trừ điểm giấy phép lái xe như sau:- Vi phạm quy định tại khoản 8 Điều này bị trừ 06 điểm;- Vi phạm quy định tại khoản 2, khoản 4 (vượt trên 50% đến 100% số người được phép chở) bị trừ 04 điểm;- Vi phạm quy định tại khoản 2, khoản 4 (vượt trên 100% số người quy định được phép chở) bị trừ 10 điểm."
+        "Người điều khiển xe ô tô chở hành khách vi phạm quy định đón trả khách trên cao tốc bị trừ điểm giấy phép lái xe như sau:- Vi phạm quy định tại khoản 8 bị trừ 06 điểm;- Vi phạm quy định tại khoản 2, khoản 4 (vượt trên 50% đến 100% số người được phép chở) bị trừ 04 điểm;- Vi phạm quy định tại khoản 2, khoản 4 (vượt trên 100% số người quy định được phép chở) bị trừ 10 điểm."
       ]
     },
     {
@@ -5099,7 +4973,6 @@
       "intent": "answer",
       "examples": [
         "Chủ xe máy có vi phạm bị trừ bao nhiêu điểm?",
-        "Điều khiển xe máy vượt đèn đỏ bị phạt thế nào?",
         "Xe máy vi phạm luật giao thông bị trừ bao nhiêu điểm giấy phép lái xe?",
         "Điều khiển xe mô tô không đội mũ bảo hiểm có bị trừ điểm không?",
         "Nếu xe máy chở quá người có bị trừ điểm giấy phép lái xe không?"
@@ -6393,6 +6266,1172 @@
       "responses": [
         "Sau khi bạn tham gia kiểm tra và đạt yêu cầu, kết quả sẽ được cập nhật vào phần mềm kiểm tra kiến thức pháp luật và đồng bộ dữ liệu với Cơ sở dữ liệu về xử lý vi phạm hành chính. Dữ liệu điểm giấy phép lái xe sẽ được phục hồi đủ 12 điểm và cập nhật tự động trong cơ sở dữ liệu về xử lý vi phạm hành chính."
       ]
-    }
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Việc ủy quyền đăng ký hộ tịch được quy định thế nào?",
+        "Có thể ủy quyền cho người khác đăng ký hộ tịch không?",
+        "Trong trường hợp nào được phép ủy quyền đăng ký hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 2 của Thông tư hướng dẫn Luật hộ tịch, người yêu cầu cấp bản sao trích lục hộ tịch, cấp Giấy xác nhận tình trạng hôn nhân hoặc đăng ký các việc hộ tịch khác có thể ủy quyền cho người khác thực hiện thay. Tuy nhiên, trường hợp đăng ký kết hôn, đăng ký lại việc kết hôn, đăng ký nhận cha, mẹ, con thì không được ủy quyền. Việc ủy quyền phải lập thành văn bản và được chứng thực theo quy định của pháp luật, trừ trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền, thì văn bản ủy quyền không cần chứng thực."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Ai có thể đi đăng ký khai sinh cho trẻ em?",
+        "Người thân có thể đăng ký khai sinh cho trẻ không?",
+        "Trường hợp nào người thân được phép đăng ký khai sinh thay cha mẹ?"
+      ],
+      "responses": [
+        "Theo khoản 2 Điều 2 của Thông tư hướng dẫn Luật hộ tịch, ông, bà hoặc người thân thích khác có thể đăng ký khai sinh cho trẻ em mà không cần văn bản ủy quyền của cha mẹ, nhưng phải thống nhất với cha, mẹ trẻ em về các nội dung khai sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Việc ủy quyền đăng ký hộ tịch được quy định thế nào?",
+        "Có thể ủy quyền cho người khác đăng ký hộ tịch không?",
+        "Trong trường hợp nào được phép ủy quyền đăng ký hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 2 của Thông tư hướng dẫn Luật hộ tịch, người yêu cầu cấp bản sao trích lục hộ tịch, cấp Giấy xác nhận tình trạng hôn nhân hoặc đăng ký các việc hộ tịch khác có thể ủy quyền cho người khác thực hiện thay. Tuy nhiên, trường hợp đăng ký kết hôn, đăng ký lại việc kết hôn, đăng ký nhận cha, mẹ, con thì không được ủy quyền. Việc ủy quyền phải lập thành văn bản và được chứng thực theo quy định của pháp luật, trừ trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền, thì văn bản ủy quyền không cần chứng thực."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Ai có thể đi đăng ký khai sinh cho trẻ em?",
+        "Người thân có thể đăng ký khai sinh cho trẻ không?",
+        "Trường hợp nào người thân được phép đăng ký khai sinh thay cha mẹ?"
+      ],
+      "responses": [
+        "Theo khoản 2 Điều 2 của Thông tư hướng dẫn Luật hộ tịch, ông, bà hoặc người thân thích khác có thể đăng ký khai sinh cho trẻ em mà không cần văn bản ủy quyền của cha mẹ, nhưng phải thống nhất với cha, mẹ trẻ em về các nội dung khai sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Quy trình tiếp nhận hồ sơ đăng ký hộ tịch được thực hiện thế nào?",
+        "Khi nộp hồ sơ đăng ký hộ tịch, cần lưu ý điều gì?",
+        "Người tiếp nhận hồ sơ hộ tịch có trách nhiệm gì?"
+      ],
+      "responses": [
+        "Theo Điều 3 của Thông tư hướng dẫn Luật hộ tịch, người tiếp nhận hồ sơ có trách nhiệm kiểm tra toàn bộ hồ sơ, nếu chưa đầy đủ thì hướng dẫn ngay để bổ sung. Nếu không thể bổ sung ngay, người tiếp nhận phải lập văn bản hướng dẫn cụ thể. Người tiếp nhận không được yêu cầu nộp thêm giấy tờ ngoài quy định. Hồ sơ có thể là bản sao chứng thực, bản sao từ sổ gốc hoặc bản chụp kèm theo bản chính để đối chiếu. Khi trả kết quả đăng ký hộ tịch, người yêu cầu cần kiểm tra nội dung và ký xác nhận. Đối với đăng ký kết hôn hoặc nhận cha, mẹ, con, các bên liên quan phải có mặt khi nhận kết quả."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Việc tiếp nhận hồ sơ đăng ký hộ tịch được thực hiện như thế nào?",
+        "Người tiếp nhận hồ sơ hộ tịch có trách nhiệm gì?",
+        "Có thể yêu cầu bổ sung giấy tờ ngoài quy định khi đăng ký hộ tịch không?"
+      ],
+      "responses": [
+        "Theo Điều 3 của Thông tư hướng dẫn Luật hộ tịch, người tiếp nhận hồ sơ có trách nhiệm kiểm tra toàn bộ hồ sơ; nếu chưa đầy đủ, phải hướng dẫn ngay để bổ sung, hoàn thiện. Trường hợp không thể bổ sung ngay, người tiếp nhận phải lập văn bản hướng dẫn nêu rõ loại giấy tờ, nội dung cần bổ sung. Người tiếp nhận không được yêu cầu người đăng ký hộ tịch nộp thêm giấy tờ ngoài quy định của pháp luật hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Có thể nộp bản sao giấy tờ khi đăng ký hộ tịch không?",
+        "Người đăng ký hộ tịch có thể sử dụng bản chụp giấy tờ không?",
+        "Khi nào cần nộp bản chính giấy tờ khi đăng ký hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 3 của Thông tư hướng dẫn Luật hộ tịch, người yêu cầu đăng ký hộ tịch có thể nộp bản sao chứng thực, bản sao từ sổ gốc hoặc bản chụp kèm theo bản chính để đối chiếu. Người tiếp nhận có trách nhiệm kiểm tra, đối chiếu bản chụp với bản chính và ký xác nhận, không được yêu cầu nộp bản sao nếu đã có bản chụp kèm bản chính."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi trả kết quả đăng ký hộ tịch, người yêu cầu cần làm gì?",
+        "Có cần kiểm tra nội dung giấy tờ hộ tịch khi nhận kết quả không?",
+        "Quy trình trả kết quả đăng ký hộ tịch diễn ra như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 3 của Thông tư hướng dẫn Luật hộ tịch, khi trả kết quả, người yêu cầu đăng ký hộ tịch phải kiểm tra nội dung giấy tờ hộ tịch và Sổ hộ tịch. Nếu thấy đúng, phù hợp với hồ sơ, người yêu cầu phải ký, ghi rõ họ, tên trong Sổ hộ tịch theo hướng dẫn của người trả kết quả. Khi trả kết quả đăng ký kết hôn hoặc nhận cha, mẹ, con, các bên liên quan phải có mặt."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Việc ủy quyền đăng ký hộ tịch được quy định thế nào?",
+        "Có thể ủy quyền cho người khác đăng ký hộ tịch không?",
+        "Trong trường hợp nào được phép ủy quyền đăng ký hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 2 của Thông tư hướng dẫn Luật hộ tịch, người yêu cầu cấp bản sao trích lục hộ tịch, cấp Giấy xác nhận tình trạng hôn nhân hoặc đăng ký các việc hộ tịch khác có thể ủy quyền cho người khác thực hiện thay. Tuy nhiên, trường hợp đăng ký kết hôn, đăng ký lại việc kết hôn, đăng ký nhận cha, mẹ, con thì không được ủy quyền. Việc ủy quyền phải lập thành văn bản và được chứng thực theo quy định của pháp luật, trừ trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền, thì văn bản ủy quyền không cần chứng thực."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Ai có thể đi đăng ký khai sinh cho trẻ em?",
+        "Người thân có thể đăng ký khai sinh cho trẻ không?",
+        "Trường hợp nào người thân được phép đăng ký khai sinh thay cha mẹ?"
+      ],
+      "responses": [
+        "Theo khoản 2 Điều 2 của Thông tư hướng dẫn Luật hộ tịch, ông, bà hoặc người thân thích khác có thể đăng ký khai sinh cho trẻ em mà không cần văn bản ủy quyền của cha mẹ, nhưng phải thống nhất với cha, mẹ trẻ em về các nội dung khai sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cơ quan hộ tịch giải quyết thế nào khi không nhận được kết quả xác minh?",
+        "Sau bao lâu cơ quan hộ tịch tiếp tục xử lý nếu không nhận được phản hồi xác minh?",
+        "Trường hợp không có kết quả xác minh tình trạng hôn nhân thì giải quyết ra sao?"
+      ],
+      "responses": [
+        "Theo Điều 4 của Thông tư hướng dẫn Luật hộ tịch, nếu sau 20 ngày kể từ ngày gửi văn bản yêu cầu xác minh mà không nhận được văn bản trả lời, thì cơ quan đăng ký hộ tịch tiếp tục giải quyết hồ sơ theo quy định. Nếu cần xác minh tình trạng hôn nhân, người yêu cầu có thể lập văn bản cam đoan theo Điều 5 của Thông tư."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Hệ quả pháp lý của việc cam đoan không đúng sự thật là gì?",
+        "Nếu khai không đúng sự thật trong cam đoan hộ tịch thì bị xử lý thế nào?",
+        "Cơ quan hộ tịch sẽ làm gì khi phát hiện nội dung cam đoan sai sự thật?"
+      ],
+      "responses": [
+        "Theo Điều 5 của Thông tư hướng dẫn Luật hộ tịch, nếu có cơ sở xác định nội dung cam đoan không đúng sự thật, cơ quan đăng ký hộ tịch sẽ từ chối giải quyết hoặc đề nghị cơ quan có thẩm quyền hủy bỏ kết quả đăng ký hộ tịch. Người lập văn bản cam đoan cũng phải chịu trách nhiệm về hệ quả pháp lý của việc cam đoan sai."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nội dung khai sinh gồm những thông tin gì?",
+        "Có quy định nào về việc đặt tên cho trẻ em không?",
+        "Nếu cha mẹ không thỏa thuận được về họ của con thì giải quyết thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 6 của Thông tư hướng dẫn Luật hộ tịch, nội dung khai sinh bao gồm họ, dân tộc, tên của trẻ và các thông tin liên quan. Việc đặt tên phải phù hợp với pháp luật, giữ gìn bản sắc dân tộc và truyền thống văn hóa tốt đẹp của Việt Nam. Không được đặt tên quá dài hoặc khó sử dụng. Nếu cha mẹ không thỏa thuận được về họ, dân tộc, quê quán của con, thì xác định theo tập quán nhưng phải theo họ, dân tộc, quê quán của cha hoặc mẹ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục đăng ký khai sinh cho trẻ sinh ra ở nước ngoài thế nào?",
+        "Cần giấy tờ gì để đăng ký khai sinh cho trẻ nhập cảnh vào Việt Nam?",
+        "Trẻ có thể có quốc tịch nước ngoài khi đăng ký khai sinh không?"
+      ],
+      "responses": [
+        "Theo Điều 7 của Thông tư hướng dẫn Luật hộ tịch, hồ sơ đăng ký khai sinh cho trẻ sinh ra ở nước ngoài có cha hoặc mẹ là công dân Việt Nam phải bao gồm giấy tờ chứng minh việc nhập cảnh hợp pháp và cư trú tại Việt Nam. Nếu cha mẹ chọn quốc tịch nước ngoài cho con, cần có văn bản thỏa thuận và xác nhận của cơ quan có thẩm quyền nước ngoài về việc trẻ có quốc tịch phù hợp với quy định pháp luật của nước đó. Nếu không có xác nhận, phần quốc tịch trong Giấy khai sinh sẽ để trống."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm thế nào để đăng ký khai sinh cho người đã có hồ sơ cá nhân?",
+        "Công dân Việt Nam có hồ sơ giấy tờ cá nhân nhưng chưa đăng ký khai sinh thì đăng ký ở đâu?",
+        "Ai có quyền đăng ký khai sinh cho công dân chưa đăng ký khai sinh nhưng có giấy tờ cá nhân?"
+      ],
+      "responses": [
+        "Theo Điều 8 Nghị định 123/2015/NĐ-CP, công dân Việt Nam cư trú trong nước và sinh trước ngày 01 tháng 01 năm 2016 nhưng chưa đăng ký khai sinh có thể thực hiện đăng ký khai sinh tại Ủy ban nhân dân cấp xã nơi cư trú hiện tại nếu có hồ sơ cá nhân hợp lệ như: giấy tờ tùy thân, Sổ hộ khẩu, Sổ tạm trú."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục đăng ký khai sinh cho người định cư ở nước ngoài là gì?",
+        "Đăng ký khai sinh cho người Việt Nam sống ở nước ngoài phải làm sao?",
+        "Nếu tôi định cư ở nước ngoài, làm thế nào để đăng ký khai sinh cho con tôi?"
+      ],
+      "responses": [
+        "Theo Điều 8 Nghị định 123/2015/NĐ-CP, đối với người Việt Nam định cư ở nước ngoài chưa đăng ký khai sinh, việc đăng ký sẽ được thực hiện tại Ủy ban nhân dân cấp huyện nơi cư trú trước khi xuất cảnh, nếu có hồ sơ giấy tờ cá nhân hợp lệ và ghi nơi sinh tại Việt Nam."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cần chuẩn bị những giấy tờ gì để đăng ký lại khai sinh?",
+        "Để đăng ký lại khai sinh, tôi cần có những loại giấy tờ nào?",
+        "Thủ tục đăng ký lại khai sinh cần các giấy tờ gì?"
+      ],
+      "responses": [
+        "Theo Điều 9 Nghị định 123/2015/NĐ-CP, để đăng ký lại khai sinh, người yêu cầu cần chuẩn bị các giấy tờ như: Bản sao Giấy khai sinh hợp lệ, giấy tờ thay thế Giấy khai sinh cũ, hoặc các giấy tờ chứng minh thông tin cá nhân như: Chứng minh nhân dân, Sổ hộ khẩu, Bằng tốt nghiệp, Giấy chứng nhận, và cam đoan về việc đã nộp đầy đủ các giấy tờ có sẵn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu không có giấy khai sinh, làm sao để đăng ký lại khai sinh?",
+        "Không có Giấy khai sinh, tôi có thể đăng ký lại khai sinh bằng giấy tờ gì?",
+        "Trong trường hợp không có giấy khai sinh, tôi cần làm gì để đăng ký lại?"
+      ],
+      "responses": [
+        "Theo Điều 9 Nghị định 123/2015/NĐ-CP, nếu người yêu cầu không có Giấy khai sinh, có thể sử dụng các giấy tờ khác do cơ quan có thẩm quyền cấp, như: Chứng minh nhân dân, Thẻ căn cước công dân, Sổ hộ khẩu, hoặc các giấy tờ có thông tin về họ tên, ngày tháng năm sinh của cá nhân để làm cơ sở đăng ký lại khai sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu tôi có giấy tờ hợp lệ, làm thế nào để xác định nội dung đăng ký lại khai sinh?",
+        "Nội dung đăng ký lại khai sinh sẽ được xác định như thế nào nếu tôi có giấy tờ hợp lệ?",
+        "Để đăng ký lại khai sinh, tôi cần phải có giấy tờ gì để xác định nội dung?"
+      ],
+      "responses": [
+        "Theo Điều 10 Nghị định 123/2015/NĐ-CP, nếu người yêu cầu đăng ký lại khai sinh có giấy tờ hợp lệ theo quy định, nội dung đăng ký lại khai sinh sẽ được xác định theo giấy tờ đó."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu thông tin trong giấy tờ thay đổi, tôi cần làm gì khi đăng ký lại khai sinh?",
+        "Nếu thông tin của tôi và cha mẹ thay đổi, cần làm gì khi đăng ký lại khai sinh?",
+        "Thông tin trong giấy tờ của tôi thay đổi, làm sao để đăng ký lại khai sinh đúng?"
+      ],
+      "responses": [
+        "Theo Điều 10 Nghị định 123/2015/NĐ-CP, nếu thông tin về cha, mẹ và của người yêu cầu đăng ký lại khai sinh thay đổi so với nội dung giấy tờ trước đó, người đó cần xuất trình giấy tờ hợp lệ chứng minh việc thay đổi. Nếu thay đổi hợp lệ theo quy định pháp luật, nội dung đăng ký lại khai sinh sẽ được xác định theo thông tin mới, và thông tin cũ sẽ được ghi vào mặt sau Giấy khai sinh và mục 'Ghi chú' trong Sổ đăng ký khai sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi cha mẹ của người yêu cầu đăng ký lại khai sinh đã qua đời, thông tin ghi trong giấy khai sinh sẽ như thế nào?",
+        "Nếu cha mẹ đã chết, cách ghi thông tin trong giấy khai sinh khi đăng ký lại là gì?",
+        "Khi đăng ký lại khai sinh và cha mẹ đã mất, tôi cần ghi gì trong giấy khai sinh?"
+      ],
+      "responses": [
+        "Theo Điều 10 Nghị định 123/2015/NĐ-CP, nếu cha, mẹ của người yêu cầu đăng ký lại khai sinh đã qua đời, mục 'Nơi cư trú' trong Giấy khai sinh và Sổ đăng ký khai sinh sẽ ghi là 'Đã chết'."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu địa danh hành chính thay đổi, tôi cần làm gì khi đăng ký lại khai sinh?",
+        "Khi địa danh hành chính thay đổi, ghi gì trong giấy khai sinh khi đăng ký lại?",
+        "Địa danh hành chính thay đổi, thông tin này sẽ được ghi như thế nào trong giấy khai sinh?"
+      ],
+      "responses": [
+        "Theo Điều 10 Nghị định 123/2015/NĐ-CP, nếu địa danh hành chính thay đổi so với địa danh ghi trong giấy tờ trước đây, Giấy khai sinh sẽ ghi theo địa danh hành chính hiện tại, còn địa danh hành chính trước đây sẽ được ghi vào mặt sau Giấy khai sinh và mục 'Ghi chú' trong Sổ đăng ký khai sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục đăng ký kết hôn với người nước ngoài gồm những bước nào?",
+        "Nếu tôi muốn kết hôn với người nước ngoài, tôi cần làm gì?",
+        "Quy trình đăng ký kết hôn với công dân nước ngoài được thực hiện như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 11 Nghị định 123/2015/NĐ-CP, khi đăng ký kết hôn với người nước ngoài, Phòng Tư pháp có trách nhiệm thẩm tra hồ sơ trong vòng 10 ngày làm việc. Nếu có khiếu nại hoặc nghi vấn về nhân thân, sự tự nguyện hoặc mục đích kết hôn, Phòng Tư pháp sẽ phối hợp với các cơ quan liên quan để xác minh và làm rõ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cơ quan nào có thẩm quyền đăng ký kết hôn với công dân nước ngoài?",
+        "Nếu tôi là công dân Việt Nam kết hôn với người nước ngoài, thủ tục đăng ký hôn nhân ở đâu?",
+        "Để kết hôn với người nước ngoài, tôi cần đăng ký tại cơ quan nào?"
+      ],
+      "responses": [
+        "Theo Điều 11 Nghị định 123/2015/NĐ-CP, thẩm quyền đăng ký kết hôn giữa công dân Việt Nam và người nước ngoài thuộc về Ủy ban nhân dân cấp huyện nơi cư trú của công dân Việt Nam, theo quy định tại Điều 37 Luật Hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Tôi cần chuẩn bị giấy tờ gì khi kết hôn với người nước ngoài?",
+        "Giấy tờ chứng minh tình trạng hôn nhân của người nước ngoài là gì?",
+        "Giấy tờ nào cần thiết khi kết hôn với người nước ngoài?"
+      ],
+      "responses": [
+        "Theo Điều 11 Nghị định 123/2015/NĐ-CP, giấy tờ chứng minh tình trạng hôn nhân của người nước ngoài là giấy tờ do cơ quan có thẩm quyền của quốc gia đó cấp. Người yêu cầu kết hôn cần chuẩn bị giấy tờ này cùng các giấy tờ khác theo quy định."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi có khiếu nại về việc kết hôn không đủ điều kiện, tôi có thể yêu cầu cơ quan nào xem xét?",
+        "Nếu có nghi ngờ về tính hợp pháp của kết hôn, cơ quan nào sẽ xác minh?",
+        "Trong trường hợp có khiếu nại về kết hôn, ai sẽ chịu trách nhiệm giải quyết?"
+      ],
+      "responses": [
+        "Theo Điều 11 Nghị định 123/2015/NĐ-CP, khi có khiếu nại, tố cáo về việc kết hôn không đủ điều kiện, Phòng Tư pháp sẽ phối hợp với các cơ quan có liên quan để xác minh làm rõ. Trong quá trình thẩm tra, Phòng Tư pháp có thể làm việc trực tiếp với các bên để xác minh về nhân thân, sự tự nguyện và mục đích kết hôn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu tôi không thể nộp lại Giấy xác nhận tình trạng hôn nhân đã cấp trước đó thì làm thế nào?",
+        "Khi không có Giấy xác nhận tình trạng hôn nhân trước đó, tôi cần làm gì để cấp lại?",
+        "Nếu mất Giấy xác nhận tình trạng hôn nhân, tôi phải làm gì để xin cấp lại?"
+      ],
+      "responses": [
+        "Theo Điều 12 Nghị định 123/2015/NĐ-CP, nếu người yêu cầu không nộp lại được Giấy xác nhận tình trạng hôn nhân đã được cấp trước đó, người yêu cầu phải trình bày lý do và cơ quan đăng ký hộ tịch sẽ tiến hành xác minh với nơi đăng ký kết hôn trước đây. Nếu không xác minh được, cơ quan sẽ cho phép người yêu cầu lập văn bản cam đoan về tình trạng hôn nhân."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Giấy xác nhận tình trạng hôn nhân có giá trị trong bao lâu?",
+        "Giấy xác nhận tình trạng hôn nhân có hết hạn không?",
+        "Khi nào Giấy xác nhận tình trạng hôn nhân hết hiệu lực?"
+      ],
+      "responses": [
+        "Theo Điều 12 Nghị định 123/2015/NĐ-CP, Giấy xác nhận tình trạng hôn nhân có giá trị đến khi thay đổi tình trạng hôn nhân của người được cấp hoặc trong vòng 06 tháng kể từ ngày cấp, tùy theo thời điểm nào đến trước."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Tôi có thể xin bao nhiêu bản Giấy xác nhận tình trạng hôn nhân để kết hôn?",
+        "Cần bao nhiêu bản Giấy xác nhận tình trạng hôn nhân khi làm thủ tục kết hôn?",
+        "Giấy xác nhận tình trạng hôn nhân chỉ được cấp một bản đúng không?"
+      ],
+      "responses": [
+        "Theo Điều 12 Nghị định 123/2015/NĐ-CP, cơ quan đăng ký hộ tịch chỉ cấp một (01) bản Giấy xác nhận tình trạng hôn nhân khi người yêu cầu sử dụng để kết hôn. Giấy xác nhận này sẽ ghi rõ các thông tin liên quan đến người dự định kết hôn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Giấy xác nhận tình trạng hôn nhân có thể sử dụng vào mục đích gì ngoài việc kết hôn?",
+        "Nếu tôi cần Giấy xác nhận tình trạng hôn nhân để làm thủ tục khác, có thể xin không?",
+        "Giấy xác nhận tình trạng hôn nhân có thể dùng để mua nhà không?"
+      ],
+      "responses": [
+        "Theo Điều 12 Nghị định 123/2015/NĐ-CP, nếu Giấy xác nhận tình trạng hôn nhân được yêu cầu cho mục đích khác ngoài kết hôn, người yêu cầu không cần đáp ứng điều kiện kết hôn. Trong Giấy xác nhận sẽ ghi rõ mục đích sử dụng, và Giấy này không có giá trị để đăng ký kết hôn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Có thể xin Giấy xác nhận tình trạng hôn nhân để kết hôn với người cùng giới không?",
+        "Nếu tôi muốn kết hôn với người cùng giới, có thể xin Giấy xác nhận tình trạng hôn nhân không?",
+        "Giấy xác nhận tình trạng hôn nhân có thể được cấp cho người muốn kết hôn với người cùng giới không?"
+      ],
+      "responses": [
+        "Theo Điều 12 Nghị định 123/2015/NĐ-CP, cơ quan đăng ký hộ tịch sẽ từ chối cấp Giấy xác nhận tình trạng hôn nhân cho trường hợp kết hôn với người cùng giới tính hoặc với người nước ngoài tại cơ quan đại diện ngoại giao tại Việt Nam."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục đăng ký khai tử khi không có Giấy báo tử là gì?",
+        "Nếu người chết lâu ngày và không có Giấy báo tử, tôi phải làm gì để đăng ký khai tử?",
+        "Có thể đăng ký khai tử nếu không có Giấy báo tử không?"
+      ],
+      "responses": [
+        "Theo Điều 13 Nghị định 123/2015/NĐ-CP, nếu người chết lâu ngày mà không có Giấy báo tử hoặc giấy tờ thay thế, người yêu cầu đăng ký khai tử phải cung cấp các giấy tờ, tài liệu hoặc chứng cứ hợp lệ chứng minh sự kiện chết. Nếu không có chứng cứ hợp lệ, cơ quan đăng ký hộ tịch sẽ từ chối đăng ký khai tử."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi không có chứng cứ chứng minh quan hệ cha mẹ con, tôi có thể làm gì?",
+        "Nếu không có giấy tờ chứng minh quan hệ cha mẹ con thì cần làm gì?",
+        "Trong trường hợp không có giấy tờ chứng minh quan hệ cha mẹ con, tôi phải làm sao?"
+      ],
+      "responses": [
+        "Theo Điều 14 Nghị định 123/2015/NĐ-CP, nếu không có chứng cứ chứng minh quan hệ cha mẹ con, các bên có thể lập văn bản cam đoan về mối quan hệ cha mẹ con và cần có ít nhất hai người làm chứng về mối quan hệ này. Đây là một biện pháp thay thế cho giấy tờ chứng minh chính thức."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu không có Giấy báo tử, có thể sử dụng giấy tờ nào để đăng ký khai tử?",
+        "Có thể dùng giấy tờ gì để thay thế Giấy báo tử khi đăng ký khai tử?",
+        "Cần cung cấp những giấy tờ gì khi không có Giấy báo tử để đăng ký khai tử?"
+      ],
+      "responses": [
+        "Theo Điều 13 Nghị định 123/2015/NĐ-CP, khi không có Giấy báo tử hoặc giấy tờ thay thế, người yêu cầu đăng ký khai tử cần cung cấp các giấy tờ, tài liệu, hoặc chứng cứ hợp lệ do cơ quan có thẩm quyền cấp hoặc xác nhận để chứng minh sự kiện chết."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Có cách nào để đăng ký khai tử nếu không có giấy tờ chứng minh cái chết?",
+        "Nếu không thể cung cấp chứng cứ cái chết, làm sao để đăng ký khai tử?",
+        "Có thể đăng ký khai tử nếu không có chứng cứ gì không?"
+      ],
+      "responses": [
+        "Nếu không có chứng cứ chứng minh cái chết, cơ quan đăng ký hộ tịch sẽ từ chối đăng ký khai tử. Do đó, người yêu cầu phải cung cấp giấy tờ, tài liệu hoặc chứng cứ hợp lệ để chứng minh sự kiện này."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu tôi muốn đăng ký khai sinh cho con và nhận cha mẹ cho con cùng lúc thì làm thế nào?",
+        "Có thể kết hợp đăng ký khai sinh và nhận cha, mẹ, con không?",
+        "Thủ tục để đăng ký khai sinh và nhận cha mẹ cho con được thực hiện như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 15 của Luật Hộ tịch, khi đăng ký khai sinh cho trẻ em mà có yêu cầu đăng ký nhận cha, mẹ, con, Ủy ban nhân dân cấp xã nơi cư trú của cha hoặc mẹ sẽ kết hợp giải quyết thủ tục đăng ký khai sinh và thủ tục đăng ký nhận cha, mẹ, con cùng lúc. Trường hợp có người nước ngoài hoặc công dân Việt Nam định cư ở nước ngoài yêu cầu, thẩm quyền thuộc Ủy ban nhân dân cấp huyện nơi cư trú của cha hoặc mẹ là công dân Việt Nam."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cần chuẩn bị những giấy tờ gì khi kết hợp đăng ký khai sinh và nhận cha mẹ cho con?",
+        "Hồ sơ khi đăng ký khai sinh và nhận cha mẹ cho con bao gồm những gì?",
+        "Giấy tờ cần thiết để đăng ký khai sinh và nhận cha mẹ cho con là gì?"
+      ],
+      "responses": [
+        "Hồ sơ đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con bao gồm: Tờ khai đăng ký khai sinh, Tờ khai đăng ký nhận cha, mẹ, con, Giấy chứng sinh hoặc giấy tờ thay thế Giấy chứng sinh, và chứng cứ chứng minh quan hệ cha, mẹ, con theo quy định tại Điều 14 Thông tư."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục đăng ký khai sinh kết hợp nhận cha, mẹ, con được giải quyết như thế nào?",
+        "Trình tự giải quyết đăng ký khai sinh và nhận cha mẹ cho con như thế nào?",
+        "Nếu tôi yêu cầu kết hợp đăng ký khai sinh và nhận cha mẹ cho con, thời gian giải quyết ra sao?"
+      ],
+      "responses": [
+        "Trình tự giải quyết việc đăng ký khai sinh kết hợp nhận cha, mẹ, con được thực hiện theo quy định tại Điều 16 và Điều 25 của Luật Hộ tịch khi thuộc thẩm quyền của Ủy ban nhân dân cấp xã; và theo quy định tại Điều 36 và Điều 44 khi thuộc thẩm quyền của Ủy ban nhân dân cấp huyện. Giấy khai sinh và Trích lục đăng ký nhận cha, mẹ, con sẽ được cấp đồng thời cho người yêu cầu."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu một trong hai cha mẹ là người nước ngoài, thủ tục đăng ký khai sinh kết hợp nhận cha mẹ cho con như thế nào?",
+        "Trường hợp cha mẹ là công dân Việt Nam nhưng đang sống ở nước ngoài, có thể đăng ký khai sinh và nhận cha mẹ cho con ở đâu?",
+        "Khi cha mẹ một bên là người nước ngoài, thủ tục đăng ký khai sinh và nhận cha mẹ cho con có khác gì không?"
+      ],
+      "responses": [
+        "Trường hợp đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con mà một bên có yêu cầu là người nước ngoài hoặc công dân Việt Nam định cư ở nước ngoài, thẩm quyền giải quyết sẽ thuộc Ủy ban nhân dân cấp huyện nơi cư trú của cha hoặc mẹ là công dân Việt Nam."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi nào cha có thể làm thủ tục nhận con mà không cần ý kiến của người mẹ?",
+        "Nếu người mẹ không có mặt, cha có thể nhận con như thế nào?",
+        "Khi người mẹ không liên lạc được, cha có thể đăng ký nhận con không?"
+      ],
+      "responses": [
+        "Theo Điều 16 Nghị định 123/2015/NĐ-CP, trong trường hợp nam, nữ chung sống như vợ chồng mà không đăng ký kết hôn, khi người cha làm thủ tục nhận con mà không liên hệ được với người mẹ thì không cần có ý kiến của người mẹ trong Tờ khai đăng ký nhận cha, mẹ, con. Nếu có Giấy chứng sinh và giấy tờ tùy thân của người mẹ, thông tin về mẹ sẽ được ghi theo giấy tờ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi nào vợ chồng không phải làm thủ tục nhận cha, con?",
+        "Nếu con sinh trước khi đăng ký kết hôn và chưa có thông tin về cha, phải làm gì?",
+        "Nếu vợ chồng muốn bổ sung thông tin về người cha vào giấy khai sinh của con, làm như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 16 Nghị định 123/2015/NĐ-CP, trường hợp con do vợ sinh trước khi đăng ký kết hôn và đã được đăng ký khai sinh nhưng không có thông tin về người cha, vợ chồng có thể làm thủ tục bổ sung hộ tịch để ghi bổ sung thông tin về người cha trong Sổ đăng ký khai sinh và Giấy khai sinh của con mà không cần làm thủ tục nhận cha, con."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu con sinh trước khi đăng ký kết hôn mà chưa có khai sinh thì cha có phải đăng ký nhận con không?",
+        "Làm thủ tục như thế nào nếu con chưa có giấy khai sinh nhưng cha mẹ thừa nhận con chung?",
+        "Nếu vợ chồng muốn bổ sung thông tin cha vào giấy khai sinh của con chưa có khai sinh, phải làm gì?"
+      ],
+      "responses": [
+        "Theo Điều 16 Nghị định 123/2015/NĐ-CP, nếu con sinh trước khi vợ chồng đăng ký kết hôn và chưa được khai sinh, khi đăng ký khai sinh, thông tin về người cha sẽ được ghi ngay vào Giấy khai sinh của con mà không cần làm thủ tục đăng ký nhận cha, con, nếu vợ chồng có văn bản thừa nhận con chung."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu vợ hoặc chồng không thừa nhận con, phải làm gì?",
+        "Trong trường hợp cha không thừa nhận con, ai sẽ quyết định mối quan hệ cha, con?",
+        "Nếu cha không thừa nhận con, có thể đăng ký khai sinh không?"
+      ],
+      "responses": [
+        "Theo Điều 16 Nghị định 123/2015/NĐ-CP, trong trường hợp vợ hoặc chồng không thừa nhận con chung, hoặc có tranh chấp về việc nhận con, Tòa án nhân dân sẽ có trách nhiệm xác định mối quan hệ cha, con theo quy định pháp luật. Nếu Tòa án từ chối giải quyết, cơ quan đăng ký hộ tịch sẽ tiếp nhận yêu cầu đăng ký khai sinh hoặc đăng ký nhận cha, con với hồ sơ và văn bản từ chối của Tòa án."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cải chính hộ tịch được thực hiện trong trường hợp nào?",
+        "Khi nào thì có thể cải chính thông tin trên giấy tờ hộ tịch?",
+        "Cải chính hộ tịch có thể thực hiện nếu thông tin bị sai sót do đâu?"
+      ],
+      "responses": [
+        "Theo Điều 17 Nghị định 123/2015/NĐ-CP, việc cải chính hộ tịch chỉ được thực hiện khi có sai sót trong đăng ký hộ tịch, và sai sót này có thể là do người đăng ký hoặc cơ quan đăng ký hộ tịch gây ra. Việc cải chính không được thực hiện nhằm hợp thức hóa thông tin sai sót trên các hồ sơ, giấy tờ cá nhân khác."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu thông tin trên giấy khai sinh bị sai, tôi cần làm gì?",
+        "Thông tin bị sai trong giấy tờ hộ tịch có thể sửa đổi như thế nào?",
+        "Giấy tờ hộ tịch có sai sót sẽ được cải chính như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 17 Nghị định 123/2015/NĐ-CP, khi có sai sót trong giấy tờ hộ tịch, bạn có thể yêu cầu cải chính thông tin. Việc cải chính chỉ được thực hiện khi xác định sai sót trong quá trình đăng ký hộ tịch và sẽ được giải quyết theo thẩm quyền của cơ quan đăng ký hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu không có giấy tờ chứng minh ngày, tháng sinh, tôi có thể bổ sung thông tin này như thế nào?",
+        "Tôi muốn bổ sung ngày tháng sinh vào giấy khai sinh, cần làm gì?",
+        "Làm sao để bổ sung ngày tháng sinh khi giấy khai sinh trước 2016 không ghi rõ?"
+      ],
+      "responses": [
+        "Theo Điều 18 Nghị định 123/2015/NĐ-CP, nếu Giấy khai sinh không ghi ngày, tháng sinh, bạn có thể bổ sung thông tin này bằng Giấy chứng sinh hoặc văn bản xác nhận của cơ sở y tế. Nếu không có các giấy tờ này, bạn có thể cam đoan về ngày, tháng sinh và xác nhận theo các giấy tờ cá nhân đã có."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Có thể bổ sung quốc tịch Việt Nam vào giấy tờ hộ tịch không?",
+        "Quốc tịch Việt Nam có thể bổ sung vào giấy tờ hộ tịch từ năm nào?",
+        "Bổ sung quốc tịch Việt Nam vào giấy tờ hộ tịch cần những thủ tục gì?"
+      ],
+      "responses": [
+        "Theo Điều 18 Nghị định 123/2015/NĐ-CP, yêu cầu ghi bổ sung quốc tịch Việt Nam chỉ thực hiện đối với giấy tờ hộ tịch được cấp từ ngày 01 tháng 01 năm 2016 trở đi, và sau khi xác định người yêu cầu có quốc tịch Việt Nam theo quy định của Luật quốc tịch Việt Nam."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu không có giấy khai sinh, tôi có thể bổ sung thông tin ngày sinh như thế nào?",
+        "Làm sao để xác định ngày sinh nếu giấy tờ cá nhân không thống nhất về ngày tháng sinh?",
+        "Thông tin ngày tháng sinh không thống nhất trong hồ sơ thì xử lý ra sao?"
+      ],
+      "responses": [
+        "Theo Điều 18 Nghị định 123/2015/NĐ-CP, nếu ngày, tháng sinh không thống nhất trong hồ sơ, giấy tờ cá nhân, thì ngày, tháng sinh sẽ được xác định theo giấy tờ hợp lệ đầu tiên hoặc người yêu cầu có thể cam đoan về ngày, tháng sinh. Trong trường hợp không xác định được, ngày, tháng sinh sẽ là ngày 01 tháng 01 của năm sinh, hoặc ngày 01 của tháng sinh nếu chỉ có tháng sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm thế nào để thay đổi thông tin hộ tịch của con nuôi?",
+        "Nếu tôi là cha mẹ nuôi, làm thế nào để thay đổi thông tin về cha mẹ trong giấy khai sinh của con nuôi?",
+        "Thay đổi thông tin hộ tịch của con nuôi được thực hiện ở đâu?"
+      ],
+      "responses": [
+        "Theo Điều 19 Luật Hộ tịch, nếu con nuôi cần thay đổi thông tin hộ tịch, Ủy ban nhân dân nơi đã đăng ký khai sinh trước đây hoặc nơi cư trú của con nuôi sẽ thực hiện thay đổi thông tin về cha mẹ nuôi theo yêu cầu của cha mẹ nuôi."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu trẻ bị bỏ rơi được nhận làm con nuôi, thông tin về cha mẹ sẽ được bổ sung như thế nào?",
+        "Trẻ em bị bỏ rơi cần bổ sung thông tin về cha mẹ nuôi vào giấy khai sinh ở đâu?",
+        "Con nuôi bị bỏ rơi có thể bổ sung thông tin cha mẹ nuôi vào giấy khai sinh không?"
+      ],
+      "responses": [
+        "Theo Điều 19 Luật Hộ tịch, đối với trẻ em bị bỏ rơi và được nhận làm con nuôi, thông tin về cha mẹ nuôi sẽ được bổ sung vào Giấy khai sinh và Sổ đăng ký khai sinh. Mục Ghi chú trong Sổ đăng ký khai sinh sẽ ghi rõ 'cha, mẹ nuôi'."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm sao để thay đổi thông tin về cha dượng hoặc mẹ kế trong giấy khai sinh?",
+        "Nếu con riêng được cha dượng nhận làm con nuôi, có thể thay đổi thông tin cha mẹ trong giấy khai sinh không?",
+        "Tôi là cha nuôi, muốn thay đổi thông tin về cha dượng vào giấy khai sinh của con, có thể thực hiện ở đâu?"
+      ],
+      "responses": [
+        "Theo Điều 19 Luật Hộ tịch, nếu con riêng được cha dượng hoặc mẹ kế nhận làm con nuôi, thông tin về cha dượng hoặc mẹ kế sẽ được bổ sung vào phần khai về cha mẹ trong Giấy khai sinh và Sổ đăng ký khai sinh. Mục Ghi chú sẽ ghi rõ 'cha nuôi' hoặc 'mẹ nuôi'."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thay đổi thông tin hộ tịch cho công dân Việt Nam ở nước ngoài thực hiện như thế nào?",
+        "Nếu tôi cư trú tại nước ngoài, làm sao để thay đổi thông tin hộ tịch?",
+        "Công dân Việt Nam ở nước ngoài muốn cải chính thông tin hộ tịch phải làm gì?"
+      ],
+      "responses": [
+        "Theo Điều 20 Luật Hộ tịch, công dân Việt Nam cư trú ở nước ngoài muốn thay đổi, cải chính, bổ sung thông tin hộ tịch sẽ phải thực hiện tại Ủy ban nhân dân cấp huyện nơi cư trú trước khi xuất cảnh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu người yêu cầu thay đổi thông tin hộ tịch không còn giấy tờ gốc, thì phải làm sao?",
+        "Công dân không có bản chính giấy tờ hộ tịch có thể thay đổi thông tin không?",
+        "Không còn bản chính giấy tờ hộ tịch, tôi có thể thay đổi thông tin hộ tịch được không?"
+      ],
+      "responses": [
+        "Theo Điều 20 Luật Hộ tịch, nếu người yêu cầu thay đổi, cải chính, bổ sung thông tin hộ tịch mà không còn bản chính giấy tờ hộ tịch, cơ quan đăng ký hộ tịch vẫn tiếp nhận và giải quyết theo quy định. Sau khi cấp trích lục, công chức sẽ ghi nội dung thay đổi vào mục Ghi chú của Sổ hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu thay đổi thông tin hộ tịch, tôi cần làm gì để cập nhật vào Sổ hộ tịch?",
+        "Tôi cần cung cấp những giấy tờ gì để thay đổi thông tin hộ tịch của mình?",
+        "Thủ tục ghi vào Sổ hộ tịch khi thay đổi hộ tịch theo quyết định của tòa án là gì?"
+      ],
+      "responses": [
+        "Theo Điều 21 Nghị định 123/2015/NĐ-CP, khi thay đổi thông tin hộ tịch theo bản án, quyết định của cơ quan nhà nước có thẩm quyền, cơ quan đăng ký hộ tịch sẽ ghi vào Sổ hộ tịch nếu nhận được thông báo và bản sao quyết định hoặc trích lục bản án. Nếu không có thông báo, người yêu cầu có thể cung cấp bản sao quyết định hợp lệ để thực hiện ghi vào Sổ hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm sao để ghi vào Sổ hộ tịch khi tôi đã thay đổi thông tin hộ tịch theo quyết định của tòa án?",
+        "Nếu tôi có quyết định thay đổi hộ tịch, tôi cần phải làm gì để cập nhật thông tin?",
+        "Khi thay đổi hộ tịch theo bản án, việc ghi vào Sổ hộ tịch sẽ được thực hiện như thế nào?"
+      ],
+      "responses": [
+        "Khi có bản án hoặc quyết định thay đổi thông tin hộ tịch, cơ quan đăng ký hộ tịch sẽ ghi vào Sổ hộ tịch theo thông báo và trích lục bản án. Nếu Sổ hộ tịch đã được chuyển lưu, thông báo và bản sao quyết định sẽ được gửi tới cơ quan lưu trữ để ghi tiếp vào Sổ hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Tôi muốn ghi vào Sổ hộ tịch việc khai sinh của con tôi đã được đăng ký ở nước ngoài, cần làm gì?",
+        "Thủ tục ghi vào Sổ hộ tịch đối với việc đăng ký khai sinh tại cơ quan nước ngoài như thế nào?",
+        "Công dân Việt Nam sinh ở nước ngoài có thể ghi vào Sổ hộ tịch ở Việt Nam không?"
+      ],
+      "responses": [
+        "Theo Điều 22 Nghị định 123/2015/NĐ-CP, nếu công dân Việt Nam sinh ở nước ngoài và đã được đăng ký khai sinh tại cơ quan có thẩm quyền của nước ngoài, họ có thể yêu cầu ghi vào Sổ hộ tịch tại cơ quan đăng ký hộ tịch ở Việt Nam. Cơ quan này sẽ cấp Trích lục ghi vào Sổ hộ tịch và bản sao Giấy khai sinh cho người yêu cầu."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu tôi đã ly hôn ở nước ngoài, làm sao để ghi vào Sổ hộ tịch Việt Nam?",
+        "Cần làm gì để ghi vào Sổ hộ tịch việc ly hôn đã được giải quyết ở nước ngoài?",
+        "Ly hôn ở nước ngoài rồi, tôi có thể yêu cầu ghi vào Sổ hộ tịch Việt Nam không?"
+      ],
+      "responses": [
+        "Theo Điều 22 Nghị định 123/2015/NĐ-CP, nếu công dân Việt Nam đã ly hôn ở nước ngoài và yêu cầu ghi vào Sổ hộ tịch Việt Nam để làm thủ tục kết hôn mới, họ có thể thực hiện tại Ủy ban nhân dân cấp huyện nơi đã đăng ký kết hôn trước đây hoặc nơi đăng ký kết hôn mới."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm thế nào để cấp bản sao trích lục hộ tịch?",
+        "Cơ quan nào có thẩm quyền cấp bản sao trích lục hộ tịch?",
+        "Cần chuẩn bị gì để yêu cầu cấp bản sao trích lục hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 23 Nghị định 123/2015/NĐ-CP, cơ quan đăng ký, quản lý hộ tịch có thẩm quyền cấp bản sao trích lục hộ tịch. Nội dung trong bản sao trích lục hộ tịch sẽ được ghi theo thông tin trong Sổ hộ tịch hoặc Cơ sở dữ liệu hộ tịch điện tử hiện có. Nếu thông tin không có sẵn trong sổ, sẽ để trống."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thông tin trong bản sao trích lục hộ tịch có thể thay đổi không?",
+        "Nếu thông tin hộ tịch của tôi đã thay đổi, làm sao để cấp bản sao trích lục mới?",
+        "Có thể cấp bản sao trích lục hộ tịch khi thông tin đã được cải chính không?"
+      ],
+      "responses": [
+        "Khi thông tin của cá nhân đã được thay đổi, cải chính, bổ sung hoặc xác định lại dân tộc, cơ quan đăng ký hộ tịch sẽ cấp bản sao trích lục hộ tịch với thông tin đã được cập nhật theo nội dung ghi trong mục Ghi chú của Sổ hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu trước đây Sổ hộ tịch ghi tuổi, làm thế nào để cấp bản sao trích lục hộ tịch?",
+        "Sổ hộ tịch ghi tuổi, khi cấp bản sao trích lục có thông tin năm sinh không?",
+        "Cấp bản sao trích lục hộ tịch khi thông tin về tuổi trong sổ cũ như thế nào?"
+      ],
+      "responses": [
+        "Trường hợp trước đây Sổ hộ tịch ghi tuổi, cơ quan đăng ký hộ tịch sẽ xác định năm sinh tương ứng và ghi vào mục Ghi chú của Sổ hộ tịch. Sau đó, bản sao trích lục hộ tịch sẽ được cấp với thông tin đã được xác định lại theo năm sinh tương ứng."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu tôi đã ly hôn, làm thế nào để cấp bản sao trích lục kết hôn?",
+        "Khi ly hôn có thể yêu cầu cấp bản sao trích lục kết hôn không?",
+        "Thông tin ly hôn có được ghi trong bản sao trích lục kết hôn không?"
+      ],
+      "responses": [
+        "Khi yêu cầu cấp bản sao Trích lục kết hôn, nếu trong Sổ đăng ký kết hôn đã ghi chú về việc thay đổi hộ tịch, như bản án ly hôn có hiệu lực pháp luật, thì bản sao trích lục kết hôn sẽ ghi rõ: 'Đã ly hôn theo Bản án/Quyết định số... ngày...tháng...năm... của Tòa án...'"
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu cha mẹ tôi bị ốm bệnh không thể đi đăng ký khai sinh cho con thì làm thế nào?",
+        "Trẻ sinh ra nhưng cha mẹ không thể đi đăng ký khai sinh thì có thể làm gì?",
+        "Cha mẹ không thể đăng ký khai sinh cho con do bị bệnh, Ủy ban nhân dân cấp xã có hỗ trợ không?"
+      ],
+      "responses": [
+        "Theo Điều 24 Nghị định 123/2015/NĐ-CP, trong trường hợp cha mẹ bị ốm bệnh hoặc không thể đi đăng ký khai sinh cho con, Ủy ban nhân dân cấp xã sẽ thực hiện đăng ký khai sinh lưu động tại nơi cư trú của gia đình."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Người thân không sống cùng địa bàn xã thì đăng ký khai tử thế nào?",
+        "Nếu người chết không có người thân thích thì đăng ký khai tử ra sao?",
+        "Có thể đăng ký khai tử lưu động không nếu gia đình không thể đến cơ quan đăng ký?"
+      ],
+      "responses": [
+        "Theo Điều 24 Nghị định 123/2015/NĐ-CP, trong trường hợp người chết không có người thân thích hoặc người thân không sống cùng địa bàn xã, Ủy ban nhân dân cấp xã sẽ tiến hành đăng ký khai tử lưu động tại nơi gia đình cư trú để đảm bảo việc đăng ký được thực hiện đầy đủ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cặp đôi muốn kết hôn nhưng một trong hai người không thể đi đăng ký thì làm sao?",
+        "Kết hôn lưu động được thực hiện khi nào?",
+        "Nếu tôi hoặc bạn đời bị bệnh không thể đến đăng ký kết hôn, Ủy ban nhân dân có hỗ trợ không?"
+      ],
+      "responses": [
+        "Theo Điều 24 Nghị định 123/2015/NĐ-CP, nếu một trong hai bên nam hoặc nữ không thể đến đăng ký kết hôn do ốm bệnh hoặc khuyết tật, Ủy ban nhân dân cấp xã sẽ tổ chức đăng ký kết hôn lưu động tại nhà hoặc nơi cư trú của hai bên."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Ủy ban nhân dân cấp xã có tổ chức đăng ký khai sinh lưu động không?",
+        "Đăng ký khai tử lưu động có được thực hiện ở tất cả các xã không?",
+        "Kết hôn lưu động có thực hiện ở mọi địa phương không?"
+      ],
+      "responses": [
+        "Theo Điều 24 Nghị định 123/2015/NĐ-CP, ngoài các trường hợp cụ thể về người khuyết tật, ốm bệnh hoặc không có người thân, Ủy ban nhân dân cấp xã sẽ quyết định tổ chức đăng ký khai sinh, khai tử, kết hôn lưu động căn cứ vào điều kiện thực tế của địa phương để đảm bảo tất cả các sự kiện sinh, tử, kết hôn của người dân được đăng ký đầy đủ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục đăng ký khai sinh lưu động là gì?",
+        "Công chức tư pháp - hộ tịch có nhiệm vụ gì khi thực hiện đăng ký khai sinh lưu động?",
+        "Khi đăng ký khai sinh lưu động, tôi cần làm gì?"
+      ],
+      "responses": [
+        "Theo Điều 25 Nghị định 123/2015/NĐ-CP, công chức tư pháp - hộ tịch cấp xã thực hiện đăng ký khai sinh lưu động sẽ chuẩn bị đầy đủ các mẫu Tờ khai, giấy tờ hộ tịch và điều kiện cần thiết. Họ sẽ hướng dẫn người yêu cầu điền đầy đủ thông tin và kiểm tra giấy tờ cần thiết. Thời gian trả kết quả đăng ký khai sinh lưu động không quá 05 ngày làm việc kể từ ngày tiếp nhận."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục đăng ký khai tử lưu động như thế nào?",
+        "Tôi muốn đăng ký khai tử lưu động, cần phải làm gì?",
+        "Công chức tư pháp - hộ tịch thực hiện thủ tục đăng ký khai tử lưu động như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 25 Nghị định 123/2015/NĐ-CP, đối với thủ tục đăng ký khai tử lưu động, công chức tư pháp - hộ tịch sẽ chuẩn bị các mẫu Tờ khai và giấy tờ hộ tịch. Họ kiểm tra giấy tờ và thực hiện đăng ký tại nhà riêng hoặc tại địa điểm tổ chức đăng ký lưu động, đảm bảo thuận lợi cho người dân. Thời gian trả kết quả không quá 05 ngày làm việc kể từ khi tiếp nhận hồ sơ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Kết hôn lưu động có thủ tục như thế nào?",
+        "Tôi muốn đăng ký kết hôn lưu động thì cần phải làm gì?",
+        "Công chức tư pháp - hộ tịch xử lý thủ tục kết hôn lưu động ra sao?"
+      ],
+      "responses": [
+        "Theo Điều 26 của Thông tư hướng dẫn, công chức tư pháp - hộ tịch cấp xã sẽ chuẩn bị đầy đủ mẫu Tờ khai và giấy tờ cần thiết để thực hiện đăng ký kết hôn lưu động. Họ kiểm tra điều kiện kết hôn của các bên và hướng dẫn điền thông tin trong Tờ khai. Kết quả đăng ký kết hôn sẽ được trả trong vòng 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu tôi không biết chữ thì làm sao để đăng ký khai sinh lưu động?",
+        "Đăng ký khai sinh lưu động cho người không biết chữ như thế nào?",
+        "Khi không biết chữ, công chức tư pháp - hộ tịch làm gì để giúp tôi đăng ký?"
+      ],
+      "responses": [
+        "Theo quy định tại Điều 25 Nghị định 123/2015/NĐ-CP, nếu người yêu cầu không biết chữ, công chức tư pháp - hộ tịch sẽ trực tiếp ghi Tờ khai và đọc lại nội dung cho người yêu cầu nghe. Sau đó, họ sẽ hướng dẫn người yêu cầu điểm chỉ vào Tờ khai và Sổ hộ tịch khi trả kết quả."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm sao để ghi Sổ hộ tịch đúng quy định?",
+        "Công chức làm công tác hộ tịch cần lưu ý gì khi ghi Sổ hộ tịch?",
+        "Có yêu cầu gì về mực và cách ghi khi sử dụng Sổ hộ tịch không?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, công chức làm công tác hộ tịch phải ghi chính xác, rõ ràng, không viết tắt, không tẩy xóa, và dùng mực tốt màu đen. Nếu sử dụng công nghệ thông tin, giấy tờ phải được in bằng mực đen, không nhòe, không phai màu."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi sổ hộ tịch hết, tôi phải làm gì?",
+        "Sổ hộ tịch khi hết phải được xử lý như thế nào?",
+        "Công chức hộ tịch cần làm gì khi hết sổ vào giữa năm?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, khi hết sổ trong năm, công chức hộ tịch sẽ chuyển sang sử dụng quyển sổ khác và tiếp tục ghi số đăng ký theo thứ tự cuối cùng của sổ cũ. Nếu hết năm mà chưa hết sổ, sổ cũ sẽ được khóa và tiếp tục sử dụng sổ mới cho năm tiếp theo."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Giấy tờ hộ tịch có số đăng ký, số này có quan trọng không?",
+        "Số ghi trên giấy tờ hộ tịch phải trùng với số trong sổ phải không?",
+        "Khi cấp giấy tờ hộ tịch, số đăng ký có phải ghi đúng theo số trong Sổ hộ tịch không?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, số ghi trên giấy tờ hộ tịch phải trùng với số thứ tự ghi trong Sổ hộ tịch. Điều này đảm bảo tính chính xác và liên tục trong việc quản lý hồ sơ hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu thay đổi quốc tịch, tôi phải ghi như thế nào trong Sổ hộ tịch?",
+        "Việc thay đổi quốc tịch sẽ được ghi vào đâu trong Sổ hộ tịch?",
+        "Nếu tôi thay đổi giới tính, điều này có ảnh hưởng gì đến Sổ hộ tịch không?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, các thay đổi như quốc tịch, giới tính, xác định cha mẹ, con sẽ được ghi vào mục Ghi chú trong Sổ đăng ký khai sinh và các Sổ hộ tịch liên quan. Việc thay đổi này sẽ được cập nhật theo quy định của cơ quan nhà nước có thẩm quyền."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Ly hôn thì sẽ được ghi như thế nào trong Sổ hộ tịch?",
+        "Công nhận việc kết hôn được ghi vào đâu trong Sổ hộ tịch?",
+        "Nếu tôi ly hôn, thông tin này có được cập nhật trong Sổ hộ tịch không?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, việc ly hôn, hủy việc kết hôn trái pháp luật, và công nhận việc kết hôn sẽ được ghi vào mục Ghi chú trong Sổ đăng ký kết hôn. Các thay đổi này phải được ghi chính xác để đảm bảo tính pháp lý của các thông tin trong sổ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Công dân Việt Nam có hộ tịch giải quyết ở nước ngoài thì ghi vào đâu?",
+        "Công dân Việt Nam có kết hôn tại nước ngoài thì thông tin ghi vào sổ hộ tịch thế nào?",
+        "Làm thế nào để ghi nhận việc kết hôn của người Việt Nam tại nước ngoài vào Sổ hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, các việc hộ tịch của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền nước ngoài sẽ được ghi vào Sổ hộ tịch như sau: Việc khai sinh ghi vào Sổ đăng ký khai sinh, việc kết hôn ghi vào Sổ đăng ký kết hôn, và các việc khác như giám hộ, nhận cha mẹ con, nuôi con nuôi cũng được ghi vào các sổ tương ứng."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu tôi có quyết định về việc thay đổi thông tin hộ tịch thì phải ghi vào đâu?",
+        "Khi có quyết định cải chính thông tin hộ tịch, tôi cần thực hiện như thế nào?",
+        "Thay đổi thông tin hộ tịch được ghi vào sổ nào?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, việc thay đổi, cải chính, bổ sung thông tin hộ tịch sẽ được ghi vào Sổ đăng ký thay đổi, cải chính, bổ sung thông tin hộ tịch. Những nội dung cần thay đổi sẽ được cập nhật và ghi chú tiếp vào Sổ đăng ký các việc hộ tịch khác."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Việc ly hôn được ghi vào sổ nào trong hồ sơ hộ tịch?",
+        "Cơ quan đăng ký hộ tịch ghi chú ly hôn ở đâu?",
+        "Ly hôn sẽ được ghi vào sổ nào của hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, việc ly hôn hoặc huỷ việc kết hôn sẽ được ghi vào Sổ ghi chú ly hôn. Nếu việc kết hôn đã được ghi tại cơ quan có thẩm quyền của Việt Nam, Ủy ban nhân dân cấp huyện sẽ thông báo cho cơ quan đã đăng ký kết hôn để ghi chú tiếp vào Sổ đăng ký kết hôn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm thế nào để ghi nhận việc nhận con nuôi vào sổ hộ tịch?",
+        "Khi nhận con nuôi, thông tin sẽ được ghi vào đâu?",
+        "Ghi nhận việc nhận con nuôi cần thực hiện như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, việc nhận con nuôi sẽ được ghi vào Sổ đăng ký nuôi con nuôi. Cơ quan đăng ký hộ tịch sẽ ghi thông tin này ngay sau khi nhận được các văn bản pháp lý có thẩm quyền xác nhận việc nhận con nuôi."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi nào Sổ hộ tịch cần phải ghi chú thêm thông tin?",
+        "Sổ hộ tịch có ghi chú những gì không có trong giấy tờ hộ tịch không?",
+        "Nếu không có thông tin trong giấy tờ hộ tịch thì phải làm sao?"
+      ],
+      "responses": [
+        "Theo Điều 29 Nghị định 123/2015/NĐ-CP, khi ghi vào Sổ hộ tịch, nếu có thông tin trong giấy tờ hộ tịch nhưng không có trong Sổ hộ tịch, cơ quan đăng ký hộ tịch sẽ ghi vào mục Ghi chú của Sổ hộ tịch. Trong trường hợp không xác định được thông tin, sẽ để trống, không được gạch chéo hoặc đánh dấu."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi có sự thay đổi về địa danh hành chính, cách ghi trên giấy tờ hộ tịch như thế nào?",
+        "Nếu có thay đổi địa danh hành chính, tôi cần ghi lại thông tin này trên giấy tờ hộ tịch như thế nào?",
+        "Cách ghi địa danh hành chính trong Sổ hộ tịch khi có sự thay đổi là gì?"
+      ],
+      "responses": [
+        "Theo Điều 30 Nghị định 123/2015/NĐ-CP, khi có sự thay đổi về địa danh hành chính, phần ghi địa danh hành chính trên giấy tờ hộ tịch và Sổ hộ tịch sẽ được ghi theo địa danh hành chính tại thời điểm đăng ký. Khi cấp bản sao trích lục hộ tịch, địa danh hành chính trong bản sao trích lục phải theo đúng địa danh hành chính đã đăng ký trong Sổ hộ tịch."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cách ghi tên người khai sinh trong Giấy khai sinh là gì?",
+        "Có quy định nào về việc ghi tên người được khai sinh trong Giấy khai sinh không?",
+        "Tên người được khai sinh có cần ghi đúng cách không?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, họ, chữ đệm, tên của người được khai sinh phải được ghi bằng chữ in hoa và có dấu trên Giấy khai sinh và trong Sổ đăng ký khai sinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nơi sinh được ghi như thế nào trong Giấy khai sinh?",
+        "Nếu trẻ em sinh ngoài cơ sở y tế, làm sao ghi nơi sinh trong Giấy khai sinh?",
+        "Cách ghi nơi sinh trong Sổ đăng ký khai sinh nếu sinh tại bệnh viện là gì?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, khi ghi Nơi sinh trong Giấy khai sinh: nếu trẻ em sinh tại cơ sở y tế, ghi tên cơ sở y tế và địa chỉ; nếu sinh ngoài cơ sở y tế, ghi địa danh hành chính nơi sinh (đủ 3 cấp đơn vị hành chính). Nếu sinh ở nước ngoài, ghi tên thành phố và quốc gia nơi sinh, hoặc ghi tên thành phố, tiểu bang và quốc gia nếu ở quốc gia liên bang."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nơi cư trú của công dân Việt Nam trong Giấy khai sinh cần ghi như thế nào?",
+        "Nếu công dân Việt Nam không có nơi đăng ký thường trú, ghi nơi cư trú trong giấy tờ hộ tịch thế nào?",
+        "Công dân Việt Nam cư trú ở nước ngoài ghi nơi cư trú trong Giấy khai sinh như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, đối với công dân Việt Nam cư trú trong nước, ghi theo nơi đăng ký thường trú, hoặc tạm trú, hoặc nơi sinh sống. Nếu công dân Việt Nam cư trú ở nước ngoài, ghi theo địa chỉ thường trú hoặc tạm trú ở nước ngoài."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Làm thế nào để ghi thông tin giấy tờ tùy thân khi đăng ký khai sinh?",
+        "Khi đăng ký khai sinh, tôi phải ghi những thông tin gì về giấy tờ tùy thân?",
+        "Cần ghi gì trong mục giấy tờ tùy thân của người đăng ký khai sinh?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, mục Giấy tờ tùy thân của người đi đăng ký khai sinh phải ghi rõ tên loại giấy tờ, số, cơ quan cấp và ngày cấp của giấy tờ đó."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi đăng ký khai sinh tại Ủy ban nhân dân xã, cần ghi gì về địa danh?",
+        "Cách ghi địa danh khi đăng ký khai sinh tại Ủy ban nhân dân cấp huyện là như thế nào?",
+        "Nếu tôi đăng ký khai sinh tại cơ quan đại diện Việt Nam ở nước ngoài, cần ghi gì về địa danh?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, khi đăng ký khai sinh tại Ủy ban nhân dân cấp xã, cần ghi địa danh hành chính đủ 3 cấp (xã, huyện, tỉnh); tại Ủy ban nhân dân cấp huyện thì ghi địa danh hành chính 2 cấp (huyện, tỉnh); và tại cơ quan đại diện Việt Nam ở nước ngoài cần ghi tên cơ quan đại diện."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi cha hoặc mẹ của người được khai sinh là người nước ngoài, cần ghi gì trong giấy khai sinh?",
+        "Giấy khai sinh của trẻ có cha mẹ là người nước ngoài phải ghi thông tin gì?",
+        "Nếu cha mẹ của người được khai sinh là người nước ngoài, làm sao ghi trong sổ hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, khi cha hoặc mẹ của người được khai sinh là người nước ngoài, cần ghi tên người đó theo đúng hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu của họ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi ghi chú thay đổi thông tin trong giấy khai sinh, tôi cần làm gì?",
+        "Việc ghi chú thay đổi thông tin trong giấy khai sinh được thực hiện thế nào?",
+        "Khi có thay đổi thông tin hộ tịch trong giấy khai sinh, cần ghi những gì?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, khi thực hiện ghi chú thay đổi thông tin trong giấy khai sinh, cần ghi rõ ngày, tháng, năm ghi chú, nội dung thay đổi, bổ sung thông tin hộ tịch và tên loại giấy tờ, số, tên cơ quan cấp giấy tờ làm căn cứ ghi chú."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cần ghi những thông tin gì khi đăng ký khai sinh ở cơ quan đại diện Việt Nam?",
+        "Khi đăng ký khai sinh tại cơ quan đại diện, địa danh cần ghi như thế nào?",
+        "Thông tin cần ghi trong sổ hộ tịch khi đăng ký khai sinh ở cơ quan đại diện là gì?"
+      ],
+      "responses": [
+        "Theo Điều 31 Nghị định 123/2015/NĐ-CP, khi đăng ký khai sinh tại cơ quan đại diện Việt Nam ở nước ngoài, cần ghi tên cơ quan đại diện thay vì địa danh hành chính. Địa danh quốc gia cũng phải viết theo phiên âm tiếng Việt hoặc La-tinh."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cách ghi Giấy chứng nhận kết hôn như thế nào?",
+        "Ngày kết hôn được ghi vào Giấy chứng nhận kết hôn là ngày nào?",
+        "Ngày đăng ký kết hôn sẽ được ghi vào sổ đăng ký kết hôn khi nào?"
+      ],
+      "responses": [
+        "Theo Điều 32 Nghị định 123/2015/NĐ-CP, ngày, tháng, năm đăng ký kết hôn sẽ được ghi vào Sổ đăng ký kết hôn và Giấy chứng nhận kết hôn tại cơ quan đăng ký hộ tịch, và quan hệ hôn nhân được xác lập từ thời điểm đăng ký kết hôn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu đăng ký lại kết hôn thì ngày hôn nhân được ghi như thế nào?",
+        "Ngày kết hôn sẽ được ghi ra sao trong trường hợp đăng ký lại kết hôn?",
+        "Khi đăng ký lại kết hôn, ngày ghi trên Giấy chứng nhận kết hôn có thay đổi không?"
+      ],
+      "responses": [
+        "Theo Điều 32 Nghị định 123/2015/NĐ-CP, trong trường hợp đăng ký lại kết hôn hoặc công nhận quan hệ hôn nhân thực tế, ngày xác lập quan hệ hôn nhân sẽ được ghi vào mặt sau của Giấy chứng nhận kết hôn. Nếu không xác định được ngày kết hôn trước đó, sẽ ghi ngày đầu tiên của tháng, năm đăng ký kết hôn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu không nhớ ngày kết hôn trước đây thì sẽ ghi ngày nào?",
+        "Trường hợp không xác định được ngày kết hôn, ngày ghi trên Giấy chứng nhận kết hôn là gì?",
+        "Nếu không nhớ ngày tháng kết hôn, cách ghi sẽ như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 32 Nghị định 123/2015/NĐ-CP, nếu không xác định được ngày đăng ký kết hôn trước đây, ngày ghi trong Giấy chứng nhận kết hôn sẽ là ngày 01 tháng 01 của năm đăng ký kết hôn trước đây hoặc năm xác lập quan hệ chung sống."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi đăng ký lại kết hôn, việc ghi ngày tháng có khác gì so với lần đầu không?",
+        "Quy định về việc ghi ngày kết hôn trong trường hợp đăng ký lại là gì?",
+        "Ngày tháng năm hôn nhân sẽ ghi như thế nào nếu đăng ký kết hôn lại?"
+      ],
+      "responses": [
+        "Theo Điều 32 Nghị định 123/2015/NĐ-CP, trong trường hợp đăng ký lại kết hôn, nếu không xác định được ngày đăng ký kết hôn trước đây, ngày xác lập quan hệ hôn nhân sẽ được ghi vào mặt sau của Giấy chứng nhận kết hôn, và nếu không xác định được ngày, tháng sẽ ghi ngày đầu tiên của tháng, năm đăng ký kết hôn."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cách ghi tình trạng hôn nhân trong Giấy xác nhận tình trạng hôn nhân như thế nào?",
+        "Tình trạng hôn nhân của tôi chưa đăng ký kết hôn thì ghi như thế nào trong Sổ hộ tịch?",
+        "Nếu tôi chưa kết hôn, phải ghi gì trong Giấy xác nhận tình trạng hôn nhân?"
+      ],
+      "responses": [
+        "Theo Điều 33 của Nghị định 123/2015/NĐ-CP, nếu chưa kết hôn, trong Giấy xác nhận tình trạng hôn nhân cần ghi rõ là 'hiện tại chưa đăng ký kết hôn với ai'."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu đã ly hôn rồi thì ghi tình trạng hôn nhân như thế nào trong Giấy xác nhận?",
+        "Tôi đã ly hôn, cần ghi gì trong Giấy xác nhận tình trạng hôn nhân?",
+        "Trường hợp ly hôn đã lâu, cách ghi tình trạng hôn nhân trong Sổ hộ tịch ra sao?"
+      ],
+      "responses": [
+        "Nếu đã ly hôn, trong Giấy xác nhận tình trạng hôn nhân cần ghi rõ là 'đã đăng ký kết hôn hoặc đã có vợ/chồng, nhưng đã ly hôn theo Bản án/Quyết định ly hôn số... ngày... tháng... năm... của Tòa án nhân dân...; hiện tại chưa đăng ký kết hôn với ai'."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Nếu vợ hoặc chồng đã mất, cần ghi tình trạng hôn nhân như thế nào?",
+        "Trường hợp vợ/chồng đã qua đời, ghi tình trạng hôn nhân như thế nào trong Giấy xác nhận?",
+        "Giấy xác nhận tình trạng hôn nhân cần ghi gì khi vợ/chồng đã chết?"
+      ],
+      "responses": [
+        "Theo quy định tại Điều 33 Nghị định 123/2015/NĐ-CP, nếu vợ/chồng đã chết, trong Giấy xác nhận tình trạng hôn nhân cần ghi rõ là 'đã đăng ký kết hôn hoặc đã có vợ/chồng, nhưng vợ/chồng đã chết (Giấy chứng tử/Trích lục khai tử/Bản án số:... do... cấp ngày... tháng... năm...); hiện tại chưa đăng ký kết hôn với ai'."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Tôi cư trú tại nước ngoài thì tình trạng hôn nhân được xác nhận thế nào?",
+        "Nếu tôi yêu cầu xác nhận tình trạng hôn nhân khi đang sống ở nước ngoài thì ghi gì?",
+        "Xác nhận tình trạng hôn nhân cho người Việt Nam ở nước ngoài như thế nào?"
+      ],
+      "responses": [
+        "Nếu công dân Việt Nam cư trú ở nước ngoài yêu cầu xác nhận tình trạng hôn nhân, cơ quan đại diện sẽ ghi 'Nơi cư trú' theo địa chỉ cư trú hiện tại và xác nhận tình trạng hôn nhân dựa trên cơ sở dữ liệu hộ tịch điện tử hoặc Sổ hộ tịch của cơ quan đại diện, tương tự như quy định tại Điều 33 của Nghị định 123/2015/NĐ-CP."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi đã sống chung với nhau như vợ chồng trước năm 1987, cần ghi tình trạng hôn nhân như thế nào?",
+        "Cách ghi tình trạng hôn nhân khi sống chung như vợ chồng trước năm 1987?",
+        "Tôi sống chung như vợ chồng từ trước 1987, cần ghi gì trong Giấy xác nhận tình trạng hôn nhân?"
+      ],
+      "responses": [
+        "Nếu đã sống chung như vợ chồng trước ngày 03/01/1987 và chưa ly hôn, hoặc không có sự kiện vợ/chồng chết, trong Giấy xác nhận tình trạng hôn nhân ghi rõ là 'hiện tại đang có vợ/chồng là bà/ông... (Giấy chứng nhận kết hôn số..., do... cấp ngày... tháng... năm...)'."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cách ghi Trích lục khai tử trong Sổ đăng ký khai tử như thế nào?",
+        "Khi ghi Sổ đăng ký khai tử, cần ghi gì về giờ phút chết?",
+        "Trường hợp không biết giờ chết, cần ghi như thế nào trong Sổ đăng ký khai tử?"
+      ],
+      "responses": [
+        "Theo Điều 34 Nghị định 123/2015/NĐ-CP, trong mục 'Đã chết vào lúc' của Sổ đăng ký khai tử, giờ, phút, ngày, tháng, năm chết được ghi theo Giấy báo tử hoặc giấy tờ thay Giấy báo tử. Nếu không rõ giờ, phút thì để trống."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi ghi Sổ đăng ký khai tử, trường hợp chết tại cơ sở y tế cần ghi gì?",
+        "Cần ghi gì trong Sổ đăng ký khai tử nếu người chết tại bệnh viện?",
+        "Nếu người chết trên phương tiện giao thông, cần ghi gì trong Sổ khai tử?"
+      ],
+      "responses": [
+        "Theo Điều 34 Nghị định 123/2015/NĐ-CP, nếu người chết tại cơ sở y tế, mục 'Nơi chết' trong Sổ đăng ký khai tử sẽ ghi rõ tên cơ sở y tế và địa danh hành chính nơi có trụ sở của cơ sở y tế. Nếu chết trên phương tiện giao thông hoặc không xác định được nơi chết, ghi địa danh hành chính nơi người chết hoặc phát hiện thi thể."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi có sai sót trong Sổ hộ tịch, cần làm gì để sửa chữa?",
+        "Cách sửa chữa sai sót trong Sổ hộ tịch như thế nào?",
+        "Nếu ghi sai trong Sổ hộ tịch thì phải làm gì?"
+      ],
+      "responses": [
+        "Theo Điều 35 Nghị định 123/2015/NĐ-CP, khi phát hiện sai sót trong Sổ hộ tịch, công chức làm công tác hộ tịch phải gạch bỏ phần sai sót và ghi đúng nội dung lên bên cạnh hoặc phía trên, không được tẩy xóa hoặc viết đè lên chữ cũ. Phải ghi rõ ngày, tháng, năm sửa, và người thực hiện sửa chữa phải ký tên. Thủ trưởng cơ quan đăng ký hộ tịch sẽ kiểm tra và đóng dấu xác nhận vào nội dung sửa chữa."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Khi phát hiện sai sót trong giấy tờ hộ tịch, cần làm gì?",
+        "Nếu giấy tờ hộ tịch bị sai, công chức hộ tịch phải làm sao?",
+        "Có sai sót trong giấy tờ hộ tịch, phải xử lý như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 35 Nghị định 123/2015/NĐ-CP, nếu có sai sót trong giấy tờ hộ tịch, công chức làm công tác hộ tịch phải hủy bỏ giấy tờ đó và cấp giấy tờ mới cho người dân. Không cấp giấy tờ đã bị sửa chữa."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Sau khi đăng ký hộ tịch, phát hiện sai sót thì xử lý như thế nào?",
+        "Nếu phát hiện sai sót trong sổ hộ tịch sau khi đã hoàn tất đăng ký, phải làm gì?",
+        "Cải chính hộ tịch được thực hiện như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 35 Nghị định 123/2015/NĐ-CP, khi phát hiện sai sót trong sổ hộ tịch sau khi quá trình đăng ký đã kết thúc, phải thực hiện cải chính hộ tịch theo quy định của pháp luật."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Cách thức mở và khóa Sổ hộ tịch như thế nào?",
+        "Làm sao để biết ngày khóa sổ hộ tịch?",
+        "Khi nào thì Sổ hộ tịch được khóa?"
+      ],
+      "responses": [
+        "Theo Điều 36 Nghị định 123/2015/NĐ-CP, việc mở và khóa Sổ hộ tịch được thực hiện theo từng loại sổ trong năm, bắt đầu từ số 01. Ngày khóa sổ là ngày đăng ký sự kiện hộ tịch cuối cùng trong năm, hoặc nếu hết sổ mà chưa hết năm thì ngày khóa là ngày đăng ký sự kiện cuối cùng của sổ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Ai chịu trách nhiệm lưu trữ Sổ hộ tịch?",
+        "Cơ quan nào có trách nhiệm bảo quản Sổ hộ tịch?",
+        "Sổ hộ tịch được lưu trữ như thế nào?"
+      ],
+      "responses": [
+        "Theo Điều 37 Nghị định 123/2015/NĐ-CP, Cục Lãnh sự, cơ quan đại diện, Ủy ban nhân dân cấp xã, cấp huyện, và Sở Tư pháp có trách nhiệm lưu trữ và bảo quản Sổ hộ tịch. Các cơ quan này phải thực hiện biện pháp phòng chống cháy, bão, ẩm ướt, và mối mọt để bảo đảm an toàn cho sổ."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Thủ tục ghi sổ hộ tịch khi có sự kiện mới là gì?",
+        "Làm sao để thống kê sự kiện đã đăng ký trong Sổ hộ tịch?",
+        "Công chức hộ tịch cần làm gì khi có sai sót trong Sổ hộ tịch?"
+      ],
+      "responses": [
+        "Theo Điều 36 Nghị định 123/2015/NĐ-CP, công chức làm công tác hộ tịch cần thống kê số sự kiện hộ tịch đã đăng ký, số trường hợp có sai sót và phải sửa chữa theo quy định. Sau đó, công chức phải ký, ghi rõ họ tên và báo cáo Thủ trưởng cơ quan đăng ký hộ tịch ký xác nhận."
+      ]
+    },
+    {
+      "intent": "answer",
+      "examples": [
+        "Công chức hộ tịch cần báo cáo gì sau khi thống kê số sự kiện hộ tịch?",
+        "Khi nào công chức phải báo cáo Thủ trưởng cơ quan đăng ký hộ tịch?",
+        "Quy trình báo cáo sau khi ghi sổ hộ tịch như thế nào?"
+      ],
+      "responses": [
+        "Công chức làm công tác hộ tịch sau khi thống kê sự kiện đã đăng ký và sửa chữa sai sót phải ký, ghi rõ họ tên và báo cáo Thủ trưởng cơ quan đăng ký hộ tịch. Thủ trưởng cơ quan này sẽ ký xác nhận báo cáo, ghi rõ họ tên, chức vụ và đóng dấu theo quy định tại Điều 36 Nghị định 123/2015/NĐ-CP."
+      ]
+    }                                                           
   ]
 }

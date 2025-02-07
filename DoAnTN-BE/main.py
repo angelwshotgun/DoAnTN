@@ -25,7 +25,7 @@ def predict():
             return_tensors="pt",
             padding=True,
             truncation=True,
-            max_length=128
+            max_length=64
         ).to(device)
         
         output_ids = model.generate(

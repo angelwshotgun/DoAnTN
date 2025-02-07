@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center items-center min-h-[92vh] bg-gradient-to-br from-gray-50 to-gray-100">
-    <div class="flex w-screen max-w-7xl mx-4">
+  <div class="flex justify-center items-center min-h-[93.25vh] bg-gradient-to-br from-gray-50 to-gray-100">
+    <div class="flex w-screen max-w-7xl mx-4 pt-2">
       <!-- Sidebar with Date-based Chat History -->
       <div class="w-80 bg-white rounded-lg shadow-lg overflow-hidden mr-4">
         <div class="p-4">
@@ -58,9 +58,8 @@
 
       <!-- Chat Area -->
       <div class="flex-1 bg-white rounded-lg shadow-lg overflow-hidden">
-        <div class="h-[94.75vh] flex flex-col">
+        <div class="h-[90vh] flex flex-col">
           <div class="p-4 border-b bg-white flex items-center">
-            <i class="pi pi-user text-xl text-gray-600 mr-2"></i>
             <span class="font-semibold text-gray-800">
               {{ currentChat?.title || 'Cuộc trò chuyện mới' }}
             </span>
